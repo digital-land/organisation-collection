@@ -1,3 +1,5 @@
+SOURCE_URL=https://raw.githubusercontent.com/digital-land/
+
 .PHONY: \
 	init\
 	first-pass\
@@ -46,3 +48,7 @@ clean::
 # prune back to source code
 prune::
 	rm -rf ./var $(VALIDATION_DIR)
+
+# update makerules from source
+update::
+	curl -qsL '$(SOURCE_URL)/makerules/makerules.mk' > makerules/makerules.mk
