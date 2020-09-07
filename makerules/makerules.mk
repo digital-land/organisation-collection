@@ -51,4 +51,4 @@ prune::
 
 # update makerules from source
 update::
-	curl -qsL '$(SOURCE_URL)/makerules/makerules.mk' > makerules/makerules.mk
+	curl -qsL '$(SOURCE_URL)/makerules/master/makerules.mk' > makerules/makerules.mk

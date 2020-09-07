@@ -35,4 +35,4 @@ endif
 
 # update makerules from source
 update::
-	curl -qsL '$(SOURCE_URL)/makerules/collection.mk' > makerules/collection.mk
+	curl -qsL '$(SOURCE_URL)/makerules/master/collection.mk' > makerules/collection.mk
