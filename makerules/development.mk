@@ -24,6 +24,5 @@ endif
 prune::
 	rm -rf ./.venv
 
-# update makerules from source
-update::
+makerules::
 	curl -qsL '$(SOURCE_URL)/makerules/master/development.mk' > makerules/development.mk

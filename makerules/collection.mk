@@ -17,12 +17,21 @@ LOG_FILES_TODAY:=$(LOG_DIR)$(shell date +%Y-%m-%d)/
 
 first-pass:: collect
 
-collect:	$(SOURCE_CSV) $(ENDPOINT_CSV)
+second-pass:: collection/log.csv
+
+collection/log.csv:
+	digital-land collection-save-csv
+
+collect:: $(SOURCE_CSV) $(ENDPOINT_CSV)
 	digital-land collect $(ENDPOINT_CSV)
 
 clobber-today::
 	rm -rf $(LOG_FILES_TODAY)
 
 # update makerules from source
-update::
+makerules::
 	curl -qsL '$(SOURCE_URL)/makerules/master/collection.mk' > makerules/collection.mk
+
+commit-collection::
+	git add collection
+	git diff --quiet && git diff --staged --quiet || (git commit -m "Collection $(shell date +%F)"; git push origin $(BRANCH))
