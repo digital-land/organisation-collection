@@ -8,7 +8,6 @@ SOURCE_URL=https://raw.githubusercontent.com/digital-land/
 	clobber\
 	clean\
 	commit-makerules\
-	commit-resources\
 	prune
 
 # keep intermediate files

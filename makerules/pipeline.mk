@@ -116,9 +116,11 @@ $(TRANSFORMED_DIR)%.csv: $(HARMONISED_DIR)%.csv
 	digital-land --pipeline-name $(PIPELINE_NAME) transform $< $@
 
 transform:: $(TRANSFORMED_FILES)
+	@mkdir -p $(TRANSFORMED_DIR)
 	@:
 
 dataset:: $(TRANSFORMED_FILES)
+	@mkdir -p dataset
 	@:
 
 # local copies of datasets

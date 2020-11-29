@@ -1,6 +1,7 @@
 .PHONY: \
-	collection\
 	collect\
+	collection\
+	commit-collection\
 	clobber-today
 
 ifeq ($(COLLECTION_DIR),)
@@ -17,18 +18,17 @@ LOG_FILES_TODAY:=$(LOG_DIR)$(shell date +%Y-%m-%d)/
 
 first-pass:: collect
 
-second-pass:: collection/log.csv
-
-collection/log.csv:
-	digital-land collection-save-csv
+second-pass:: collection
 
 collect:: $(SOURCE_CSV) $(ENDPOINT_CSV)
 	digital-land collect $(ENDPOINT_CSV)
 
+collection::
+	digital-land collection-save-csv
+
 clobber-today::
 	rm -rf $(LOG_FILES_TODAY)
 
-# update makerules from source
 makerules::
 	curl -qsL '$(SOURCE_URL)/makerules/master/collection.mk' > makerules/collection.mk
 
