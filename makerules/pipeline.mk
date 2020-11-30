@@ -6,6 +6,11 @@
 	dataset\
 	commit-dataset
 
+# produced dataset
+ifeq ($(DATASET_DIR),)
+DATASET_DIR=dataset/
+endif
+
 # data sources
 # collected resources
 ifeq ($(COLLECTION_DIR),)
@@ -45,7 +50,6 @@ $(CONVERTED_DIR)%.csv: $(RESOURCE_DIR)%
 
 # resources which can't be converted automatically
 FIXED_FILES:=$(wildcard $(FIXED_DIR)*.csv)
-
 FIXED_CONVERTED_FILES:=$(subst $(FIXED_DIR),$(CONVERTED_DIR),$(FIXED_FILES))
 
 $(FIXED_CONVERTED_FILES):
@@ -108,7 +112,7 @@ harmonise:: $(HARMONISED_FILES)
 #
 #  transform older fields into the latest model
 #
-TRANSFORMED_DIR=transformed/
+TRANSFORMED_DIR=var/transformed/
 TRANSFORMED_FILES:= $(subst $(CONVERTED_DIR),$(TRANSFORMED_DIR),$(CONVERTED_FILES))
 
 $(TRANSFORMED_DIR)%.csv: $(HARMONISED_DIR)%.csv
@@ -119,9 +123,44 @@ transform:: $(TRANSFORMED_FILES)
 	@mkdir -p $(TRANSFORMED_DIR)
 	@:
 
-dataset:: $(TRANSFORMED_FILES)
-	@mkdir -p dataset
+
+#
+#  transform collected or fixed resources in a single pipeline
+#
+PIPELINED_DIR=transformed/
+PIPELINED_FILES := $(addsuffix .csv,$(subst $(RESOURCE_DIR),$(PIPELINED_DIR),$(RESOURCE_FILES)))
+
+$(PIPELINED_DIR)%.csv: $(RESOURCE_DIR)%
+	@mkdir -p $(PIPELINED_DIR)
+	digital-land --pipeline-name $(PIPELINE_NAME) pipeline --issue-path issue/ --use-patch-callback $< $@
+
+# fixed resources which can't be converted automatically
+FIXED_FILES:=$(wildcard $(FIXED_DIR)*.csv)
+FIXED_PIPELINED_FILES:=$(subst $(FIXED_DIR),$(PIPELINED_DIR),$(FIXED_FILES))
+
+$(FIXED_PIPELINED_FILES):
+	@mkdir -p $(PIPELINED_DIR)
+	digital-land --pipeline-name $(PIPELINE_NAME) pipeline --issue-path issue/ --use-patch-callback $(subst $(PIPELINED_DIR),$(FIXED_DIR),$@) $@
+
+pipeline:: $(PIPELINED_FILES)
 	@:
+
+
+#
+#  national dataset from transformed resources
+#  - temporarily uses csvkit to concatenate the files
+#
+NATIONAL_DATASET=$(DATASET_DIR)/$(PIPELINE_NAME).csv
+
+init::
+	pip install csvkit
+
+$(NATIONAL_DATASET): $(PIPELINED_FILES)
+	@mkdir -p $(DATASET_DIR)
+	csvstack -z $(shell python -c 'print(__import__("sys").maxsize)') --filenames -n resource $(PIPELINED_FILES) | sed 's/^\([^\.]*\).csv,/\1,/' > $@
+
+dataset:: $(NATIONAL_DATASET)
+
 
 # local copies of datasets
 $(CACHE_DIR)/organisation.csv:
