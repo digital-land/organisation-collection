@@ -131,7 +131,7 @@ PIPELINED_DIR=transformed/
 PIPELINED_FILES := $(addsuffix .csv,$(subst $(RESOURCE_DIR),$(PIPELINED_DIR),$(RESOURCE_FILES)))
 
 $(PIPELINED_DIR)%.csv: $(RESOURCE_DIR)%
-	@mkdir -p $(PIPELINED_DIR)
+	@mkdir -p $(PIPELINED_DIR) $(ISSUE_DIR)
 	digital-land --pipeline-name $(PIPELINE_NAME) pipeline --issue-path issue/ --use-patch-callback $< $@
 
 # fixed resources which can't be converted automatically
@@ -139,7 +139,7 @@ FIXED_FILES:=$(wildcard $(FIXED_DIR)*.csv)
 FIXED_PIPELINED_FILES:=$(subst $(FIXED_DIR),$(PIPELINED_DIR),$(FIXED_FILES))
 
 $(FIXED_PIPELINED_FILES):
-	@mkdir -p $(PIPELINED_DIR)
+	@mkdir -p $(PIPELINED_DIR) $(ISSUE_DIR)
 	digital-land --pipeline-name $(PIPELINE_NAME) pipeline --issue-path issue/ --use-patch-callback $(subst $(PIPELINED_DIR),$(FIXED_DIR),$@) $@
 
 pipeline:: $(PIPELINED_FILES)
@@ -157,7 +157,7 @@ init::
 
 $(NATIONAL_DATASET): $(PIPELINED_FILES)
 	@mkdir -p $(DATASET_DIR)
-	csvstack -z $(shell python -c 'print(__import__("sys").maxsize)') --filenames -n resource $(PIPELINED_FILES) | sed 's/^\([^\.]*\).csv,/\1,/' > $@
+	csvstack -z $(shell python -c 'print(__import__("sys").maxsize)') --filenames -n resource $(PIPELINED_FILES) < /dev/null | sed 's/^\([^\.]*\).csv,/\1,/' > $@
 
 dataset:: $(NATIONAL_DATASET)
 
@@ -165,11 +165,11 @@ dataset:: $(NATIONAL_DATASET)
 # local copies of datasets
 $(CACHE_DIR)/organisation.csv:
 	@mkdir -p $(CACHE_DIR)
-	curl -qs "https://raw.githubusercontent.com/digital-land/organisation-dataset/master/collection/organisation.csv" > $@
+	curl -qs "https://raw.githubusercontent.com/digital-land/organisation-dataset/main/collection/organisation.csv" > $@
 
 
 makerules::
-	curl -qsL '$(SOURCE_URL)/makerules/master/pipeline.mk' > makerules/pipeline.mk
+	curl -qsL '$(SOURCE_URL)/makerules/main/pipeline.mk' > makerules/pipeline.mk
 
 commit-dataset::
 	git add transformed issue dataset

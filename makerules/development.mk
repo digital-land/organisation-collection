@@ -18,11 +18,10 @@ dev::
 ifndef VIRTUAL_ENV
 	$(error not in a virtual environment)
 endif
-	rm -rf ${VIRTUAL_ENV}/src/digital-land
-	ln -s ${PWD}/../pipeline/ ${VIRTUAL_ENV}/src/digital-land
+	pip install -e ../pipeline/
 
 prune::
 	rm -rf ./.venv
 
 makerules::
-	curl -qsL '$(SOURCE_URL)/makerules/master/development.mk' > makerules/development.mk
+	curl -qsL '$(SOURCE_URL)/makerules/main/development.mk' > makerules/development.mk
