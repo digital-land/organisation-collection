@@ -30,7 +30,7 @@ FIXED_DIR=fixed/
 endif
 
 ifeq ($(CACHE_DIR),)
-CACHE_DIR=var/cache
+CACHE_DIR=var/cache/
 endif
 
 # restart the make process to pick-up collected resource files
@@ -94,14 +94,11 @@ map:: $(MAPPED_FILES)
 HARMONISED_DIR=var/harmonised/
 HARMONISED_FILES := $(subst $(CONVERTED_DIR),$(HARMONISED_DIR),$(CONVERTED_FILES))
 
-HARMONISE_DATA=\
-	$(CACHE_DIR)/organisation.csv
-
 # a file of issues is produced for each resource
 ISSUE_DIR=issue/
 ISSUE_FILES := $(subst $(CONVERTED_DIR),$(ISSUE_DIR),$(CONVERTED_FILES))
 
-$(HARMONISED_DIR)%.csv: $(MAPPED_DIR)%.csv $(HARMONISE_DATA)
+$(HARMONISED_DIR)%.csv: $(MAPPED_DIR)%.csv
 	@mkdir -p $(HARMONISED_DIR) $(ISSUE_DIR)
 	digital-land --pipeline-name $(PIPELINE_NAME) harmonise --use-patch-callback --issue-path $(ISSUE_DIR) $< $@
 
@@ -162,11 +159,10 @@ $(NATIONAL_DATASET): $(PIPELINED_FILES)
 dataset:: $(NATIONAL_DATASET)
 
 
-# local copies of datasets
-$(CACHE_DIR)/organisation.csv:
+# local copies of the organisation dataset needed by harmonise
+init::
 	@mkdir -p $(CACHE_DIR)
-	curl -qs "https://raw.githubusercontent.com/digital-land/organisation-dataset/main/collection/organisation.csv" > $@
-
+	curl -qs "https://raw.githubusercontent.com/digital-land/organisation-dataset/main/collection/organisation.csv" > $(CACHE_DIR)organisation.csv
 
 makerules::
 	curl -qsL '$(SOURCE_URL)/makerules/main/pipeline.mk' > makerules/pipeline.mk
