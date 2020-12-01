@@ -156,8 +156,15 @@ $(NATIONAL_DATASET): $(PIPELINED_FILES)
 	@mkdir -p $(DATASET_DIR)
 	csvstack -z $(shell python -c 'print(__import__("sys").maxsize)') --filenames -n resource $(PIPELINED_FILES) < /dev/null | sed 's/^\([^\.]*\).csv,/\1,/' > $@
 
+dataset:: $(PIPELINED_FILES)
+
 dataset:: $(NATIONAL_DATASET)
 
+clean::
+	rm -rf ./var
+
+clobber::
+	rm -f $(NATIONAL_DATASET)
 
 # local copies of the organisation dataset needed by harmonise
 init::
