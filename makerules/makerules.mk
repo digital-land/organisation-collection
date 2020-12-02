@@ -58,6 +58,7 @@ prune::
 makerules::
 	curl -qsL '$(SOURCE_URL)/makerules/main/makerules.mk' > makerules/makerules.mk
 
+ifeq (,$(wildcard ./makerules/specification.mk))
 # update local copies of specification files
 init::
 	@mkdir -p specification/
@@ -68,6 +69,7 @@ init::
 	curl -qsL '$(SOURCE_URL)/specification/main/specification/field.csv' > specification/field.csv
 	curl -qsL '$(SOURCE_URL)/specification/main/specification/datatype.csv' > specification/datatype.csv
 	curl -qsL '$(SOURCE_URL)/specification/main/specification/typology.csv' > specification/typology.csv
+endif
 
 commit-makerules::
 	git add makerules
