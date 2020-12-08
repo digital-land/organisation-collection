@@ -11,7 +11,7 @@ The national dataset is in a format consistent with other Digital Land datasets 
 * [collection/source.csv](collection/source.csv) — the list of data sources by organisation, see [specification/source](https://digital-land.github.io/specification/schema/source/)
 * [collection/endpoint.csv](collection/endpoint.csv) — the list of endpoint URLs for the collection, see [specification/endpoint](https://digital-land.github.io/specification/schema/endpoint)
 * [collection/resource/](collection/resource/) — collected resources
-* [collection/log/](collection/log/) — individual log JSON files, created by the colletion process
+* [collection/log/](collection/log/) — individual log JSON files, created by the collection process
 * [collection/log.csv](collection/log.csv) — a collection log assembled from the individual log files, see [specification/log](https://digital-land.github.io/specification/schema/log)
 * [collection/resource.csv](collection/resource.csv) — a list of collected resources, see [specification/resource](https://digital-land.github.io/specification/schema/resource)
 
