@@ -10,12 +10,12 @@ A collection of organisations collected from GOV.UK registers and other places, 
 
 and the following locally managed lists:
 
-* [local/development-corporation.csv](local/development-corporationt.csv) — development corporations
-* [local/regional-park-authority.csv](local/regional-park-authority.csv) — regional park authorities
-* [local/national-park-authority.csv](local/national-park-authority.csv) — national park authorities
-* [local/transport-authority.csv](local/transport-authority.csv) — transport authorities
-* [local/waste-disposal-authority.csv](local/waste-disposal-authority.csv) — waste disposal authorities
-* [local/public-authority.csv](local/public-authority.csv) — miscellaneous public authorities
+* [source/development-corporation.csv](source/development-corporationt.csv) — development corporations
+* [source/regional-park-authority.csv](source/regional-park-authority.csv) — regional park authorities
+* [source/national-park-authority.csv](source/national-park-authority.csv) — national park authorities
+* [source/transport-authority.csv](source/transport-authority.csv) — transport authorities
+* [source/waste-disposal-authority.csv](source/waste-disposal-authority.csv) — waste disposal authorities
+* [source/public-authority.csv](source/public-authority.csv) — miscellaneous public authorities
 
 The national dataset is a in a format consistent with other Digital Land datasets as defined by the [organisation schema](https://digital-land.github.io/specification/schema/organisation/).
 
