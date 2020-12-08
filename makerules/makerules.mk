@@ -8,8 +8,6 @@ SOURCE_URL=https://raw.githubusercontent.com/digital-land/
 	clobber\
 	clean\
 	commit-makerules\
-	commit-collection\
-	commit-dataset\
 	prune
 
 # keep intermediate files
@@ -78,7 +76,4 @@ commit-makerules::
 	git diff --quiet && git diff --staged --quiet || (git commit -m "Updated makerules $(shell date +%F)"; git push origin $(BRANCH))
 
 commit-collection::
-	@:
-
-commit-dataset::
 	@:
