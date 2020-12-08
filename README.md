@@ -1,17 +1,30 @@
-# XXX collection
+# Organisation collection
 
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/digital-land/brownfield-land/blob/master/LICENSE)
 
-A collection of XXX collected from YYY.
+A collection of organisations collected from GOV.UK registers and other places, including:
 
-The national dataset is in a format consistent with other Digital Land datasets as defined by the [ZZZ schema](https://digital-land.github.io/specification/schema//).
+* [Government Organisation Register](https://government-organisation.register.gov.uk/)
+* [Local Authority England Register](https://local-authority-eng.register.gov.uk/)
+* [Internal Drainage Board Register](https://internal-drainage-board.register.gov.uk/)
+
+and the following locally managed lists:
+
+* [local/development-corporation.csv](local/development-corporationt.csv) — development corporations
+* [local/regional-park-authority.csv](local/regional-park-authority.csv) — regional park authorities
+* [local/national-park-authority.csv](local/national-park-authority.csv) — national park authorities
+* [local/transport-authority.csv](local/transport-authority.csv) — transport authorities
+* [local/waste-disposal-authority.csv](local/waste-disposal-authority.csv) — waste disposal authorities
+* [local/public-authority.csv](local/public-authority.csv) — miscellaneous public authorities
+
+The national dataset is a in a format consistent with other Digital Land datasets as defined by the [organisation schema](https://digital-land.github.io/specification/schema/organisation/).
 
 # Collection
 
 * [collection/source.csv](collection/source.csv) — the list of data sources by organisation, see [specification/source](https://digital-land.github.io/specification/schema/source/)
 * [collection/endpoint.csv](collection/endpoint.csv) — the list of endpoint URLs for the collection, see [specification/endpoint](https://digital-land.github.io/specification/schema/endpoint)
 * [collection/resource/](collection/resource/) — collected resources
-* [collection/log/](collection/log/) — individual log JSON files, created by the colletion process
+* [collection/log/](collection/log/) — individual log JSON files, created by the collection process
 * [collection/log.csv](collection/log.csv) — a collection log assembled from the individual log files, see [specification/log](https://digital-land.github.io/specification/schema/log)
 * [collection/resource.csv](collection/resource.csv) — a list of collected resources, see [specification/resource](https://digital-land.github.io/specification/schema/resource)
 
