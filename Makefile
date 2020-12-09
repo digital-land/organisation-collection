@@ -1,4 +1,4 @@
-PIPELINE_NAME=pipeline
+PIPELINE_NAME=organisation
 
 include makerules/makerules.mk
 include makerules/development.mk
