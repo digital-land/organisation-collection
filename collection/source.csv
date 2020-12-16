@@ -1,4 +1,6 @@
-attribution,collection,documentation-url,endpoint,licence,organisation,pipeline,entry-date,start-date,end-date
-crown-copyright,organisation,https://www.registers.service.gov.uk/registers/government-organisation,4647e3b7de7ac238e7197bd760e4dcfab2b95b189c2fedfd1fab05cf94aed491,ogl3,government-organisation:OT1056,government-organisation,2020-12-04,,
+attribution,collection,documentation-url,endpoint,licence,organisation,pipelines,entry-date,start-date,end-date
+crown-copyright,organisation,,4647e3b7de7ac238e7197bd760e4dcfab2b95b189c2fedfd1fab05cf94aed491,ogl3,government-organisation:OT1056,government-organisation,2020-12-04,,
 crown-copyright,organisation,,c9cddc7aff1769b10cc90bf15c8caccaeb0ad0112492e2aa120c4539207a9cf7,ogl3,government-organisation:D4,local-authority-eng,2020-12-04,,
 crown-copyright,organisation,,7dc49312a700e8cf8256de0187925ceefe21f7cbab2c6ad626dc50f87eb05f77,ogl3,government-organisation:D7,internal-drainage-board,2020-12-08,,
+wikidata,organisation,,67b2b91aba2a69faab4e0603ae84125f7aa7e0c1516274fbbc2910bcf03e344a,cc0,,wikidata-organisation,2020-12-16,,
+wikidata,organisation,,e4db640d9e14424f0957e2a84fb1e56e1c1c49a354bdc062a14651f334d22ce0,cc0,,wikidata-organisation,2020-12-16,,
