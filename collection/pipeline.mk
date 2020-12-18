@@ -45,9 +45,13 @@ dataset:: $(LOCAL_AUTHORITY_ENG_DATASET)
 
 WIKIDATA_ORGANISATION_DATASET=$(DATASET_DIR)wikidata-organisation.csv
 WIKIDATA_ORGANISATION_TRANSFORMED_FILES=\
+    $(TRANSFORMED_DIR)wikidata-organisation/06b648fc85727e52655a952b4d780bb20b09d773b93f47bd513eac5501f4e6ac.csv\
     $(TRANSFORMED_DIR)wikidata-organisation/48fbba8b559a76aa52ab8f122015b18c45429f533b49efbb7a4dd39a4b2a924f.csv\
     $(TRANSFORMED_DIR)wikidata-organisation/d30df0988413409a55f2f3e6f58934cb51e93abea725c0fbdee7f1fddddd039c.csv\
     $(TRANSFORMED_DIR)wikidata-organisation/d6551bd55c6186f13d31fbbab0d0c6b46c174edc4a2b6943b7afa3dd48a95af3.csv
+
+$(TRANSFORMED_DIR)wikidata-organisation/06b648fc85727e52655a952b4d780bb20b09d773b93f47bd513eac5501f4e6ac.csv: collection/resource/06b648fc85727e52655a952b4d780bb20b09d773b93f47bd513eac5501f4e6ac
+	$(run-pipeline)
 
 $(TRANSFORMED_DIR)wikidata-organisation/48fbba8b559a76aa52ab8f122015b18c45429f533b49efbb7a4dd39a4b2a924f.csv: collection/resource/48fbba8b559a76aa52ab8f122015b18c45429f533b49efbb7a4dd39a4b2a924f
 	$(run-pipeline)
