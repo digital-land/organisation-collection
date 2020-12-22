@@ -4,7 +4,7 @@
 
 A collection of XXX collected from YYY.
 
-The national dataset is in a format consistent with other Digital Land datasets as defined by the [ZZZ schema](https://digital-land.github.io/specification/schema//).
+The national dataset is in a format consistent with other Digital Land datasets as defined by the [ZZZ schema](https://digital-land.github.io/specification/schema/ZZZ/).
 
 # Collection
 
@@ -19,13 +19,19 @@ The national dataset is in a format consistent with other Digital Land datasets 
 
 We recommend working in [virtual environment](http://docs.python-guide.org/en/latest/dev/virtualenvs/) before installing the python [requirements](requirements.txt), [makerules](https://github.com/digital-land/makerules) and other dependencies:
 
-    $ make update
+    $ make makerules
     $ make init
-    $ make
+    $ make collect
 
 # Nightly collection
 
 The collection is [updated nightly](https://github.com/digital-land/brownfield-land-collection-new/actions) by the [GitHub Action](.github/workflows/run.yml).
+
+# Building the national dataset
+
+The collected files can then be converted into a national dataset:
+
+    $ make
 
 # Licence
 
