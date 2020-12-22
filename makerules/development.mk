@@ -18,7 +18,7 @@ dev::
 ifndef VIRTUAL_ENV
 	$(error not in a virtual environment)
 endif
-	pip install -e ../pipeline/
+	pip install -e ../digital-land-python/
 
 prune::
 	rm -rf ./.venv
