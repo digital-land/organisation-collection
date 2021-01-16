@@ -59,7 +59,9 @@ WIKIDATA_ORGANISATION_TRANSFORMED_FILES=\
     $(TRANSFORMED_DIR)wikidata-organisation/55e6ce7deb6a63c217355432ab59d37375b05e6548d78cc9366cc207ea856e5c.csv\
     $(TRANSFORMED_DIR)wikidata-organisation/643586a9ad2e19c461bc5f64e068315255b9a668c059b0f66d3123268ea49c3a.csv\
     $(TRANSFORMED_DIR)wikidata-organisation/69cfadd357815eb3eb320f65820c12ff3d20d69f3c460a9ced028663d00494ce.csv\
+    $(TRANSFORMED_DIR)wikidata-organisation/719a7b0faf335f5d67f6573ba1f7a73657f2373d4a7d4f5b801017f053f341e6.csv\
     $(TRANSFORMED_DIR)wikidata-organisation/760ff14175e084572e819c7b5b2a869ba7937975cfc1f60ac23e49bd5a316b2b.csv\
+    $(TRANSFORMED_DIR)wikidata-organisation/7de52b353094f4ddd00f0eb3478261852aaaa23ceaa107d10ec547e1cf0db56b.csv\
     $(TRANSFORMED_DIR)wikidata-organisation/82f0f4f119bd6c3e7925ba7a0f61511fe0f0461b96c6af7720e6f20c551e7b62.csv\
     $(TRANSFORMED_DIR)wikidata-organisation/87d5caeb0f71c871729fb90be5293ab752d501409d142c7ad05d2f6061b9ef8e.csv\
     $(TRANSFORMED_DIR)wikidata-organisation/97dbc04dfc0814bea582cc4b479af5b90b721595099cf28737fc18020b7caf88.csv\
@@ -124,7 +126,13 @@ $(TRANSFORMED_DIR)wikidata-organisation/643586a9ad2e19c461bc5f64e068315255b9a668
 $(TRANSFORMED_DIR)wikidata-organisation/69cfadd357815eb3eb320f65820c12ff3d20d69f3c460a9ced028663d00494ce.csv: collection/resource/69cfadd357815eb3eb320f65820c12ff3d20d69f3c460a9ced028663d00494ce
 	$(run-pipeline)
 
+$(TRANSFORMED_DIR)wikidata-organisation/719a7b0faf335f5d67f6573ba1f7a73657f2373d4a7d4f5b801017f053f341e6.csv: collection/resource/719a7b0faf335f5d67f6573ba1f7a73657f2373d4a7d4f5b801017f053f341e6
+	$(run-pipeline)
+
 $(TRANSFORMED_DIR)wikidata-organisation/760ff14175e084572e819c7b5b2a869ba7937975cfc1f60ac23e49bd5a316b2b.csv: collection/resource/760ff14175e084572e819c7b5b2a869ba7937975cfc1f60ac23e49bd5a316b2b
+	$(run-pipeline)
+
+$(TRANSFORMED_DIR)wikidata-organisation/7de52b353094f4ddd00f0eb3478261852aaaa23ceaa107d10ec547e1cf0db56b.csv: collection/resource/7de52b353094f4ddd00f0eb3478261852aaaa23ceaa107d10ec547e1cf0db56b
 	$(run-pipeline)
 
 $(TRANSFORMED_DIR)wikidata-organisation/82f0f4f119bd6c3e7925ba7a0f61511fe0f0461b96c6af7720e6f20c551e7b62.csv: collection/resource/82f0f4f119bd6c3e7925ba7a0f61511fe0f0461b96c6af7720e6f20c551e7b62
