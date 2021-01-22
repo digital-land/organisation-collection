@@ -25,7 +25,7 @@ We recommend working in [virtual environment](http://docs.python-guide.org/en/la
 
 # Nightly collection
 
-The collection is [updated nightly](https://github.com/digital-land/brownfield-land-collection-new/actions) by the [GitHub Action](.github/workflows/run.yml).
+The collection is [updated nightly](https://github.com/digital-land/ZZZ/actions) by the [GitHub Action](.github/workflows/run.yml).
 
 # Building the national dataset
 
