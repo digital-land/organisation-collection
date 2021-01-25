@@ -50,6 +50,7 @@ WIKIDATA_ORGANISATION_TRANSFORMED_FILES=\
     $(TRANSFORMED_DIR)wikidata-organisation/086243d65d4dac8164a005b2ac6321a95a7b29c338318eb2dca346755cc6d263.csv\
     $(TRANSFORMED_DIR)wikidata-organisation/0fe41ea5e2e4b4eef6d48c43ef3673e38a3b37d7127661617e2491b796827895.csv\
     $(TRANSFORMED_DIR)wikidata-organisation/1dda34f6343cde6d46b3c894b588337903b36f9a1006442336f8c92dade2e21f.csv\
+    $(TRANSFORMED_DIR)wikidata-organisation/1e6cf3d34e38a01bdde5c6de91dfe8d7a8cc490d095d38362c5e25fa1b8000fa.csv\
     $(TRANSFORMED_DIR)wikidata-organisation/25e12bcfe0a8f823fd5d7fb3fd32013db488811273e5c5716b77d81bd4c0e6a9.csv\
     $(TRANSFORMED_DIR)wikidata-organisation/2afc936f444244cecc1517f49beb220bffcbfcd53db9b07490fdc4fef7c03d93.csv\
     $(TRANSFORMED_DIR)wikidata-organisation/2b191462f1f41bb4e8beb98a2c5851456b8cdbe1cdabb946f31465c75c43a471.csv\
@@ -86,6 +87,7 @@ WIKIDATA_ORGANISATION_TRANSFORMED_FILES=\
     $(TRANSFORMED_DIR)wikidata-organisation/d40767044e92f020c0e6be482de4d7123468660a69bac4252539a621094a0de0.csv\
     $(TRANSFORMED_DIR)wikidata-organisation/d5fbe91732e6149a032ea834e52ee1aec1c459ad1f7d7a673aac2bc97c092437.csv\
     $(TRANSFORMED_DIR)wikidata-organisation/d6551bd55c6186f13d31fbbab0d0c6b46c174edc4a2b6943b7afa3dd48a95af3.csv\
+    $(TRANSFORMED_DIR)wikidata-organisation/d74772f898f010265cb1fbd2be9d4912deeacabe425af851663e5869203f4034.csv\
     $(TRANSFORMED_DIR)wikidata-organisation/de7e4786e26b70b71534eb67df1ef8dc8764e57932fed35f30b535c3e8a009a2.csv\
     $(TRANSFORMED_DIR)wikidata-organisation/e174008d213e28cdfa449d0e3e8ae2ed314a3ce544fbbdb2f2bcbe67fbefc284.csv\
     $(TRANSFORMED_DIR)wikidata-organisation/e26f41042ad229f7e2cf5df0ceb81587fc84282d03e4aedc50326d647cf3bac6.csv\
@@ -106,6 +108,9 @@ $(TRANSFORMED_DIR)wikidata-organisation/0fe41ea5e2e4b4eef6d48c43ef3673e38a3b37d7
 	$(run-pipeline)
 
 $(TRANSFORMED_DIR)wikidata-organisation/1dda34f6343cde6d46b3c894b588337903b36f9a1006442336f8c92dade2e21f.csv: collection/resource/1dda34f6343cde6d46b3c894b588337903b36f9a1006442336f8c92dade2e21f
+	$(run-pipeline)
+
+$(TRANSFORMED_DIR)wikidata-organisation/1e6cf3d34e38a01bdde5c6de91dfe8d7a8cc490d095d38362c5e25fa1b8000fa.csv: collection/resource/1e6cf3d34e38a01bdde5c6de91dfe8d7a8cc490d095d38362c5e25fa1b8000fa
 	$(run-pipeline)
 
 $(TRANSFORMED_DIR)wikidata-organisation/25e12bcfe0a8f823fd5d7fb3fd32013db488811273e5c5716b77d81bd4c0e6a9.csv: collection/resource/25e12bcfe0a8f823fd5d7fb3fd32013db488811273e5c5716b77d81bd4c0e6a9
@@ -214,6 +219,9 @@ $(TRANSFORMED_DIR)wikidata-organisation/d5fbe91732e6149a032ea834e52ee1aec1c459ad
 	$(run-pipeline)
 
 $(TRANSFORMED_DIR)wikidata-organisation/d6551bd55c6186f13d31fbbab0d0c6b46c174edc4a2b6943b7afa3dd48a95af3.csv: collection/resource/d6551bd55c6186f13d31fbbab0d0c6b46c174edc4a2b6943b7afa3dd48a95af3
+	$(run-pipeline)
+
+$(TRANSFORMED_DIR)wikidata-organisation/d74772f898f010265cb1fbd2be9d4912deeacabe425af851663e5869203f4034.csv: collection/resource/d74772f898f010265cb1fbd2be9d4912deeacabe425af851663e5869203f4034
 	$(run-pipeline)
 
 $(TRANSFORMED_DIR)wikidata-organisation/de7e4786e26b70b71534eb67df1ef8dc8764e57932fed35f30b535c3e8a009a2.csv: collection/resource/de7e4786e26b70b71534eb67df1ef8dc8764e57932fed35f30b535c3e8a009a2
