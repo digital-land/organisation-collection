@@ -1,6 +1,6 @@
 # XXX collection
 
-[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/digital-land/brownfield-land/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/digital-land/XXX/blob/master/LICENSE)
 
 A collection of XXX collected from YYY.
 
