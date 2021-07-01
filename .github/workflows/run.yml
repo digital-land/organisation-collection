@@ -67,9 +67,12 @@ jobs:
 
     - name: Commit collection
       run: make commit-collection
+      
+    - name: push collection files to S3
+      run: make push-collection-s3
 
     - name: Run the pipeline to make the dataset
       run: make dataset
 
     - name: Push dataset files to S3
-      run: make push-s3
+      run: make push-dataset-s3
