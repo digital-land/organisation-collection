@@ -24,4 +24,4 @@ prune::
 	rm -rf ./.venv
 
 makerules::
-	curl -qsL '$(SOURCE_URL)/makerules/main/development.mk' > makerules/development.mk
+	curl -qfsL '$(SOURCE_URL)/makerules/main/development.mk' > makerules/development.mk
