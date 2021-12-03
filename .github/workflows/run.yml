@@ -1,14 +1,6 @@
 name: Run pipeline
 
 on:
-  push:
-    paths-ignore:
-      - 'collection/resource/**'
-      - 'collection/log/**'
-      - 'index/**'
-      - 'var/**'
-    branches:
-      main
   schedule:
     - cron: '0 0 * * *'
   workflow_dispatch:
@@ -26,7 +18,7 @@ jobs:
     - uses: actions/setup-python@v2
       with:
         python-version: 3.8
-        
+
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
@@ -52,7 +44,7 @@ jobs:
 
     - name: Install dependencies
       run: make init
-      
+
     - name: Fetch dataset files from S3
       run: make fetch-s3
 
@@ -67,7 +59,7 @@ jobs:
 
     - name: Commit collection
       run: make commit-collection
-      
+
     - name: push collection files to S3
       run: make push-collection-s3
 
