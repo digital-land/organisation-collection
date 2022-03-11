@@ -13,7 +13,7 @@ RESOURCE_DIR=$(COLLECTION_DIR)resource/
 endif
 
 ifeq ($(DATASTORE_URL),)
-DATASTORE_URL=https://collection-dataset.s3.eu-west-2.amazonaws.com/
+DATASTORE_URL=https://$(COLLECTION_DATASET_BUCKET_NAME).s3.eu-west-2.amazonaws.com/
 endif
 
 
@@ -51,10 +51,10 @@ commit-collection::
 	git diff --quiet && git diff --staged --quiet || (git commit -m "Collection $(shell date +%F)"; git push origin $(BRANCH))
 
 save-resources::
-	aws s3 sync s3://collection-dataset/$(REPOSITORY)/$(RESOURCE_DIR) $(RESOURCE_DIR)
+	aws s3 sync s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(REPOSITORY)/$(RESOURCE_DIR) $(RESOURCE_DIR)
 
 load-resources::
-	aws s3 sync $(RESOURCE_DIR) s3://collection-dataset/$(REPOSITORY)/$(RESOURCE_DIR)
+	aws s3 sync $(RESOURCE_DIR) s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(REPOSITORY)/$(RESOURCE_DIR)
 
 collection/resource/%:
 	@mkdir -p collection/resource/
