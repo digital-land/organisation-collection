@@ -25,12 +25,6 @@ ifeq ($(CACHE_DIR),)
 CACHE_DIR=var/cache/
 endif
 
-ifeq ($(HARMONISED_DIR),)
-ifneq ($(PIPELINE_FLAGS),)
-HARMONISED_DIR=harmonised/
-endif
-endif
-
 ifeq ($(TRANSFORMED_DIR),)
 TRANSFORMED_DIR=transformed/
 endif
@@ -51,33 +45,40 @@ ifeq ($(DATASET_DIR),)
 DATASET_DIR=dataset/
 endif
 
-ifeq ($(DATASET_DIRS),)
-DATASET_DIRS=\
-	$(HARMONISED_DIR)\
-	$(TRANSFORMED_DIR)\
-	$(ISSUE_DIR)\
-	$(DATASET_DIR)
+ifeq ($(HOISTED_DIR),)
+HOISTED_DIR=hoisted/
 endif
 
-define run-pipeline =
+ifeq ($(DATASET_DIRS),)
+DATASET_DIRS=\
+	$(TRANSFORMED_DIR)\
+	$(COLUMN_FIELD_DIR)\
+	$(DATASET_RESOURCE_DIR)\
+	$(ISSUE_DIR)\
+	$(DATASET_DIR)\
+	$(HOISTED_DIR)
+endif
+
+define run-pipeline
 	mkdir -p $(@D) $(ISSUE_DIR)$(notdir $(@D)) $(COLUMN_FIELD_DIR)$(notdir $(@D)) $(DATASET_RESOURCE_DIR)$(notdir $(@D))
-	digital-land --dataset $(notdir $(@D)) $(DIGITAL_LAND_FLAGS) pipeline --issue-dir $(ISSUE_DIR)$(notdir $(@D)) --column-field-dir $(COLUMN_FIELD_DIR)$(notdir $(@D)) --dataset-resource-dir $(DATASET_RESOURCE_DIR)$(notdir $(@D)) $(PIPELINE_FLAGS) $< $@
+	digital-land --dataset $(notdir $(@D)) $(DIGITAL_LAND_FLAGS) pipeline $(1) --issue-dir $(ISSUE_DIR)$(notdir $(@D)) --column-field-dir $(COLUMN_FIELD_DIR)$(notdir $(@D)) --dataset-resource-dir $(DATASET_RESOURCE_DIR)$(notdir $(@D)) $(PIPELINE_FLAGS) $< $@
 endef
 
 define build-dataset =
 	mkdir -p $(@D)
 	time digital-land --dataset $(notdir $(basename $@)) dataset-create --output-path $(basename $@).sqlite3 $(^)
+	time datasette inspect $(basename $@).sqlite3 --inspect-file=$(basename $@).sqlite3.json
 	time digital-land --dataset $(notdir $(basename $@)) dataset-entries $(basename $@).sqlite3 $@
+	mkdir -p $(HOISTED_DIR)
+	time digital-land --dataset $(notdir $(basename $@)) dataset-entries-hoisted $@ $(HOISTED_DIR)$(notdir $(basename $@))-hoisted.csv
 	md5sum $@ $(basename $@).sqlite3
 	csvstack $(wildcard $(ISSUE_DIR)/$(notdir $(basename $@))/*.csv) > $(basename $@)-issue.csv
 endef
 
-collection:: collection/pipeline.mk
+collection::
+	digital-land collection-pipeline-makerules > collection/pipeline.mk
 
 -include collection/pipeline.mk
-
-collection/pipeline.mk: collection/resource.csv collection/source.csv
-	digital-land collection-pipeline-makerules > collection/pipeline.mk
 
 # restart the make process to pick-up collected resource files
 second-pass::
@@ -94,14 +95,16 @@ $(error GDAL tools not found in PATH)
 endif
 	sudo apt-get install gdal-bin
 endif
+	pyproj sync --file uk_os_OSTN15_NTv2_OSGBtoETRS.tif -v
+
 
 clobber::
-	rm -rf $(TRANSFORMED_DIR) $(ISSUE_DIR) $(DATASET_DIR)
+	rm -rf $(DATASET_DIRS)
 
 clean::
 	rm -rf ./var
 
-# local copies of the organisation dataset needed by harmonise
+# local copy of the organisation dataset
 init::
 	@mkdir -p $(CACHE_DIR)
 	curl -qfs "https://raw.githubusercontent.com/digital-land/organisation-dataset/main/collection/organisation.csv" > $(CACHE_DIR)organisation.csv
@@ -109,41 +112,25 @@ init::
 makerules::
 	curl -qfsL '$(SOURCE_URL)/makerules/main/pipeline.mk' > makerules/pipeline.mk
 
-commit-dataset::
-	mkdir -p $(DATASET_DIRS)
-	git add $(DATASET_DIRS)
-	git diff --quiet && git diff --staged --quiet || (git commit -m "Data $(shell date +%F)"; git push origin $(BRANCH))
-
-fetch-s3::
-	aws s3 sync s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(REPOSITORY)/$(RESOURCE_DIR) $(RESOURCE_DIR) --no-progress
-
-fetch-transformed-s3::
-	#aws s3 sync s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(REPOSITORY)/$(ISSUE_DIR) $(ISSUE_DIR) --no-progress
-	#aws s3 sync s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(REPOSITORY)/$(TRANSFORMED_DIR) $(TRANSFORMED_DIR) --no-progress
-	#aws s3 sync s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(REPOSITORY)/$(DATASET_DIR) $(DATASET_DIR) --no-progress
-
-push-collection-s3::
-	aws s3 sync $(RESOURCE_DIR) s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(REPOSITORY)/$(RESOURCE_DIR) --no-progress
-	aws s3 cp $(COLLECTION_DIR)/log.csv s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(REPOSITORY)/$(COLLECTION_DIR) --no-progress
-	aws s3 cp $(COLLECTION_DIR)/resource.csv s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(REPOSITORY)/$(COLLECTION_DIR) --no-progress
-	aws s3 cp $(COLLECTION_DIR)/source.csv s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(REPOSITORY)/$(COLLECTION_DIR) --no-progress
-	aws s3 cp $(COLLECTION_DIR)/endpoint.csv s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(REPOSITORY)/$(COLLECTION_DIR) --no-progress
-
-push-dataset-s3::
-	@mkdir -p $(TRANSFORMED_DIR)
+save-transformed::
 	aws s3 sync $(TRANSFORMED_DIR) s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(REPOSITORY)/$(TRANSFORMED_DIR) --no-progress
-	@mkdir -p $(ISSUE_DIR)
 	aws s3 sync $(ISSUE_DIR) s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(REPOSITORY)/$(ISSUE_DIR) --no-progress
-	@mkdir -p $(DATASET_DIR)
+	aws s3 sync $(COLUMN_FIELD_DIR) s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(REPOSITORY)/$(COLUMN_FIELD_DIR) --no-progress
+	aws s3 sync $(DATASET_RESOURCE_DIR) s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(REPOSITORY)/$(DATASET_RESOURCE_DIR) --no-progress
+
+save-dataset::
 	aws s3 sync $(DATASET_DIR) s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(REPOSITORY)/$(DATASET_DIR) --no-progress
+	@mkdir -p $(HOISTED_DIR)
+	aws s3 sync $(HOISTED_DIR) s3://$(HOISTED_COLLECTION_DATASET_BUCKET_NAME)/ --no-progress
 
-pipeline-run::
-	aws batch submit-job --job-name $(REPOSITORY)-$(shell date '+%Y-%m-%d-%H-%M-%S') --job-queue dl-batch-queue --job-definition dl-batch-def --container-overrides '{"environment": [{"name":"BATCH_FILE_URL","value":"https://raw.githubusercontent.com/digital-land/docker-builds/main/pipeline_run.sh"}, {"name" : "REPOSITORY","value" : "$(REPOSITORY)"}]}'
-
+# convert an individual resource
+# .. this assumes conversion is the same for every dataset, but it may not be soon
 var/converted/%.csv: collection/resource/%
 	mkdir -p var/converted/
 	digital-land convert $<
 
+transformed::
+	@mkdir -p $(TRANSFORMED_DIR)
 
 metadata.json:
 	echo "{}" > $@

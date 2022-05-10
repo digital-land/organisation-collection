@@ -1,20 +1,28 @@
-name: Run pipeline
-
+name: Run collection
 on:
   schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:
-
+  - cron: 0 0 * * *
+  workflow_dispatch: null
 env:
   DLB_BOT_EMAIL: ${{ secrets.DLB_BOT_EMAIL }}
   DLB_BOT_TOKEN: ${{ secrets.DLB_BOT_TOKEN }}
   DLB_BOT_USERNAME: ${{ secrets.DLB_BOT_USERNAME }}
-
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+
+    - name: Free up disk space
+      run: |
+        df -h
+        sudo rm -rf /usr/share/dotnet
+        sudo rm -rf /usr/local/lib/android
+        sudo rm -rf /opt/ghc
+        echo
+        df -h
+
     - uses: actions/checkout@v2
+
     - uses: actions/setup-python@v2
       with:
         python-version: 3.8
@@ -26,10 +34,7 @@ jobs:
         aws-secret-access-key: ${{secrets.AWS_S3_SECRET_ACCESS_KEY}}
         aws-region: eu-west-2
 
-    - name: Branch name
-      run: echo running on branch ${GITHUB_REF##*/}
-
-    - name: Setup git
+    - name: Configure git
       run: |
         git config user.email "${DLB_BOT_EMAIL}"
         git config user.name "${DLB_BOT_USERNAME}"
@@ -45,26 +50,29 @@ jobs:
     - name: Install dependencies
       run: make init
 
-    - name: Fetch dataset files from S3
-      run: make fetch-s3
-
     - name: Run the collector
       run: make collect
 
-    - name: Commit collection
+    - name: Commit collection logs
       run: make commit-collection
 
-    - name: Update the collection dataset
+    - name: Save collected resources to S3
+      run: make save-resources
+
+    - name: Build the collection database
       run: make collection
 
-    - name: Commit collection
-      run: make commit-collection
+    - name: Push collection database to S3
+      run: make save-collection
 
-    - name: push collection files to S3
-      run: make push-collection-s3
+    - name: transform collected files
+      run: make transformed
 
-    - name: Run the pipeline to make the dataset
+    - name: Save transformed files to S3
+      run: make save-transformed
+
+    - name: Build datasets from the transformed files
       run: make dataset
 
-    - name: Push dataset files to S3
-      run: make push-dataset-s3
+    - name: Save datasets to S3
+      run: make save-dataset
