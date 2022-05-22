@@ -25,6 +25,7 @@ collection/resource/
 dataset/
 transformed/
 issue/
+hoisted/
 
 # files built from the collection
 collection/log.csv
