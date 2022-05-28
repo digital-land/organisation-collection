@@ -1,0 +1,39 @@
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT * WHERE {
+  VALUES ?wikidata {
+    wd:Q601819
+    wd:Q7201367
+    wd:Q19604421
+    wd:Q5635120
+    wd:Q1478750
+    wd:Q1334971
+    wd:Q5890410
+    wd:Q39046108
+    wd:Q39045922
+    wd:Q81054630
+    wd:Q81056025
+    wd:Q81075624
+    wd:Q65071973
+    wd:Q4787008
+    wd:Q7912696
+    wd:Q548721
+    wd:Q6515400 # Lee Valley Regional Park Authority
+    wd:Q5533909 # Geoplace
+    wd:Q3044721
+  }
+  ?wikidata schema:dateModified ?entry_date .
+  ?wikidata rdfs:label ?name .
+    FILTER (langMatches(lang(?name), "EN" ))
+  OPTIONAL { ?wikipedia schema:name ?sitelink ;
+                     schema:about ?wikidata ;
+                     schema:isPartOf <https://en.wikipedia.org/> .
+  }
+  OPTIONAL { ?wikidata wdt:P856 ?website }
+  OPTIONAL { ?wikidata wdt:P2002 ?twitter }
+  OPTIONAL { ?wikidata wdt:P571 ?start_date }
+  OPTIONAL { ?wikidata wdt:P576 ?end_date }
+}
+ORDER BY ASC(?name)

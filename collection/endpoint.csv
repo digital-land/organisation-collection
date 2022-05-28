@@ -1,1 +1,3 @@
 endpoint,endpoint-url,parameters,plugin,entry-date,start-date,end-date
+fc7a371a4f4ac4d478fbc91dcdd52f6a34296ca78f25cb35c112d22652f98032,https://raw.githubusercontent.com/digital-land/organisation-collection/main/data/development-corporation.csv,,,2022-05-27T19:19:57:44Z,,
+e4db640d9e14424f0957e2a84fb1e56e1c1c49a354bdc062a14651f334d22ce0,https://query.wikidata.org/sparql#sparql/wikidata/legislature.rq,,sparql,2022-05-28T06:06:55:12Z,,
