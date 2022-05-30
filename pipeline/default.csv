@@ -1,2 +1,3 @@
 dataset,resource,field,default-field,entry-date,start-date,end-date
 development-corporation,,reference,wikidata,,,
+public-authority,,reference,wikidata,,,
