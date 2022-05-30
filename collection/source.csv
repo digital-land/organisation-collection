@@ -1,5 +1,6 @@
 source,attribution,collection,documentation-url,endpoint,licence,organisation,pipelines,entry-date,start-date,end-date
 1a01b1a103efea9d4079e08bdbdfdb0f,crown-copyright,organisation,,fc7a371a4f4ac4d478fbc91dcdd52f6a34296ca78f25cb35c112d22652f98032,ogl3,government-organisation:D1342,development-corporation,2022-05-27T19:19:57:44Z,,
-1fc8f6b29b62b6e83670cdb1f914d01a,cc-by-sa,organisation,,e4db640d9e14424f0957e2a84fb1e56e1c1c49a354bdc062a14651f334d22ce0,wikidata,wikidata:Q2013,development-corporation,2022-05-28T06:06:46:14Z,,
-cc4762496ae77d3c6b35b32a1512e943,,organisation,,67b2b91aba2a69faab4e0603ae84125f7aa7e0c1516274fbbc2910bcf03e344a,,wikidata:Q2013,public-authority,2022-05-28T21:21:04:38Z,,
+1fc8f6b29b62b6e83670cdb1f914d01a,cc-by-sa,organisation,,e4db640d9e14424f0957e2a84fb1e56e1c1c49a354bdc062a14651f334d22ce0,wikidata,wikidata:Q180,development-corporation,2022-05-28T06:06:46:14Z,,
+cc4762496ae77d3c6b35b32a1512e943,,organisation,,67b2b91aba2a69faab4e0603ae84125f7aa7e0c1516274fbbc2910bcf03e344a,,wikidata:Q180,public-authority;nonprofit,2022-05-28T21:21:04:38Z,,
 bdd6b47a60047a302e8961f9d5a599a4,,organisation,,50dc792c5ae95b9471d476dcac3f20f7d65f1d9159bf00d7ccb9f46416c5b235,,government-organisation:D1342,public-authority,2022-05-30T14:14:21:13Z,,
+cdbf29d3b4b271f520cf61be0cf592d6,,organisation,,e2131de27e2569f7015d8bb93fff17f9d8f70ce271b8487653c5c7ec1a9470c8,,government-organisation:D1342,nonprofit,2022-05-30T14:14:49:28Z,,
