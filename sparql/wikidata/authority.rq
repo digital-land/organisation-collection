@@ -34,6 +34,7 @@ SELECT DISTINCT * WHERE {
   OPTIONAL { ?wikidata wdt:P856 ?website }
   OPTIONAL { ?wikidata wdt:P2002 ?twitter }
   OPTIONAL { ?wikidata wdt:P4527 ?parliament_thesaurus }
+  OPTIONAL { ?wikidata wdt:P2622 ?company }
   OPTIONAL { ?wikidata wdt:P571 ?start_date }
   OPTIONAL { ?wikidata wdt:P576 ?end_date }
 }
