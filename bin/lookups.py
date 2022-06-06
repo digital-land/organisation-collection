@@ -27,7 +27,7 @@ for row in csv.DictReader(open("var/cache/organisation.csv")):
         if row.get("wikidata", ""):
             add_curie("local-authority", row["wikidata"], entity)
 
-    for prefix in ["wikidata", "billing-authority", "esd-inventories", "addressbase-custodian", "company"]:
+    for prefix in ["wikidata", "billing-authority", "esd-inventories", "addressbase-custodian", "company", "statistical-geography"]:
         reference = row.get(prefix, "")
         if reference:
             add_curie(prefix, reference, entity)
