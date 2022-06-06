@@ -1,0 +1,39 @@
+SELECT DISTINCT * WHERE {
+
+  VALUES ?legislature {
+    wd:Q2097994 # Municipal corporation
+    wd:Q4321471 # County council
+    wd:Q5150900 # Combined authority
+    wd:Q21561328 # English unitary authority council
+    wd:Q19414242 # English metropolitan district council
+    wd:Q21561306 # English non-metropolitan district council
+    wd:Q21561350 # London borough council
+    wd:Q16690653 # Borough council
+    wd:Q80647952 # Strategic Regional Authority
+  }
+
+  ?wikidata wdt:P31 ?legislature .
+  ?wikidata wdt:P17 wd:Q145 .
+  ?wikidata schema:dateModified ?entry_date .
+  ?wikidata rdfs:label ?name .
+    FILTER (langMatches(lang(?name), "EN" ))
+  OPTIONAL { ?wikipedia schema:name ?sitelink ;
+                     schema:about ?wikidata ;
+                     schema:isPartOf <https://en.wikipedia.org/> .
+  }
+  OPTIONAL { ?wikidata wdt:P856 ?website }
+  OPTIONAL { ?wikidata wdt:P2002 ?twitter }
+  OPTIONAL { ?wikidata wdt:P4527 ?parliament_thesaurus }
+  OPTIONAL { ?wikidata wdt:P571 ?start_date }
+  OPTIONAL { ?wikidata wdt:P576 ?end_date }
+
+  # not strictly a property of the wikidata organisation
+  OPTIONAL { ?wikidata wdt:P836 ?statistical_geography }
+  FILTER ( ?wikidata != wd:Q105536186 )
+  FILTER ( ?wikidata != wd:Q16825588 )
+  FILTER ( ?wikidata != wd:Q105536187 )
+  FILTER ( ?wikidata != wd:Q105536188 )
+  FILTER ( ?wikidata != wd:Q105549349 )
+  FILTER ( ?wikidata != wd:Q13127715 )
+}
+ORDER BY ASC(?name)

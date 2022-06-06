@@ -1,1 +1,10 @@
-dataset,endpoint,field,value
+dataset,endpoint,field,value,start-date,end-date,entry-date
+development-corporation,,prefix,wikidata,,,
+government-organisation,,prefix,wikidata,,,
+local-authority,,prefix,wikidata,,,
+national-park-authority,,prefix,wikidata,,,
+nonprofit,,prefix,wikidata,,,
+passenger-transport-executive,,prefix,wikidata,,,
+public-authority,,prefix,wikidata,,,
+regional-park-authority,,prefix,wikidata,,,
+waste-authority,,prefix,wikidata,,,

@@ -1,0 +1,19 @@
+SELECT DISTINCT * WHERE {
+  ?wikidata wdt:P31 wd:Q6047836 .
+  ?wikidata schema:dateModified ?entry_date .
+  ?wikidata rdfs:label ?name .
+    FILTER (langMatches(lang(?name), "EN" ))
+  OPTIONAL { ?wikipedia schema:name ?sitelink ;
+                     schema:about ?wikidata ;
+                     schema:isPartOf <https://en.wikipedia.org/> .
+  }
+  OPTIONAL { ?wikidata wdt:P856 ?website }
+  OPTIONAL { ?wikidata wdt:P2002 ?twitter }
+  OPTIONAL { ?wikidata wdt:P4527 ?parliament_thesaurus }
+  OPTIONAL { ?wikidata wdt:P571 ?start_date }
+  OPTIONAL { ?wikidata wdt:P576 ?end_date }
+
+  # not strictly a property of the wikidata organisation
+  OPTIONAL { ?wikidata wdt:P836 ?statistical_geography }
+}
+ORDER BY ASC(?name)

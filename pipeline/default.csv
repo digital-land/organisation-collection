@@ -1,4 +1,10 @@
 dataset,resource,field,default-field,entry-date,start-date,end-date
 development-corporation,,reference,wikidata,,,
-public-authority,,reference,wikidata,,,
+government-organisation,,reference,wikidata,,,
+local-authority,,reference,wikidata,,,
+national-park-authority,,reference,wikidata,,,
 nonprofit,,reference,wikidata,,,
+passenger-transport-executive,,reference,wikidata,,,
+public-authority,,reference,wikidata,,,
+regional-park-authority,,reference,wikidata,,,
+waste-authority,,reference,wikidata,,,
