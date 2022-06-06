@@ -18,15 +18,23 @@ for row in csv.DictReader(open("var/cache/organisation.csv")):
     prefix, reference = row["organisation"].split(":")
     add_curie(prefix, reference, entity)
 
+    if row.get("wikidata", ""):
+        add_curie(prefix, row["wikidata"], entity)
+
     if prefix == "local-authority-eng":
         add_curie("local-authority", reference, entity)
         add_curie("local-authority", row["statistical-geography"], entity)
+        if row.get("wikidata", ""):
+            add_curie("local-authority", row["wikidata"], entity)
 
     for prefix in ["wikidata", "billing-authority", "esd-inventories", "addressbase-custodian", "company"]:
         reference = row.get(prefix, "")
         if reference:
             add_curie(prefix, reference, entity)
 
+
+for row in csv.DictReader(open("pipeline/lookup.csv")):
+    add_curie(row["prefix"], row["reference"], row["entity"])
 
 
 w = csv.DictWriter(
