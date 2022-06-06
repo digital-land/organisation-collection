@@ -67,7 +67,7 @@ local-authority,local-authority,CMD,LBO,Q5025790,London Borough of Camden,,E0900
 local-authority,local-authority,COL,NMD,Q73072586,Colchester Borough Council,,E07000071,,
 local-authority,local-authority,CON,UA,Q3774189,Cornwall Council,,E06000052,2009-04-01,
 local-authority,local-authority,COP,NMD,Q73072589,Copeland Borough Council,,E07000029,,
-local-authority,local-authority,COR,NMD,Q73072591,Corby Borough Council,,E07000150,2020-03-31,
+local-authority,local-authority,COR,NMD,Q73072591,Corby Borough Council,,E07000150,1974-04-01,2021-03-31
 local-authority,local-authority,COT,NMD,Q5175478,Cotswold District Council,,E07000079,,
 local-authority,local-authority,COV,MD,Q5179058,Coventry City Council,WMCA,E08000026,1974-04-01,
 local-authority,local-authority,CPCA,COMB,Q28451058,Cambridgeshire and Peterborough Combined Authority,,E47000008,2014-04-01,
@@ -77,7 +77,7 @@ local-authority,local-authority,CRY,LBO,Q5189676,London Borough of Croydon,,E090
 local-authority,local-authority,DAC,NMD,Q5207723,Dacorum Borough Council,,E07000096,,
 local-authority,local-authority,DAL,UA,Q16948698,Darlington Borough Council,TVCA,E06000005,1997-04-01,
 local-authority,local-authority,DAR,NMD,Q55098919,Dartford Borough Council,,E07000107,,
-local-authority,local-authority,DAV,NMD,Q73072596,Daventry District Council,,E07000151,2020-03-31,
+local-authority,local-authority,DAV,NMD,Q73072596,Daventry District Council,,E07000151,1974-04-01,2021-03-31
 local-authority,local-authority,DBY,CTY,Q5261561,Derbyshire County Council,,E10000007,,
 local-authority,local-authority,DEB,NMD,Q73072598,Derbyshire Dales District Council,,E07000035,,
 local-authority,local-authority,DER,UA,Q5261430,Derby City Council,,E06000015,,
@@ -100,7 +100,7 @@ local-authority,local-authority,EHE,NMD,Q5328577,East Hertfordshire District Cou
 local-authority,local-authority,ELI,NMD,Q73072603,East Lindsey District Council,,E07000137,,
 local-authority,local-authority,ELM,NMD,Q73072615,Elmbridge Borough Council,,E07000207,,
 local-authority,local-authority,ENF,LBO,Q5377310,London Borough of Enfield,,E09000010,,
-local-authority,local-authority,ENO,NMD,Q73072604,East Northamptonshire Council,,E07000152,2020-03-31,
+local-authority,local-authority,ENO,NMD,Q73072604,East Northamptonshire Council,,E07000152,1974-04-01,2021-03-31
 local-authority,local-authority,EPP,NMD,Q73072617,Epping Forest District Council,,E07000072,,
 local-authority,local-authority,EPS,NMD,Q73072619,Epsom and Ewell Borough Council,,E07000208,,
 local-authority,local-authority,ERE,NMD,Q73072621,Erewash Borough Council,,E07000036,,
@@ -157,7 +157,7 @@ local-authority,local-authority,IPS,NMD,Q16191496,Ipswich Borough Council,,E0700
 local-authority,local-authority,ISL,LBO,Q6084379,London Borough of Islington,,E09000019,,
 local-authority,local-authority,KEC,LBO,Q6391507,Royal Borough of Kensington and Chelsea,,E09000020,,
 local-authority,local-authority,KEN,CTY,Q6386127,Kent County Council,,E10000016,,
-local-authority,local-authority,KET,NMD,Q6395462,Kettering Borough Council,,E07000153,2020-03-31,
+local-authority,local-authority,KET,NMD,Q6395462,Kettering Borough Council,,E07000153,1974-04-01,2021-03-31
 local-authority,local-authority,KHL,UA,Q5935834,Hull City Council,,E06000010,1996-04-01,
 local-authority,local-authority,KIN,NMD,Q73072537,Borough Council of King's Lynn and West Norfolk,,E07000146,,
 local-authority,local-authority,KIR,MD,Q16995709,Kirklees Council,WYCA,E08000034,1974-04-01,
@@ -209,12 +209,12 @@ local-authority,local-authority,NHE,NMD,Q7055592,North Hertfordshire District Co
 local-authority,local-authority,NKE,NMD,Q28401189,North Kesteven District Council,,E07000139,,
 local-authority,local-authority,NLN,UA,Q17016863,North Lincolnshire Council,,E06000013,1996-04-01,
 local-authority,local-authority,NNO,NMD,Q73072695,North Norfolk District Council,,E07000147,,
-local-authority,local-authority,NNUA,UA,Q60790121,North Northamtonshire Council,,E06000061,2020-04-01,
-local-authority,local-authority,NOR,NMD,Q73072702,Northampton Borough Council,,E07000154,2020-03-31,
+local-authority,local-authority,NNUA,UA,Q111232446,North Northamtonshire Council,,E06000061,2020-04-01,
+local-authority,local-authority,NOR,NMD,Q73072702,Northampton Borough Council,,E07000154,1974-04-01,2020-03-31,
 local-authority,local-authority,NOW,NMD,Q17012769,Norwich City Council,,E07000148,,
 local-authority,local-authority,NSM,UA,Q17016922,North Somerset  Council,,E06000024,1996-04-01,
 local-authority,local-authority,NTCA,COMB,Q55136954,North of Tyne Combined Authority,,E47000011,2018-11-02,
-local-authority,local-authority,NTH,CTY,Q14942414,Northamptonshire County Council,,E10000021,1974-04-01,2021-04-01
+local-authority,local-authority,NTH,CTY,Q14942414,Northamptonshire County Council,,E10000021,1974-04-01,2021-03-31
 local-authority,local-authority,NTT,CTY,Q16934215,Nottinghamshire County Council,,E10000024,1937-01-01,
 local-authority,local-authority,NTY,MD,Q17017005,North Tyneside Council,NTCA,E08000022,1974-04-01,
 local-authority,local-authority,NUN,NMD,Q73072703,Nuneaton and Bedworth Borough Council,,E07000219,,
@@ -279,7 +279,7 @@ local-authority,local-authority,SLF,MD,Q17020402,Salford City Council,GMCA,E0800
 local-authority,local-authority,SLG,UA,Q7541466,Slough Borough Council,,E06000039,1998-04-01,
 local-authority,local-authority,SND,MD,Q17022675,Sunderland City Council,NECA,E08000024,1905-05-27,
 local-authority,local-authority,SNO,NMD,Q73072752,South Norfolk District Council,,E07000149,,
-local-authority,local-authority,SNR,NMD,Q105544722,South Northamptonshire Council,,E07000155,2020-03-31,
+local-authority,local-authority,SNR,NMD,Q105544722,South Northamptonshire Council,,E07000155,1974-04-01,2021-03-31
 local-authority,local-authority,SOL,MD,Q17021590,Solihull Metropolitan Borough Council,WMCA,E08000029,1905-05-27,
 local-authority,local-authority,SOM,CTY,Q6386270,Somerset County Council,,E10000027,,
 local-authority,local-authority,SOS,UA,Q7569516,Southend-on-Sea Borough Council,,E06000033,1905-06-20,
@@ -337,7 +337,7 @@ local-authority,local-authority,WDE,NMD,Q73072823,West Devon Borough Council,,E0
 local-authority,local-authority,WDO,NMD,Q73072826,West Dorset District Council,,E07000052,,2019-03-31
 local-authority,local-authority,WEA,NMD,Q73072817,Wealden District Council,,E07000065,,
 local-authority,local-authority,WECA,COMB,Q24993670,West of England Combined Authority,,E47000009,2017-02-09,
-local-authority,local-authority,WEL,NMD,Q73072820,Wellingborough Borough Council,,E07000156,2020-03-31,
+local-authority,local-authority,WEL,NMD,Q73072820,Wellingborough Borough Council,,E07000156,1974-04-01,2021-03-31
 local-authority,local-authority,WEW,NMD,Q7982137,Welwyn Hatfield Borough Council,,E07000241,,
 local-authority,local-authority,WEY,NMD,Q73072840,Weymouth and Portland Borough Council,,E07000053,,2019-03-31
 local-authority,local-authority,WFT,LBO,Q7966606,London Borough of Waltham Forest,,E09000031,,
@@ -352,7 +352,7 @@ local-authority,local-authority,WLV,MD,Q8030462,City of Wolverhampton Council,WM
 local-authority,local-authority,WMCA,COMB,Q21061625,West Midlands Combined Authority,,E47000007,2016-06-17,
 local-authority,local-authority,WND,LBO,Q7967311,London Borough of Wandsworth,,E09000032,,
 local-authority,local-authority,WNM,UA,Q6391507,Royal Borough of Windsor and Maidenhead,,E06000040,1905-06-20,
-local-authority,local-authority,WNUA,UA,Q60790129,West Northamtonshire Council,,E06000062,2020-04-01,
+local-authority,local-authority,WNUA,UA,Q111232469,West Northamtonshire Council,,E06000062,2020-04-01,
 local-authority,local-authority,WOC,NMD,Q73072848,Worcester City Council,,E07000237,,
 local-authority,local-authority,WOI,NMD,Q73072846,Woking Borough Council,,E07000217,,
 local-authority,local-authority,WOK,UA,Q17039435,Wokingham Borough Council,,E06000041,1905-06-20,
