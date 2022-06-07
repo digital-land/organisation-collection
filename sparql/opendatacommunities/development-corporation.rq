@@ -8,5 +8,6 @@ SELECT DISTINCT * WHERE {
     ?opendatacommunities rdf:type localgov:DevelopmentCorporation .
     { ?opendatacommunities rdfs:label ?name }
     { ?opendatacommunities os:gssCode ?statistical_geography}
+    OPTIONAL { ?opendatacommunities localgov:billingAuthorityCode ?billing_authority }
 }
 ORDER BY ASC(?name)
