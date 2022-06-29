@@ -1,0 +1,30 @@
+PREFIX localgov: <http://opendatacommunities.org/def/local-government/>
+PREFIX admingeo: <http://opendatacommunities.org/ontology/admingeo/>
+PREFIX foi: <http://publishmydata.com/def/ontology/foi/>
+PREFIX os: <http://data.ordnancesurvey.co.uk/ontology/admingeo/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT * WHERE {
+
+    VALUES ?opendatacommunities_type {
+        localgov:CombinedAuthority
+        localgov:UnitaryAuthority
+        localgov:DistrictCouncil
+        localgov:LocalAuthority
+    }
+    ?opendatacommunities_uri rdf:type ?opendatacommunities_type .
+
+    { ?opendatacommunities_uri rdfs:label ?name }
+
+    OPTIONAL { ?opendatacommunities_uri os:gssCode ?statistical_geography }
+    OPTIONAL { ?opendatacommunities_uri localgov:billingAuthorityCode ?billing_authority }
+    OPTIONAL { ?opendatacommunities_uri os:hasCensusCode ?census_area }
+    OPTIONAL { ?opendatacommunities_uri admingeo:gdsCode ?local_authority }
+    OPTIONAL { ?opendatacommunities_uri admingeo:gdsTypeCode ?local_authority_type }
+    OPTIONAL { ?opendatacommunities_uri admingeo:gdsName ?area_name }
+    OPTIONAL { ?opendatacommunities_uri admingeo:gdsOfficialName ?official_name }
+    OPTIONAL { ?opendatacommunities_uri admingeo:startDate ?start_date }
+    OPTIONAL { ?opendatacommunities_uri admingeo:endDate ?end_date }
+}
+ORDER BY ASC(?name)

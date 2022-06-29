@@ -37,7 +37,7 @@ SELECT DISTINCT * WHERE {
 
     OPTIONAL { ?opendatacommunities admingeo:gdsCode ?local_authority_eng }
     OPTIONAL { ?opendatacommunities admingeo:gdsTypeCode ?local_authority_type }
-    OPTIONAL { ?opendatacommunities admingeo:gdsName ?name }
+    OPTIONAL { ?opendatacommunities admingeo:gdsName ?area_name }
     OPTIONAL { ?opendatacommunities admingeo:gdsOfficialName ?official_name }
     OPTIONAL { ?opendatacommunities admingeo:startDate ?start_date }
     OPTIONAL { ?opendatacommunities admingeo:endDate ?end_date }

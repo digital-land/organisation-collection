@@ -5,9 +5,9 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT DISTINCT * WHERE {
-    ?opendatacommunities rdf:type localgov:DevelopmentCorporation .
-    { ?opendatacommunities rdfs:label ?name }
-    { ?opendatacommunities os:gssCode ?statistical_geography}
-    OPTIONAL { ?opendatacommunities localgov:billingAuthorityCode ?billing_authority }
+    ?opendatacommunities_uri rdf:type localgov:DevelopmentCorporation .
+    { ?opendatacommunities_uri rdfs:label ?name }
+    { ?opendatacommunities_uri os:gssCode ?statistical_geography}
+    OPTIONAL { ?opendatacommunities_uri localgov:billingAuthorityCode ?billing_authority }
 }
 ORDER BY ASC(?name)

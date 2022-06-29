@@ -1,7 +1,9 @@
 dataset,endpoint,field,value,start-date,end-date,entry-date
 development-corporation,,prefix,wikidata,,,
+development-corporation,61126147b7b754003c06857b4d09a562eb1daaf682acebc07731914b20934921,prefix,statistical-geography,,,
 government-organisation,,prefix,wikidata,,,
 local-authority,,prefix,wikidata,,,
+local-authority,9d88e786be4678cd08af282ea63c39ac9280d1e11438d38c17fb8fec47f6bef3,prefix,statistical-geography,,,
 national-park-authority,,prefix,wikidata,,,
 national-park-authority,50b747102edf6443770c69067d781941798488f16281bddcf1dbece5f4ee7e5d,prefix,billing-authority,,,
 nonprofit,,prefix,wikidata,,,
