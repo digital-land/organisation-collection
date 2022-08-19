@@ -70,7 +70,7 @@ define build-dataset =
 	time datasette inspect $(basename $@).sqlite3 --inspect-file=$(basename $@).sqlite3.json
 	time digital-land --dataset $(notdir $(basename $@)) dataset-entries $(basename $@).sqlite3 $@
 	mkdir -p $(HOISTED_DIR)
-	time digital-land --dataset $(notdir $(basename $@)) dataset-entries-hoisted $@ $(HOISTED_DIR)$(notdir $(basename $@))-hoisted.csv
+	time digital-land --dataset $(notdir $(basename $@)) dataset-entries-hoisted $@ $(HOISTED_DIR)$(notdir $(basename $@)).csv
 	md5sum $@ $(basename $@).sqlite3
 	csvstack $(wildcard $(ISSUE_DIR)/$(notdir $(basename $@))/*.csv) > $(basename $@)-issue.csv
 endef
@@ -121,7 +121,7 @@ save-transformed::
 save-dataset::
 	aws s3 sync $(DATASET_DIR) s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(REPOSITORY)/$(DATASET_DIR) --no-progress
 	@mkdir -p $(HOISTED_DIR)
-	aws s3 sync $(HOISTED_DIR) s3://$(HOISTED_COLLECTION_DATASET_BUCKET_NAME)/ --no-progress
+	aws s3 sync $(HOISTED_DIR) s3://$(HOISTED_COLLECTION_DATASET_BUCKET_NAME)/data/ --no-progress
 
 # convert an individual resource
 # .. this assumes conversion is the same for every dataset, but it may not be soon
