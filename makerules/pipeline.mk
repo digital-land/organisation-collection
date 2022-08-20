@@ -45,8 +45,8 @@ ifeq ($(DATASET_DIR),)
 DATASET_DIR=dataset/
 endif
 
-ifeq ($(HOISTED_DIR),)
-HOISTED_DIR=hoisted/
+ifeq ($(FLATTENED_DIR),)
+FLATTENED_DIR=flattened/
 endif
 
 ifeq ($(DATASET_DIRS),)
@@ -56,7 +56,7 @@ DATASET_DIRS=\
 	$(DATASET_RESOURCE_DIR)\
 	$(ISSUE_DIR)\
 	$(DATASET_DIR)\
-	$(HOISTED_DIR)
+	$(FLATTENED_DIR)
 endif
 
 define run-pipeline
@@ -69,8 +69,8 @@ define build-dataset =
 	time digital-land --dataset $(notdir $(basename $@)) dataset-create --output-path $(basename $@).sqlite3 $(^)
 	time datasette inspect $(basename $@).sqlite3 --inspect-file=$(basename $@).sqlite3.json
 	time digital-land --dataset $(notdir $(basename $@)) dataset-entries $(basename $@).sqlite3 $@
-	mkdir -p $(HOISTED_DIR)
-	time digital-land --dataset $(notdir $(basename $@)) dataset-entries-hoisted $@ $(HOISTED_DIR)$(notdir $(basename $@)).csv
+	mkdir -p $(FLATTENED_DIR)
+	time digital-land --dataset $(notdir $(basename $@)) dataset-entries-flattened $@ $(FLATTENED_DIR)
 	md5sum $@ $(basename $@).sqlite3
 	csvstack $(wildcard $(ISSUE_DIR)/$(notdir $(basename $@))/*.csv) > $(basename $@)-issue.csv
 endef
@@ -120,8 +120,8 @@ save-transformed::
 
 save-dataset::
 	aws s3 sync $(DATASET_DIR) s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(REPOSITORY)/$(DATASET_DIR) --no-progress
-	@mkdir -p $(HOISTED_DIR)
-	aws s3 sync $(HOISTED_DIR) s3://$(HOISTED_COLLECTION_DATASET_BUCKET_NAME)/data/ --no-progress
+	@mkdir -p $(FLATTENED_DIR)
+	aws s3 sync $(FLATTENED_DIR) s3://$(HOISTED_COLLECTION_DATASET_BUCKET_NAME)/data/ --no-progress
 
 # convert an individual resource
 # .. this assumes conversion is the same for every dataset, but it may not be soon
