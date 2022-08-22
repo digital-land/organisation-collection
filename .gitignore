@@ -24,6 +24,7 @@ specification/
 collection/resource/
 dataset/
 transformed/
+flattened/
 issue/
 hoisted/
 
