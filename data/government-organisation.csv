@@ -1,20 +1,20 @@
-dataset,prefix,reference,wikidata
-government-organisation,government-organisation,D1342,Q601819
-government-organisation,government-organisation,D303,Q1334971
-government-organisation,government-organisation,D38,Q548721
-government-organisation,government-organisation,D4,Q601819
-government-organisation,government-organisation,D69,Q5635120
-government-organisation,government-organisation,D7,Q3044721
-government-organisation,government-organisation,EA39,Q7201367
-government-organisation,government-organisation,EA87,Q7912696
-government-organisation,government-organisation,PB1164,Q19604421
-government-organisation,government-organisation,PB1204,Q81075624
-government-organisation,government-organisation,PB1218,Q65071973
-government-organisation,government-organisation,PB1232,Q5890410
-government-organisation,government-organisation,PB160,Q39045922
-government-organisation,government-organisation,PB202,Q1699627
-government-organisation,government-organisation,PB207,Q1478750
-government-organisation,government-organisation,PB372,Q39046108
-government-organisation,government-organisation,PB373,Q81054630
-government-organisation,government-organisation,PB375,Q81056025
-government-organisation,government-organisation,PC163,Q4787008
+dataset,prefix,reference,wikidata,wikipedia,name,website,twitter,statistical-geography,opendatacommunities,opendatacommunities-area,billing-authority,company,start-date,end-date
+government-organisation,government-organisation,D1342,Q601819,https://en.wikipedia.org/wiki/Department_for_Levelling_Up,"Department for Levelling Up, Housing and Communities",https://www.gov.uk/government/organisations/department-for-levelling-up-housing-and-communities,luhc,,,,,,2021-09-20,
+government-organisation,government-organisation,D303,Q1334971,https://en.wikipedia.org/wiki/Office_for_National_Statistics,Office for National Statistics,https://www.ons.gov.uk,ONS,,,,,,1996-04-01,
+government-organisation,government-organisation,D38,Q548721,https://en.wikipedia.org/wiki/Ordnance_Survey,Ordnance Survey,https://www.gov.uk/government/organisations/ordnance-survey,ordnancesurvey,,,,,09121572,1791-01-01,
+government-organisation,government-organisation,D4,Q601819,"https://en.wikipedia.org/wiki/Department_for_Levelling_Up,_Housing_and_Communities","Ministry of Housing, Communities and Local Government",https://www.gov.uk/government/organisations/ministry-of-housing-communities-and-local-government,mhclg,,http://opendatacommunities.org/def/concept/folders/organisations/department-for-communities-and-local-government,,,,2006-05-01,2021-09-20
+government-organisation,government-organisation,D69,Q5635120,https://en.wikipedia.org/wiki/HM_Land_Registry,HM Land Registry,https://www.gov.uk/government/organisations/land-registry,hmlandregistry,,,,,,1862-01-01,
+government-organisation,government-organisation,D7,Q3044721,"https://en.wikipedia.org/wiki/Department_for_Environment,_Food_and_Rural_Affairs","Department for Environment, Food & Rural Affairs",https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs,defragovuk,,,,,,2001-01-01,
+government-organisation,government-organisation,EA39,Q7201367,https://en.wikipedia.org/wiki/Planning_Inspectorate,Planning Inspectorate,https://www.gov.uk/government/organisations/planning-inspectorate,PINSgov,,http://opendatacommunities.org/def/concept/folders/organisations/the-planning-inspectorate,,,,,
+government-organisation,government-organisation,EA87,Q7912696,https://en.wikipedia.org/wiki/Valuation_Office_Agency,Valuation Office Agency,https://www.gov.uk/government/organisations/valuation-office-agency,,,,,,,,
+government-organisation,government-organisation,PB1164,Q19604421,https://en.wikipedia.org/wiki/Historic_England,Historic England,https://historicengland.org.uk,,,,,,,1984-01-01,
+government-organisation,government-organisation,PB1204,Q81075624,,Valuation Tribunal for England,https://www.gov.uk/government/organisations/valuation-tribunal-for-england,,,,,,,,
+government-organisation,government-organisation,PB1218,Q65071973,https://en.wikipedia.org/wiki/Regulator_of_Social_Housing,Regulator of Social Housing,https://www.gov.uk/government/organisations/regulator-of-social-housing,rshengland,,,,,,2018-01-01,
+government-organisation,government-organisation,PB1232,Q5890410,https://en.wikipedia.org/wiki/Homes_England,Homes England,https://www.gov.uk/government/organisations/homes-england,HomesEngland,,http://opendatacommunities.org/def/concept/folders/organisations/the-homes-and-communities-agency,,,,2018-01-01,
+government-organisation,government-organisation,PB160,Q39045922,https://en.wikipedia.org/wiki/Building_Regulations_Advisory_Committee,Building Regulations Advisory Committee,https://www.gov.uk/government/organisations/building-regulations-advisory-committee,,,,,,,,
+government-organisation,government-organisation,PB202,Q1699627,,Natural England,https://www.gov.uk/government/organisations/natural-england,,,,,,,,
+government-organisation,government-organisation,PB207,Q1478750,https://en.wikipedia.org/wiki/Health_and_Safety_Executive,Health and Safety Executive,https://www.gov.uk/government/organisations/health-and-safety-executive,h_s_e,,,,,,,
+government-organisation,government-organisation,PB372,Q39046108,https://en.wikipedia.org/wiki/Housing_Ombudsman,Housing Ombudsman,https://www.housing-ombudsman.org.uk,housingombuds,,,,,,,
+government-organisation,government-organisation,PB373,Q81054630,,Leasehold Advisory Service,https://www.gov.uk/government/organisations/leasehold-advisory-service,,,,,,03296985,,
+government-organisation,government-organisation,PB375,Q81056025,,Valuation Tribunal Service,https://www.gov.uk/government/organisations/valuation-tribunal-service-for-england-valuation-tribunal-service,,,,,,,,
+government-organisation,government-organisation,PC163,Q4787008,https://en.wikipedia.org/wiki/Architects_Registration_Board,Architects Registration Board,https://www.gov.uk/government/organisations/architects-registration-board,,,,,,,,
