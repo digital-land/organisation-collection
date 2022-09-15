@@ -1,0 +1,9 @@
+dataset,reference,name,wikipedia,wikidata
+local-authority-type,COMB,Combined Authority,Combined_authority,Q5150900
+local-authority-type,SRA,Strategic Regional Authority,,Q80647952
+local-authority-type,CC,City Corporation,Municipal_corporation,Q1094147
+local-authority-type,UA,Unitary Authority,Unitary_authorities_of_England,Q21561328
+local-authority-type,MD,Metropolitan District,Metropolitan_borough,Q1002812
+local-authority-type,NMD,Non-metropolitan district,Non-metropolitan_district,Q1187580
+local-authority-type,LBO,London Borough,London_boroughs,Q211690
+local-authority-type,CTY,County,,Q110417190
