@@ -3483,3 +3483,11 @@ wikidata,Q111232446,8700002
 local-authority,Q111232469,8700003
 wikidata,Q111232469,8700003
 wikidata,Q54817549,15300000
+local-authority-type,COMB,8800000
+local-authority-type,SRA,8800001
+local-authority-type,CC,8800002
+local-authority-type,UA,8800003
+local-authority-type,MD,8800004
+local-authority-type,NMD,8800005
+local-authority-type,LBO,8800006
+local-authority-type,CTY,8800007
