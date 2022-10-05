@@ -73,6 +73,10 @@ define build-dataset =
 	time digital-land --dataset $(notdir $(basename $@)) dataset-entries-flattened $@ $(FLATTENED_DIR)
 	md5sum $@ $(basename $@).sqlite3
 	csvstack $(wildcard $(ISSUE_DIR)/$(notdir $(basename $@))/*.csv) > $(basename $@)-issue.csv
+	mkdir -p $(EXPECTATION_DIR)yamls/data_acceptance/
+	mkdir -p $(EXPECTATION_DIR)results/data_acceptance/$(notdir $(basename $@))
+	-curl -qsfL 'https://raw.githubusercontent.com/digital-land/expectations-config/main/dataset_acceptance/$(notdir $(basename $@)).yaml' > $(EXPECTATION_DIR)yamls/data_acceptance/$(notdir $(basename $@)).yaml
+	time digital-land expectations --results-path "$(EXPECTATION_DIR)results/data_acceptance/$(notdir $(basename $@))" --sqlite-dataset-path "$(basename $@).sqlite3" --data-quality-yaml "$(EXPECTATION_DIR)yamls/data_acceptance/$(notdir $(basename $@)).yaml"
 endef
 
 collection::
@@ -122,6 +126,10 @@ save-dataset::
 	aws s3 sync $(DATASET_DIR) s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(REPOSITORY)/$(DATASET_DIR) --no-progress
 	@mkdir -p $(FLATTENED_DIR)
 	aws s3 sync $(FLATTENED_DIR) s3://$(HOISTED_COLLECTION_DATASET_BUCKET_NAME)/data/ --no-progress
+
+save-expectations::
+	@mkdir -p $(EXPECTATION_DIR)results/
+	aws s3 sync $(EXPECTATION_DIR)results/ s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(REPOSITORY)/$(EXPECTATION_DIR)
 
 # convert an individual resource
 # .. this assumes conversion is the same for every dataset, but it may not be soon
