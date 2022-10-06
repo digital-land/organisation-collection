@@ -95,11 +95,14 @@ init::
 	pip install csvkit
 ifndef GDAL
 ifeq ($(UNAME),Darwin)
-$(error GDAL tools not found in PATH)
+	$(error GDAL tools not found in PATH)
 endif
 	sudo apt-get install gdal-bin
 endif
 	pyproj sync --file uk_os_OSTN15_NTv2_OSGBtoETRS.tif -v
+ifeq ($(UNAME),Linux)
+	sudo apt-get install libsqlite3-mod-spatialite
+endif
 
 
 clobber::
