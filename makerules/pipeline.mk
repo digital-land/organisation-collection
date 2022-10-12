@@ -77,10 +77,10 @@ define build-dataset =
 	time digital-land --dataset $(notdir $(basename $@)) dataset-entries-flattened $@ $(FLATTENED_DIR)
 	md5sum $@ $(basename $@).sqlite3
 	csvstack $(wildcard $(ISSUE_DIR)/$(notdir $(basename $@))/*.csv) > $(basename $@)-issue.csv
-	mkdir -p $(EXPECTATION_DIR)yamls/data_acceptance/
-	mkdir -p $(EXPECTATION_DIR)results/data_acceptance/$(notdir $(basename $@))
-	-curl -qsfL 'https://raw.githubusercontent.com/digital-land/expectations-config/main/dataset_acceptance/$(notdir $(basename $@)).yaml' > $(EXPECTATION_DIR)yamls/data_acceptance/$(notdir $(basename $@)).yaml
-	time digital-land expectations --results-path "$(EXPECTATION_DIR)results/data_acceptance/$(notdir $(basename $@))" --sqlite-dataset-path "$(basename $@).sqlite3" --data-quality-yaml "$(EXPECTATION_DIR)yamls/data_acceptance/$(notdir $(basename $@)).yaml"
+	mkdir -p $(EXPECTATION_DIR)yamls/dataset_acceptance/
+	mkdir -p $(EXPECTATION_DIR)results/dataset_acceptance/$(notdir $(basename $@))
+	-curl -qsfL 'https://raw.githubusercontent.com/digital-land/expectations-config/main/dataset_acceptance/$(notdir $(basename $@)).yaml' > $(EXPECTATION_DIR)yamls/dataset_acceptance/$(notdir $(basename $@)).yaml
+	time digital-land expectations --results-path "$(EXPECTATION_DIR)results/dataset_acceptance/$(notdir $(basename $@))" --sqlite-dataset-path "$(basename $@).sqlite3" --data-quality-yaml "$(EXPECTATION_DIR)yamls/dataset_acceptance/$(notdir $(basename $@)).yaml"
 endef
 
 collection::
