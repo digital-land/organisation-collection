@@ -76,7 +76,7 @@ define build-dataset =
 	mkdir -p $(FLATTENED_DIR)
 	time digital-land --dataset $(notdir $(basename $@)) dataset-entries-flattened $@ $(FLATTENED_DIR)
 	md5sum $@ $(basename $@).sqlite3
-	csvstack $(wildcard $(ISSUE_DIR)/$(notdir $(basename $@))/*.csv) > $(basename $@)-issue.csv
+	csvstack $(ISSUE_DIR)$(notdir $(basename $@))/*.csv > $(basename $@)-issue.csv
 	mkdir -p $(EXPECTATION_DIR)yamls/dataset_acceptance/
 	mkdir -p $(EXPECTATION_DIR)results/dataset_acceptance/$(notdir $(basename $@))
 	-curl -qsfL 'https://raw.githubusercontent.com/digital-land/expectations-config/main/dataset_acceptance/$(notdir $(basename $@)).yaml' > $(EXPECTATION_DIR)yamls/dataset_acceptance/$(notdir $(basename $@)).yaml
