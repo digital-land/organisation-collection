@@ -13,7 +13,7 @@ RESOURCE_DIR=$(COLLECTION_DIR)resource/
 endif
 
 ifeq ($(DATASTORE_URL),)
-DATASTORE_URL=https://$(COLLECTION_DATASET_BUCKET_NAME).s3.eu-west-2.amazonaws.com/
+DATASTORE_URL=https://files.planning.data.gov.uk/
 endif
 
 
