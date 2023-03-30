@@ -129,7 +129,6 @@ ifeq ($(UNAME),Linux)
 	sudo apt-get install libsqlite3-mod-spatialite
 endif
 
-
 clobber::
 	rm -rf $(DATASET_DIRS)
 
@@ -137,9 +136,7 @@ clean::
 	rm -rf ./var
 
 # local copy of the organisation dataset
-init::
-	@mkdir -p $(CACHE_DIR)
-	curl -qfs "https://raw.githubusercontent.com/digital-land/organisation-dataset/main/collection/organisation.csv" > $(CACHE_DIR)organisation.csv
+init::	$(CACHE_DIR)organisation.csv
 
 makerules::
 	curl -qfsL '$(SOURCE_URL)/makerules/main/pipeline.mk' > makerules/pipeline.mk
