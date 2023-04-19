@@ -1,4 +1,4 @@
-dataset,prefix,reference,local-authority-type,wikidata,name,combined-authority,statistical-geography,start-date,end-date
+dataset,prefix,reference,local-authority-type,wikidata,name,combined-authority,local-authority-district,start-date,end-date
 local-authority,local-authority,ADU,NMD,Q72980889,Adur District Council,,E07000223,,
 local-authority,local-authority,ALL,NMD,Q72980920,Allerdale Borough Council,,E07000026,,
 local-authority,local-authority,AMB,NMD,Q72980961,Amber Valley Borough Council,,E07000032,,
