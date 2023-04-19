@@ -4,6 +4,7 @@ development-corporation,f75db53a40b54aa089cca481d64b5a2ef39693030d971af8b38fdfe8
 government-organisation,,reference,wikidata,,,
 local-authority,,reference,wikidata,,,
 local-authority,f17de6edcb81f752d947d0cbc269b7dc39ead43d476c7ae0e2c769449e3c2298,reference,statistical-geography,,,
+local-authority,,statistical-geography,local-authority-district,,,
 national-park-authority,,reference,wikidata,,,
 national-park-authority,73754f2dbbe30067530c6932ffec969218970ec4d2920b9d40a2803d3497b258,reference,billing-authority,,,
 nonprofit,,reference,wikidata,,,
