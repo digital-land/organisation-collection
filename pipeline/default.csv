@@ -1,0 +1,13 @@
+dataset,default-field,end-date,endpoint,entry-date,entry-number,field,resource,start-date
+development-corporation,wikidata,,,,,reference,,
+development-corporation,statistical-geography,,,,,reference,f75db53a40b54aa089cca481d64b5a2ef39693030d971af8b38fdfe8b00349a4,
+government-organisation,wikidata,,,,,reference,,
+local-authority,wikidata,,,,,reference,,
+local-authority,statistical-geography,,,,,reference,f17de6edcb81f752d947d0cbc269b7dc39ead43d476c7ae0e2c769449e3c2298,
+national-park-authority,wikidata,,,,,reference,,
+national-park-authority,billing-authority,,,,,reference,73754f2dbbe30067530c6932ffec969218970ec4d2920b9d40a2803d3497b258,
+nonprofit,wikidata,,,,,reference,,
+passenger-transport-executive,wikidata,,,,,reference,,
+public-authority,wikidata,,,,,reference,,
+regional-park-authority,wikidata,,,,,reference,,
+waste-authority,wikidata,,,,,reference,,
