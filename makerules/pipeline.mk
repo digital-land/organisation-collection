@@ -126,7 +126,7 @@ endif
 endif
 	pyproj sync --file uk_os_OSTN15_NTv2_OSGBtoETRS.tif -v
 ifeq ($(UNAME),Linux)
-	sudo apt-get install libsqlite3-mod-spatialite
+	dpkg-query -W libsqlite3-mod-spatialite >/dev/null 2>&1 || sudo apt-get install libsqlite3-mod-spatialite
 endif
 
 clobber::
