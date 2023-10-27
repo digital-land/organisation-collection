@@ -17,6 +17,6 @@ ORGANISATION_DATASETS=\
 	$(WASTE_AUTHORITY_DATASET)
 
 dataset/organisation.csv: $(ORGANISATION_DATASETS)
-	python3 bin/organisation.py $@ $(ORGANISATION_DATASETS)
+	python3 bin/create_organisation_csv.py --output-path $@ 
 
 dataset:: dataset/organisation.csv
