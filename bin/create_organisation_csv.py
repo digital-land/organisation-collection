@@ -42,24 +42,6 @@ def create_org_csv_cli(flattened_dir, specification_dir,output_path):
         w.writeheader()
         w.writerows(orgs)
 
-    # old_org_field_list = 'organisation,entity,wikidata,name,website,twitter,statistical-geography,boundary,toid,opendatacommunities,opendatacommunities-area,billing-authority,census-area,local-authority-type,government-organisation,combined-authority,esd-inventories,local-resilience-forum,region,addressbase-custodian,company,wikipedia,start-date,end-date'
-    # old_org_field_list = old_org_field_list.split(',')
-    # for old_field in old_org_field_list:
-    #     if old_field not in org_field_names:
-    #         print(old_field)
-
-    # quick comparison to old organisationcsv
-    # old_orgs = []
-    # for row in csv.DictReader(open(filepath, newline="")):  
-            # hack to replace "_" with "-" in fieldnames
-        # row = { k.replace("_", "-"): v for k, v in row.items() }
-        # if not row.get('organisation',None):
-        #     row['organisation'] = row['dataset'] + ':' + row['reference']
-        # old_org = {k:v for k,v in row.items() if k  in org_field_names}
-        # old_orgs.append(old_org)
-    
-    # print(orgs)
-
     return
 
 
