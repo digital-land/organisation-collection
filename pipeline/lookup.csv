@@ -3494,5 +3494,5 @@ local-authority-type,CTY,8800007
 government-organisation,EA199,600009
 local-authority,CUA,10000
 local-authority,WFUA,10001
-local-authority,NYUA,10003
-local-authority,SUA,10004
+local-authority,NYUA,10004
+local-authority,SUA,10003
