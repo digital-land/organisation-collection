@@ -1,377 +1,377 @@
-dataset,prefix,reference,local-authority-type,wikidata,name,combined-authority,local-authority-district,local-planning-authority,start-date,end-date
-local-authority,local-authority,ADU,NMD,Q72980889,Adur District Council,,E07000223,E60000281,,
-local-authority,local-authority,ALL,NMD,Q72980920,Allerdale Borough Council,,E07000026,,,2023-03-31
-local-authority,local-authority,AMB,NMD,Q72980961,Amber Valley Borough Council,,E07000032,E60000077,,
-local-authority,local-authority,ARU,NMD,Q72980967,Arun District Council,,E07000224,E60000282,,
-local-authority,local-authority,ASF,NMD,Q55098926,Ashford Borough Council,,E07000105,E60000253,,
-local-authority,local-authority,ASH,NMD,Q73038329,Ashfield District Council,,E07000170,E60000106,,
-local-authority,local-authority,AYL,NMD,Q61995983,Aylesbury Vale District Council,,E07000004,,,2020-03-31
-local-authority,local-authority,BAB,NMD,Q73039037,Babergh District Council,,E07000200,E60000183,,
-local-authority,local-authority,BAE,NMD,Q73045241,Bassetlaw District Council,,E07000171,E60000107,,
-local-authority,local-authority,BAI,NMD,Q4867303,Basildon Borough Council,,E07000066,E60000154,,
-local-authority,local-authority,BAN,NMD,Q73072528,Basingstoke and Deane Borough Council,,E07000084,E60000242,,
-local-authority,local-authority,BAR,NMD,Q73072525,Barrow-in-Furness Borough Council,,E07000027,,,2023-03-31
-local-authority,local-authority,BAS,UA,Q16966588,Bath and North East Somerset Council,WECA,E06000022,E60000288,1996-04-01,
-local-authority,local-authority,BBD,UA,Q16984481,Blackburn with Darwen Borough Council,,E06000008,E60000013,1998-04-01,
-local-authority,local-authority,BDF,UA,Q16239012,Bedford Borough Council,,E06000055,E60000143,2009-04-01,
-local-authority,local-authority,BDG,LBO,Q4861056,London Borough of Barking and Dagenham,,E09000002,E60000202,,
-local-authority,local-authority,BEN,LBO,Q4961461,London Borough of Brent,,E09000005,E60000205,,
-local-authority,local-authority,BEX,LBO,Q4899799,London Borough of Bexley,,E09000004,E60000204,,
-local-authority,local-authority,BIR,MD,Q4916650,Birmingham City Council,WMCA,E08000025,E60000130,1986-07-01,
-local-authority,local-authority,BKM,CTY,Q4983255,Buckinghamshire County Council,,E10000002,,1905-06-19,2020-03-31
-local-authority,local-authority,BLA,NMD,Q73072529,Blaby District Council,,E07000129,E60000085,,
-local-authority,local-authority,BMH,UA,Q1144019,Bournemouth Borough Council,,E06000028,,1905-06-19,2019-03-31
-local-authority,local-authority,BNE,LBO,Q4861611,London Borough of Barnet,,E09000003,E60000203,,
-local-authority,local-authority,BNH,UA,Q16953725,Brighton and Hove City Council,,E06000043,E60000222,1905-06-19,
-local-authority,local-authority,BNS,MD,Q16950416,Barnsley Metropolitan Borough Council,SCR,E08000016,E60000064,1974-04-01,
-local-authority,local-authority,BOL,MD,Q16952682,Bolton Metropolitan Borough Council,GMCA,E08000001,E60000025,1974-04-01,
-local-authority,local-authority,BOS,NMD,Q73072533,Bolsover District Council,,E07000033,E60000078,,
-local-authority,local-authority,BOT,NMD,Q73072538,Boston Borough Council,,E07000136,E60000092,,
-local-authority,local-authority,BPC,UA,Q54818205,"Bournemouth, Christchurch and Poole Council",,E06000058,E60000289,2019-04-01,
-local-authority,local-authority,BPL,UA,Q16984489,Blackpool Borough Council,,E06000009,E60000014,1905-06-20,
-local-authority,local-authority,BRA,NMD,Q73072540,Braintree District Council,,E07000067,E60000155,,
-local-authority,local-authority,BRC,UA,Q16985082,Bracknell Forest Council,,E06000036,E60000221,1998-04-01,
-local-authority,local-authority,BRD,MD,Q16953331,City of Bradford Metropolitan District Council,WYCA,E08000032,E60000068,1974-04-01,
-local-authority,local-authority,BRE,NMD,Q73072542,Breckland District Council,,E07000143,E60000176,,
-local-authority,local-authority,BRM,NMD,Q73072550,Bromsgrove District Council,,E07000234,E60000137,,
-local-authority,local-authority,BRO,NMD,Q73072548,Broadland District Council,,E07000144,E60000177,,
-local-authority,local-authority,BRT,NMD,Q73072553,Broxtowe Borough Council,,E07000172,E60000108,,
-local-authority,local-authority,BRW,NMD,Q73072544,Brentwood Borough Council,,E07000068,E60000156,,
-local-authority,local-authority,BRX,NMD,Q4976877,Broxbourne Borough Council,,E07000095,E60000166,,
-local-authority,local-authority,BRY,LBO,Q4973687,London Borough of Bromley,,E09000006,E60000206,,
-local-authority,local-authority,BST,UA,Q16953796,Bristol City Council,WECA,E06000023,E60000290,1905-06-18,
-local-authority,local-authority,BUC,UA,Q65052846,Buckinghamshire Council,,E06000060,E60000331,2020-04-01,
-local-authority,local-authority,BUN,NMD,Q73072554,Burnley Borough Council,,E07000117,E60000035,,
-local-authority,local-authority,BUR,MD,Q16954633,Bury Metropolitan Borough Council,GMCA,E08000002,E60000026,1974-04-01,
-local-authority,local-authority,CAB,NMD,Q5025388,Cambridge City Council,CPCA,E07000008,E60000149,,
-local-authority,local-authority,CAM,CTY,Q5025648,Cambridgeshire County Council,,E10000003,E60000149,,
-local-authority,local-authority,CAN,NMD,Q73072556,Cannock Chase District Council,,E07000192,E60000117,,
-local-authority,local-authority,CAR,NMD,Q73072558,Carlisle City Council,,E07000028,,,2023-03-31
-local-authority,local-authority,CAS,NMD,Q73072562,Castle Point Borough Council,,E07000069,E60000157,,
-local-authority,local-authority,CAT,NMD,Q55098924,Canterbury City Council,,E07000106,E60000254,,
-local-authority,local-authority,CBF,UA,Q16986562,Central Bedfordshire Council,,E06000056,E60000144,2009-04-01,
-local-authority,local-authority,CHA,NMD,Q73072564,Charnwood Borough Council,,E07000130,E60000086,,
-local-authority,local-authority,CHC,NMD,Q73072580,Christchurch Borough Council,,E07000048,,,2019-03-31
-local-authority,local-authority,CHE,UA,Q16829355,Cheshire East Council,,E06000049,E60000015,2009-04-01,
-local-authority,local-authority,CHI,NMD,Q73072573,Chichester District Council,,E07000225,E60000283,1974-04-01,
-local-authority,local-authority,CHL,NMD,Q73072566,Chelmsford City Council,,E07000070,E60000158,,
-local-authority,local-authority,CHN,NMD,Q73072575,Chiltern District Council,,E07000005,,,2020-03-31
-local-authority,local-authority,CHO,NMD,Q73072578,Chorley Borough Council,,E07000118,E60000036,,
-local-authority,local-authority,CHR,NMD,Q73072569,Cherwell District Council,,E07000177,E60000265,,
-local-authority,local-authority,CHS,NMD,Q73072572,Chesterfield Borough Council,,E07000034,E60000079,,
-local-authority,local-authority,CHT,NMD,Q28401301,Cheltenham Borough Council,,E07000078,E60000308,,
-local-authority,local-authority,CHW,UA,Q16829360,Cheshire West and Chester Council,,E06000050,E60000016,2009-04-01,
-local-authority,local-authority,CLD,MD,Q16985873,Calderdale Metropolitan Borough Council,WYCA,E08000033,E60000069,1974-04-01,
-local-authority,local-authority,CMA,CTY,Q5194027,Cumbria County Council,,E10000006,,,
-local-authority,local-authority,CMD,LBO,Q5025790,London Borough of Camden,,E09000007,E60000188,,
-local-authority,local-authority,COL,NMD,Q73072586,Colchester Borough Council,,E07000071,E60000159,,
-local-authority,local-authority,CON,UA,Q3774189,Cornwall Council,,E06000052,E60000291,2009-04-01,
-local-authority,local-authority,COP,NMD,Q73072589,Copeland Borough Council,,E07000029,,,2023-03-31
-local-authority,local-authority,COR,NMD,Q73072591,Corby Borough Council,,E07000150,,1974-04-01,2021-03-31
-local-authority,local-authority,COT,NMD,Q5175478,Cotswold District Council,,E07000079,E60000309,,
-local-authority,local-authority,COV,MD,Q5179058,Coventry City Council,WMCA,E08000026,E60000131,1974-04-01,
-local-authority,local-authority,CPCA,COMB,Q28451058,Cambridgeshire and Peterborough Combined Authority,,E47000008,,2014-04-01,
-local-authority,local-authority,CRA,NMD,Q73072595,Craven District Council,,E07000163,,,2023-03-31
-local-authority,local-authority,CRW,NMD,Q30255982,Crawley Borough Council,,E07000226,E60000284,1974-04-01,
-local-authority,local-authority,CRY,LBO,Q5189676,London Borough of Croydon,,E09000008,E60000207,,
-local-authority,local-authority,DAC,NMD,Q5207723,Dacorum Borough Council,,E07000096,E60000167,,
-local-authority,local-authority,DAL,UA,Q16948698,Darlington Borough Council,TVCA,E06000005,E60000002,1997-04-01,
-local-authority,local-authority,DAR,NMD,Q55098919,Dartford Borough Council,,E07000107,E60000255,,
-local-authority,local-authority,DAV,NMD,Q73072596,Daventry District Council,,E07000151,,1974-04-01,2021-03-31
-local-authority,local-authority,DBY,CTY,Q5261561,Derbyshire County Council,,E10000007,E60000073,,
-local-authority,local-authority,DEB,NMD,Q73072598,Derbyshire Dales District Council,,E07000035,E60000080,,
-local-authority,local-authority,DER,UA,Q5261430,Derby City Council,,E06000015,E60000073,,
-local-authority,local-authority,DEV,CTY,Q6385990,Devon County Council,,E10000008,,,
-local-authority,local-authority,DNC,MD,Q16988947,Doncaster Metropolitan Borough Council,SCR,E08000017,E60000065,1974-04-01,
-local-authority,local-authority,DOR,CTY,Q5298839,Dorset County Council,,E10000009,,,2019-03-31
-local-authority,local-authority,DOV,NMD,Q55098918,Dover District Council,,E07000108,E60000256,,
-local-authority,local-authority,DST,UA,Q55609905,Dorset Council,,E06000059,E60000292,2019-04-01,
-local-authority,local-authority,DUD,MD,Q16991635,Dudley Metropolitan Borough Council,WMCA,E08000027,E60000132,1974-04-01,
-local-authority,local-authority,DUR,UA,Q5316492,Durham County Council,NECA,E06000047,E60000001,2009-04-01,
-local-authority,local-authority,EAL,LBO,Q5325486,London Borough of Ealing,,E09000009,E60000208,,
-local-authority,local-authority,EAS,NMD,Q30588396,Eastbourne Borough Council,,E07000061,E60000237,,
-local-authority,local-authority,EAT,NMD,Q73072609,Eastleigh Borough Council,,E07000086,E60000244,,
-local-authority,local-authority,ECA,NMD,Q65090031,East Cambridgeshire District Council,CPCA,E07000009,E60000150,,
-local-authority,local-authority,EDE,NMD,Q69118038,East Devon District Council,,E07000040,E60000300,,
-local-authority,local-authority,EDN,NMD,Q73072611,Eden District Council,,E07000030,,,2023-03-31
-local-authority,local-authority,EDO,NMD,Q73072599,East Dorset District Council,,E07000049,,1974-04-01,2019-03-31
-local-authority,local-authority,EHA,NMD,Q73072602,East Hampshire District Council,,E07000085,E60000243,,
-local-authority,local-authority,EHE,NMD,Q5328577,East Hertfordshire District Council,,E07000242,E60000168,,
-local-authority,local-authority,ELI,NMD,Q73072603,East Lindsey District Council,,E07000137,E60000093,,
-local-authority,local-authority,ELM,NMD,Q73072615,Elmbridge Borough Council,,E07000207,E60000270,,
-local-authority,local-authority,ENF,LBO,Q5377310,London Borough of Enfield,,E09000010,E60000209,,
-local-authority,local-authority,ENO,NMD,Q73072604,East Northamptonshire Council,,E07000152,,1974-04-01,2021-03-31
-local-authority,local-authority,EPP,NMD,Q73072617,Epping Forest District Council,,E07000072,E60000160,,
-local-authority,local-authority,EPS,NMD,Q73072619,Epsom and Ewell Borough Council,,E07000208,E60000271,,
-local-authority,local-authority,ERE,NMD,Q73072621,Erewash Borough Council,,E07000036,E60000081,,
-local-authority,local-authority,ERY,UA,Q16989282,East Riding of Yorkshire Council,,E06000011,E60000052,1996-04-01,
-local-authority,local-authority,ESK,NMD,Q59536023,East Suffolk Council,,E07000244,E60000184,2019-04-01,
-local-authority,local-authority,ESS,CTY,Q5399679,Essex County Council,,E10000012,,,
-local-authority,local-authority,EST,NMD,Q73072606,East Staffordshire Borough Council,,E07000193,E60000118,,
-local-authority,local-authority,ESX,CTY,Q5329458,East Sussex County Council,,E10000011,,,
-local-authority,local-authority,EXE,NMD,Q5420103,Exeter City Council,,E07000041,E60000301,,
-local-authority,local-authority,FAR,NMD,Q73072624,Fareham Borough Council,,E07000087,E60000245,,
-local-authority,local-authority,FEN,NMD,Q73072625,Fenland District Council,CPCA,E07000010,E60000151,,
-local-authority,local-authority,FOE,NMD,Q28401332,Forest of Dean District Council,,E07000080,E60000310,,
-local-authority,local-authority,FOR,NMD,Q73072627,Forest Heath District Council,,E07000201,,1974-04-01,2019-03-31
-local-authority,local-authority,FYL,NMD,Q73072630,Fylde Borough Council,,E07000119,E60000037,,
-local-authority,local-authority,GAT,MD,Q54666929,Gateshead Metropolitan Borough Council,NECA,E08000037,E60000008,1974-04-01,
-local-authority,local-authority,GED,NMD,Q73072632,Gedling Borough Council,,E07000173,E60000109,,
-local-authority,local-authority,GLA,SRA,Q1135166,Greater London Authority,,E12000007,,1905-06-22,
-local-authority,local-authority,GLO,NMD,Q28401303,Gloucester City Council,,E07000081,E60000311,,
-local-authority,local-authority,GLS,CTY,Q16839354,Gloucestershire County Council,,E10000013,E60000311,,
-local-authority,local-authority,GMCA,COMB,Q5600634,Greater Manchester Combined Authority,,E47000001,E60000027,2014-04-01,
-local-authority,local-authority,GOS,NMD,Q73072634,Gosport Borough Council,,E07000088,E60000246,,
-local-authority,local-authority,GRA,NMD,Q55098935,Gravesham Borough Council,,E07000109,E60000258,,
-local-authority,local-authority,GRE,LBO,Q5604860,Royal Borough of Greenwich,,E09000011,E60000210,,
-local-authority,local-authority,GRT,NMD,Q73072637,Guildford Borough Council,,E07000209,E60000272,,
-local-authority,local-authority,GRY,NMD,Q73072635,Great Yarmouth Borough Council,,E07000145,E60000178,,
-local-authority,local-authority,HAA,NMD,Q73072652,Havant Borough Council,,E07000090,E60000248,,
-local-authority,local-authority,HAE,NMD,Q73072640,Hambleton District Council,,E07000164,,,2023-03-31
-local-authority,local-authority,HAG,NMD,Q73072647,Harrogate Borough Council,,E07000165,,,2023-03-31
-local-authority,local-authority,HAL,UA,Q16983144,Halton Borough Council,LCR,E06000006,E60000017,1998-04-01,
-local-authority,local-authority,HAM,CTY,Q5646045,Hampshire County Council,,E10000014,,,
-local-authority,local-authority,HAO,NMD,Q73072642,Harborough District Council,,E07000131,E60000087,,
-local-authority,local-authority,HAR,NMD,Q73072645,Harlow District Council,,E07000073,E60000161,,
-local-authority,local-authority,HAS,NMD,Q73072650,Hastings Borough Council,,E07000062,E60000238,,
-local-authority,local-authority,HAT,NMD,Q73072649,Hart District Council,,E07000089,E60000247,,
-local-authority,local-authority,HAV,LBO,Q5683826,London Borough of Havering,,E09000016,E60000212,,
-local-authority,local-authority,HCK,LBO,Q5637369,London Borough of Hackney,,E09000012,E60000190,,
-local-authority,local-authority,HEF,UA,Q5738061,Herefordshire Council,,E06000019,E60000113,1998-04-01,
-local-authority,local-authority,HER,NMD,Q15223753,Hertsmere Borough Council,,E07000098,E60000169,,
-local-authority,local-authority,HIG,NMD,Q5756024,High Peak Borough Council,,E07000037,E60000082,,
-local-authority,local-authority,HIL,LBO,Q5763303,London Borough of Hillingdon,,E09000017,E60000213,,
-local-authority,local-authority,HIN,NMD,Q73072654,Hinckley and Bosworth Borough Council,,E07000132,E60000088,,
-local-authority,local-authority,HMF,LBO,Q5645758,London Borough of Hammersmith & Fulham,,E09000013,E60000191,,
-local-authority,local-authority,HNS,LBO,Q5913301,London Borough of Hounslow,,E09000018,E60000214,,
-local-authority,local-authority,HOR,NMD,Q73072656,Horsham District Council,,E07000227,E60000285,1974-04-01,
-local-authority,local-authority,HPL,UA,Q16993720,Hartlepool Borough Council,TVCA,E06000001,E60000003,1905-06-18,
-local-authority,local-authority,HRT,CTY,Q5744765,Hertfordshire County Council,,E10000015,,,
-local-authority,local-authority,HRW,LBO,Q5666565,London Borough of Harrow,,E09000015,E60000211,,
-local-authority,local-authority,HRY,LBO,Q5657624,London Borough of Haringey,,E09000014,E60000192,,
-local-authority,local-authority,HUN,NMD,Q73072657,Huntingdonshire District Council,CPCA,E07000011,E60000152,,
-local-authority,local-authority,HYN,NMD,Q65089006,Hyndburn Borough Council,,E07000120,E60000038,,
-local-authority,local-authority,IOS,UA,Q28195166,Council of the Isles of Scilly,,E06000053,E60000293,1974-04-01,
-local-authority,local-authority,IOW,UA,Q6084095,Isle of Wight Council,,E06000046,E60000223,1905-06-17,
-local-authority,local-authority,IPS,NMD,Q16191496,Ipswich Borough Council,,E07000202,E60000185,,
-local-authority,local-authority,ISL,LBO,Q6084379,London Borough of Islington,,E09000019,E60000193,,
-local-authority,local-authority,KEC,LBO,Q6391507,Royal Borough of Kensington and Chelsea,,E09000020,E60000194,,
-local-authority,local-authority,KEN,CTY,Q6386127,Kent County Council,,E10000016,,,
-local-authority,local-authority,KET,NMD,Q6395462,Kettering Borough Council,,E07000153,,1974-04-01,2021-03-31
-local-authority,local-authority,KHL,UA,Q5935834,Hull City Council,,E06000010,E60000053,1996-04-01,
-local-authority,local-authority,KIN,NMD,Q73072537,Borough Council of King's Lynn and West Norfolk,,E07000146,E60000179,,
-local-authority,local-authority,KIR,MD,Q16995709,Kirklees Council,WYCA,E08000034,E60000070,1974-04-01,
-local-authority,local-authority,KTT,LBO,Q6413671,Royal Borough of Kingston upon Thames,,E09000021,E60000215,,
-local-authority,local-authority,KWL,MD,Q16995750,Knowsley Metropolitan Borough Council,LCR,E08000011,E60000047,1974-04-01,
-local-authority,local-authority,LAC,NMD,Q73072658,Lancaster City Council,,E07000121,E60000039,,
-local-authority,local-authority,LAN,CTY,Q6386149,Lancashire County Council,,E10000017,,,
-local-authority,local-authority,LBH,LBO,Q6481450,London Borough of Lambeth,,E09000022,E60000195,,
-local-authority,local-authority,LCE,UA,Q6519163,Leicester City Council,,E06000016,E60000074,1905-06-19,
-local-authority,local-authority,LCR,COMB,Q16996746,Liverpool City Region,,E47000004,E60000048,2014-04-01,
-local-authority,local-authority,LDS,MD,Q6515870,Leeds City Council,WYCA,E08000035,E60000071,1905-06-08,
-local-authority,local-authority,LEC,CTY,Q6386198,Leicestershire County Council,,E10000018,E60000074,1889-01-01,
-local-authority,local-authority,LEE,NMD,Q73072662,Lewes District Council,,E07000063,E60000239,,
-local-authority,local-authority,LEW,LBO,Q6537320,London Borough of Lewisham,,E09000023,E60000196,,
-local-authority,local-authority,LIC,NMD,Q73072583,City of Lincoln Council,,E07000138,E60000094,,
-local-authority,local-authority,LIF,NMD,Q6543271,Lichfield District Council,,E07000194,E60000119,,
-local-authority,local-authority,LIN,CTY,Q16996347,Lincolnshire County Council,,E10000019,E60000094,,
-local-authority,local-authority,LIV,MD,Q6658351,Liverpool City Council,LCR,E08000012,E60000048,1905-06-08,
-local-authority,local-authority,LND,CC,Q1094147,City of London Corporation,,E09000001,E60000189,1905-06-28,
-local-authority,local-authority,LUT,UA,Q16997109,Luton Borough Council,,E06000032,E60000145,1905-06-19,
-local-authority,local-authority,MAI,NMD,Q16997208,Maidstone Borough Council,,E07000110,E60000259,,
-local-authority,local-authority,MAL,NMD,Q73072663,Maldon District Council,,E07000074,E60000162,,
-local-authority,local-authority,MAN,MD,Q2302252,Manchester City Council,GMCA,E08000003,E60000027,1974-04-01,
-local-authority,local-authority,MAS,NMD,Q73072669,Mansfield District Council,,E07000174,E60000110,,
-local-authority,local-authority,MAV,NMD,Q73072667,Malvern Hills District Council,,E07000235,E60000138,,
-local-authority,local-authority,MDB,UA,Q6841843,Middlesbrough Borough Council,TVCA,E06000002,E60000004,1905-06-18,
-local-authority,local-authority,MDE,NMD,Q73072676,Mid Devon District Council,,E07000042,E60000302,,
-local-authority,local-authority,MDW,UA,Q16997526,Medway Council,,E06000035,E60000224,1998-04-01,
-local-authority,local-authority,MEL,NMD,Q73072672,Melton Borough Council,,E07000133,E60000089,,
-local-authority,local-authority,MEN,NMD,Q73072673,Mendip District Council,,E07000187,,,2023-03-31
-local-authority,local-authority,MIK,UA,Q16997843,Milton Keynes Council,,E06000042,E60000225,1905-06-19,
-local-authority,local-authority,MOL,NMD,Q73072681,Mole Valley District Council,,E07000210,E60000273,,
-local-authority,local-authority,MRT,LBO,Q6820723,London Borough of Merton,,E09000024,E60000216,,
-local-authority,local-authority,MSS,NMD,Q73072679,Mid Sussex District Council,,E07000228,E60000286,1974-04-01,
-local-authority,local-authority,MSU,NMD,Q73072678,Mid Suffolk District Council,,E07000203,E60000186,,
-local-authority,local-authority,NBL,UA,Q6386521,Northumberland County Council,NTCA,E06000057,,2009-04-01,
-local-authority,local-authority,NDE,NMD,Q7055115,North Devon District Council,,E07000043,E60000303,,
-local-authority,local-authority,NDO,NMD,Q73072691,North Dorset District Council,,E07000050,,,2019-03-31
-local-authority,local-authority,NEA,NMD,Q73072684,Newark and Sherwood District Council,,E07000175,E60000111,,
-local-authority,local-authority,NEC,NMD,Q73072687,Newcastle-under-Lyme Borough Council,,E07000195,E60000120,,
-local-authority,local-authority,NECA,COMB,Q16986408,North East Combined Authority,,E47000010,,2014-04-15,
-local-authority,local-authority,NED,NMD,Q73072692,North East Derbyshire District Council,,E07000038,E60000083,,
-local-authority,local-authority,NEL,UA,Q17016820,North East Lincolnshire Council,,E06000012,E60000054,1996-04-01,
-local-authority,local-authority,NET,MD,Q16998823,Newcastle City Council,NTCA,E08000021,E60000009,1974-04-01,
-local-authority,local-authority,NEW,NMD,Q73072682,New Forest District Council,,E07000091,E60000249,,
-local-authority,local-authority,NFK,CTY,Q6386227,Norfolk County Council,,E10000020,,,
-local-authority,local-authority,NGM,UA,Q7063612,Nottingham City Council,,E06000018,E60000075,1905-06-20,
-local-authority,local-authority,NHE,NMD,Q7055592,North Hertfordshire District Council,,E07000099,E60000170,,
-local-authority,local-authority,NKE,NMD,Q28401189,North Kesteven District Council,,E07000139,E60000095,,
-local-authority,local-authority,NLN,UA,Q17016863,North Lincolnshire Council,,E06000013,E60000055,1996-04-01,
-local-authority,local-authority,NNO,NMD,Q73072695,North Norfolk District Council,,E07000147,E60000180,,
-local-authority,local-authority,NNUA,UA,Q111232446,North Northamtonshire Council,,E06000061,E60000332,2020-04-01,
-local-authority,local-authority,NOR,NMD,Q73072702,Northampton Borough Council,,E07000154,,1974-04-01,2020-03-31
-local-authority,local-authority,NOW,NMD,Q17012769,Norwich City Council,,E07000148,E60000181,,
-local-authority,local-authority,NSM,UA,Q17016922,North Somerset  Council,,E06000024,E60000294,1996-04-01,
-local-authority,local-authority,NTCA,COMB,Q55136954,North of Tyne Combined Authority,,E47000011,,2018-11-02,
-local-authority,local-authority,NTH,CTY,Q14942414,Northamptonshire County Council,,E10000021,,1974-04-01,2021-03-31
-local-authority,local-authority,NTT,CTY,Q16934215,Nottinghamshire County Council,,E10000024,E60000075,1937-01-01,
-local-authority,local-authority,NTY,MD,Q17017005,North Tyneside Council,NTCA,E08000022,E60000010,1974-04-01,
-local-authority,local-authority,NUN,NMD,Q73072703,Nuneaton and Bedworth Borough Council,,E07000219,E60000126,,
-local-authority,local-authority,NWA,NMD,Q73072698,North Warwickshire Borough Council,,E07000218,E60000125,,
-local-authority,local-authority,NWL,NMD,Q73072699,North West Leicestershire District Council,,E07000134,E60000090,,
-local-authority,local-authority,NWM,LBO,Q7018141,London Borough of Newham,,E09000025,E60000197,,
-local-authority,local-authority,NYK,CTY,Q17017103,North Yorkshire County Council,,E10000023,,,2023-03-31
-local-authority,local-authority,OAD,NMD,Q73072704,Oadby and Wigston Borough Council,,E07000135,E60000091,,
-local-authority,local-authority,OLD,MD,Q17017730,Oldham Metropolitan Borough Council,GMCA,E08000004,E60000028,1905-06-07,
-local-authority,local-authority,OXF,CTY,Q6386253,Oxfordshire County Council,,E10000025,E60000266,,
-local-authority,local-authority,OXO,NMD,Q7115277,Oxford City Council,,E07000178,E60000266,,
-local-authority,local-authority,PEN,NMD,Q7162423,Pendle Borough Council,,E07000122,E60000040,,
-local-authority,local-authority,PLY,UA,Q7205775,Plymouth City Council,,E06000026,E60000295,1998-04-01,
-local-authority,local-authority,POL,UA,Q7228609,Borough of Poole,,E06000029,,1997-04-01,2019-03-31
-local-authority,local-authority,POR,UA,Q17104656,Portsmouth City Council,,E06000044,E60000226,1905-06-20,
-local-authority,local-authority,PRE,NMD,Q65089357,Preston City Council,,E07000123,E60000041,,
-local-authority,local-authority,PTE,UA,Q6664413,Peterborough City Council,CPCA,E06000031,E60000146,1905-06-20,
-local-authority,local-authority,PUR,NMD,Q73072707,Purbeck District Council,,E07000051,,,2019-03-31
-local-authority,local-authority,RCC,UA,Q17019415,Redcar and Cleveland Borough Council,TVCA,E06000003,E60000006,1996-04-01,
-local-authority,local-authority,RCH,MD,Q17019804,Rochdale Metropolitan Borough Council,GMCA,E08000005,E60000029,1905-05-27,
-local-authority,local-authority,RDB,LBO,Q7305508,London Borough of Redbridge,,E09000026,E60000217,,
-local-authority,local-authority,RDG,UA,Q17018654,Reading Borough Council,,E06000038,E60000227,1905-05-27,
-local-authority,local-authority,RED,NMD,Q14978996,Redditch Borough Council,,E07000236,E60000139,,
-local-authority,local-authority,REI,NMD,Q73072709,Reigate and Banstead Borough Council,,E07000211,E60000274,,
-local-authority,local-authority,RIB,NMD,Q73072712,Ribble Valley Borough Council,,E07000124,E60000042,,
-local-authority,local-authority,RIC,LBO,Q7331065,London Borough of Richmond upon Thames,,E09000027,E60000218,,
-local-authority,local-authority,RIH,NMD,Q73072715,Richmondshire District Council,,E07000166,,,2023-03-31
-local-authority,local-authority,ROC,NMD,Q73072717,Rochford District Council,,E07000075,E60000163,,
-local-authority,local-authority,ROH,NMD,Q73072720,Rother District Council,,E07000064,E60000240,,
-local-authority,local-authority,ROS,NMD,Q7369771,Rossendale Borough Council,,E07000125,E60000043,,
-local-authority,local-authority,ROT,MD,Q17020059,Rotherham Metropolitan Borough Council,SCR,E08000018,E60000066,1905-05-27,
-local-authority,local-authority,RUG,NMD,Q73072725,Rugby Borough Council,,E07000220,E60000127,,
-local-authority,local-authority,RUH,NMD,Q73072730,Rushmoor Borough Council,,E07000092,E60000250,,
-local-authority,local-authority,RUN,NMD,Q73072726,Runnymede Borough Council,,E07000212,E60000275,,
-local-authority,local-authority,RUS,NMD,Q73072729,Rushcliffe Borough Council,,E07000176,E60000112,,
-local-authority,local-authority,RUT,UA,Q7383481,Rutland County Council,,E06000017,E60000076,1997-04-01,
-local-authority,local-authority,RYE,NMD,Q73072732,Ryedale District Council,,E07000167,,,2023-03-31
-local-authority,local-authority,SAL,NMD,Q7592257,St Albans City and District Council,,E07000240,E60000171,1974-04-01,
-local-authority,local-authority,SAW,MD,Q7417057,Sandwell Metropolitan Borough Council,WMCA,E08000028,E60000133,1905-06-07,
-local-authority,local-authority,SBU,NMD,Q65089619,South Bucks District Council,,E07000006,,,2020-03-31
-local-authority,local-authority,SCA,NMD,Q7566485,South Cambridgeshire District Council,CPCA,E07000012,E60000153,,
-local-authority,local-authority,SCE,NMD,Q73072735,Scarborough Borough Council,,E07000168,,,2023-03-31
-local-authority,local-authority,SCR,COMB,Q17020947,Sheffield City Region,,E47000002,E60000067,2018-05-03,
-local-authority,local-authority,SDE,NMD,Q73072741,South Derbyshire District Council,,E07000039,E60000084,,
-local-authority,local-authority,SED,NMD,Q73072776,St Edmundsbury Borough Council,,E07000204,,,2019-03-31
-local-authority,local-authority,SEG,NMD,Q73072737,Sedgemoor District Council,,E07000188,,,2023-03-31
-local-authority,local-authority,SEL,NMD,Q73072740,Selby District Council,,E07000169,,,2023-03-31
-local-authority,local-authority,SEV,NMD,Q55098936,Sevenoaks District Council,,E07000111,E60000260,,
-local-authority,local-authority,SFK,CTY,Q3305205,Suffolk County Council,,E10000029,,,
-local-authority,local-authority,SFT,MD,Q7446119,Sefton Metropolitan Borough Council,LCR,E08000014,E60000049,1905-06-08,
-local-authority,local-authority,SGC,UA,Q17020724,South Gloucestershire Council,WECA,E06000025,E60000296,1905-06-18,
-local-authority,local-authority,SHA,NMD,Q23461861,South Hams District Council,,E07000044,E60000304,,
-local-authority,local-authority,SHE,NMD,Q55099243,Folkestone and Hythe Council,,E07000112,E60000257,,
-local-authority,local-authority,SHF,MD,Q7492609,Sheffield City Council,SCR,E08000019,E60000067,1905-06-08,
-local-authority,local-authority,SHN,MD,Q17022094,St Helens Council,LCR,E08000013,E60000050,1905-06-08,
-local-authority,local-authority,SHO,NMD,Q73072743,South Holland District Council,,E07000140,E60000096,,
-local-authority,local-authority,SHR,UA,Q93612,Shropshire Council,,E06000051,E60000114,2009-04-01,
-local-authority,local-authority,SKE,NMD,Q73072747,South Kesteven District Council,,E07000141,E60000097,,
-local-authority,local-authority,SKP,MD,Q7618164,Stockport Metropolitan Borough Council,GMCA,E08000007,E60000031,1905-05-27,
-local-authority,local-authority,SLA,NMD,Q73072749,South Lakeland District Council,,E07000031,,,2023-03-31
-local-authority,local-authority,SLF,MD,Q17020402,Salford City Council,GMCA,E08000006,E60000030,1905-05-27,
-local-authority,local-authority,SLG,UA,Q7541466,Slough Borough Council,,E06000039,E60000228,1998-04-01,
-local-authority,local-authority,SND,MD,Q17022675,Sunderland City Council,NECA,E08000024,E60000012,1905-05-27,
-local-authority,local-authority,SNO,NMD,Q73072752,South Norfolk District Council,,E07000149,E60000182,,
-local-authority,local-authority,SNR,NMD,Q105544722,South Northamptonshire Council,,E07000155,,1974-04-01,2021-03-31
-local-authority,local-authority,SOL,MD,Q17021590,Solihull Metropolitan Borough Council,WMCA,E08000029,E60000134,1905-05-27,
-local-authority,local-authority,SOM,CTY,Q6386270,Somerset County Council,,E10000027,,,2023-03-31
-local-authority,local-authority,SOS,UA,Q7569516,Southend-on-Sea Borough Council,,E06000033,E60000147,1905-06-20,
-local-authority,local-authority,SOX,NMD,Q65089301,South Oxfordshire District Council,,E07000179,E60000267,,
-local-authority,local-authority,SPE,NMD,Q73072774,Spelthorne Borough Council,,E07000213,E60000276,,
-local-authority,local-authority,SRI,NMD,Q73072755,South Ribble Borough Council,,E07000126,E60000044,,
-local-authority,local-authority,SRY,CTY,Q6386325,Surrey County Council,,E10000030,,,
-local-authority,local-authority,SSO,NMD,Q73072757,South Somerset District Council,,E07000189,,,2023-03-31
-local-authority,local-authority,SST,NMD,Q73072759,South Staffordshire Council,,E07000196,E60000121,,
-local-authority,local-authority,STA,NMD,Q73072778,Stafford Borough Council,,E07000197,E60000122,,
-local-authority,local-authority,STE,UA,Q17022507,Stoke-on-Trent City Council,,E06000021,E60000115,1905-06-20,
-local-authority,local-authority,STF,NMD,Q73072779,Staffordshire Moorlands District Council,,E07000198,E60000123,,
-local-authority,local-authority,STH,UA,Q17021809,Southampton City Council,,E06000045,E60000229,1905-06-19,
-local-authority,local-authority,STN,LBO,Q7650288,London Borough of Sutton,,E09000029,E60000219,,
-local-authority,local-authority,STO,NMD,Q28401169,Stroud District Council,,E07000082,E60000312,,
-local-authority,local-authority,STR,NMD,Q73072781,Stratford-on-Avon District Council,,E07000221,E60000128,,
-local-authority,local-authority,STS,CTY,Q6386295,Staffordshire County Council,,E10000028,E60000122,,
-local-authority,local-authority,STT,UA,Q17022493,Stockton-on-Tees Borough Council,TVCA,E06000004,E60000007,1905-06-18,
-local-authority,local-authority,STV,NMD,Q7615422,Stevenage Borough Council,,E07000243,E60000172,,
-local-authority,local-authority,STY,MD,Q23463529,South Tyneside Council,NECA,E08000023,E60000011,1974-04-01,
-local-authority,local-authority,SUF,NMD,Q73072783,Suffolk Coastal District Council,,E07000205,,,2019-03-31
-local-authority,local-authority,SUR,NMD,Q73072785,Surrey Heath Borough Council,,E07000214,E60000277,,
-local-authority,local-authority,SWD,UA,Q17040033,Swindon Borough Council,,E06000030,E60000297,1905-06-20,
-local-authority,local-authority,SWK,LBO,Q7571153,London Borough of Southwark,,E09000028,E60000198,,
-local-authority,local-authority,SWL,NMD,Q55098937,Swale Borough Council,,E07000113,E60000261,,
-local-authority,local-authority,SWT,NMD,Q60790331,Somerset West and Taunton Council,,E07000246,,2019-04-01,2023-03-31
-local-authority,local-authority,TAM,MD,Q17041259,Tameside Metropolitan Borough Council,GMCA,E08000008,E60000032,1974-04-01,
-local-authority,local-authority,TAN,NMD,Q73072790,Tandridge District Council,,E07000215,E60000278,,
-local-authority,local-authority,TAU,NMD,Q73072791,Taunton Deane Borough Council,,E07000190,,,2019-03-31
-local-authority,local-authority,TAW,NMD,Q73072788,Tamworth Borough Council,,E07000199,E60000124,,
-local-authority,local-authority,TEI,NMD,Q73072792,Teignbridge District Council,,E07000045,E60000305,,
-local-authority,local-authority,TEN,NMD,Q73072799,Tendring District Council,,E07000076,E60000164,,
-local-authority,local-authority,TES,NMD,Q73072801,Test Valley Borough Council,,E07000093,E60000251,,
-local-authority,local-authority,TEW,NMD,Q27183368,Tewkesbury Borough Council,,E07000083,E60000313,,
-local-authority,local-authority,TFW,UA,Q17059334,Telford & Wrekin Council,,E06000020,E60000116,1905-06-20,
-local-authority,local-authority,THA,NMD,Q7710261,Thanet District Council,,E07000114,E60000262,,
-local-authority,local-authority,THE,NMD,Q7797746,Three Rivers District Council,,E07000102,E60000173,1974-04-01,
-local-authority,local-authority,THR,UA,Q1646552,Thurrock Council,,E06000034,E60000148,1905-06-20,
-local-authority,local-authority,TOB,UA,Q17034697,Torbay Council,,E06000027,E60000298,1905-06-20,
-local-authority,local-authority,TON,NMD,Q16901812,Tonbridge and Malling Borough Council,,E07000115,E60000263,,
-local-authority,local-authority,TOR,NMD,Q73072804,Torridge District Council,,E07000046,E60000306,,
-local-authority,local-authority,TRF,MD,Q17034839,Trafford Metropolitan Borough Council,GMCA,E08000009,E60000033,1974-04-01,
-local-authority,local-authority,TUN,NMD,Q55098930,Tunbridge Wells Borough Council,,E07000116,E60000264,,
-local-authority,local-authority,TVCA,COMB,Q21061639,Tees Valley Combined Authority,,E47000006,,2014-04-01,
-local-authority,local-authority,TWH,LBO,Q7829677,London Borough of Tower Hamlets,,E09000030,E60000199,,
-local-authority,local-authority,UTT,NMD,Q73072805,Uttlesford District Council,,E07000077,E60000165,,
-local-authority,local-authority,VAL,NMD,Q65090041,Vale of White Horse District Council,,E07000180,E60000268,,
-local-authority,local-authority,WAE,NMD,Q73072816,Waverley Borough Council,,E07000216,E60000279,,
-local-authority,local-authority,WAR,CTY,Q17066348,Warwickshire County Council,,E10000031,E60000129,,
-local-authority,local-authority,WAT,NMD,Q7974596,Watford Borough Council,,E07000103,E60000174,,
-local-authority,local-authority,WAV,NMD,Q73072811,Waveney District Council,,E07000206,,,2019-03-31
-local-authority,local-authority,WAW,NMD,Q73072810,Warwick District Council,,E07000222,E60000129,,
-local-authority,local-authority,WBK,UA,Q17041496,West Berkshire Council,,E06000037,E60000230,1905-06-20,
-local-authority,local-authority,WDE,NMD,Q73072823,West Devon Borough Council,,E07000047,E60000307,,
-local-authority,local-authority,WDO,NMD,Q73072826,West Dorset District Council,,E07000052,,,2019-03-31
-local-authority,local-authority,WEA,NMD,Q73072817,Wealden District Council,,E07000065,E60000241,,
-local-authority,local-authority,WECA,COMB,Q24993670,West of England Combined Authority,,E47000009,,2017-02-09,
-local-authority,local-authority,WEL,NMD,Q73072820,Wellingborough Borough Council,,E07000156,,1974-04-01,2021-03-31
-local-authority,local-authority,WEW,NMD,Q7982137,Welwyn Hatfield Borough Council,,E07000241,E60000175,,
-local-authority,local-authority,WEY,NMD,Q73072840,Weymouth and Portland Borough Council,,E07000053,,,2019-03-31
-local-authority,local-authority,WFT,LBO,Q7966606,London Borough of Waltham Forest,,E09000031,E60000220,,
-local-authority,local-authority,WGN,MD,Q7999507,Wigan Metropolitan Borough Council,GMCA,E08000010,E60000034,1974-04-01,
-local-authority,local-authority,WIL,UA,Q1990879,Wiltshire Council,,E06000054,E60000299,2009-04-01,
-local-authority,local-authority,WIN,NMD,Q73072843,Winchester City Council,,E07000094,E60000252,,
-local-authority,local-authority,WKF,MD,Q7961061,Wakefield Metropolitan District Council,WYCA,E08000036,E60000072,1974-04-01,
-local-authority,local-authority,WLA,NMD,Q73072828,West Lancashire Borough Council,,E07000127,E60000045,,
-local-authority,local-authority,WLI,NMD,Q73072831,West Lindsey District Council,,E07000142,E60000098,,
-local-authority,local-authority,WLL,MD,Q7963789,Walsall Metropolitan Borough Council,WMCA,E08000030,E60000135,1974-04-01,
-local-authority,local-authority,WLV,MD,Q8030462,City of Wolverhampton Council,WMCA,E08000031,E60000136,1974-04-01,
-local-authority,local-authority,WMCA,COMB,Q21061625,West Midlands Combined Authority,,E47000007,,2016-06-17,
-local-authority,local-authority,WND,LBO,Q7967311,London Borough of Wandsworth,,E09000032,E60000200,,
-local-authority,local-authority,WNM,UA,Q6391507,Royal Borough of Windsor and Maidenhead,,E06000040,E60000231,1905-06-20,
-local-authority,local-authority,WNUA,UA,Q111232469,West Northamtonshire Council,,E06000062,E60000333,2020-04-01,
-local-authority,local-authority,WOC,NMD,Q73072848,Worcester City Council,,E07000237,E60000140,,
-local-authority,local-authority,WOI,NMD,Q73072846,Woking Borough Council,,E07000217,E60000280,,
-local-authority,local-authority,WOK,UA,Q17039435,Wokingham Borough Council,,E06000041,E60000232,1905-06-20,
-local-authority,local-authority,WOR,CTY,Q8034245,Worcestershire County Council,,E10000034,E60000140,,
-local-authority,local-authority,WOT,NMD,Q55098923,Worthing Borough Council,,E07000229,E60000287,1905-06-25,
-local-authority,local-authority,WOX,NMD,Q73072833,West Oxfordshire District Council,,E07000181,E60000269,,
-local-authority,local-authority,WRL,MD,Q17038877,Wirral Borough Council,LCR,E08000015,E60000051,1974-04-01,
-local-authority,local-authority,WRT,UA,Q17033474,Warrington Borough Council,,E06000007,E60000018,1905-06-20,
-local-authority,local-authority,WSK,NMD,Q73072837,West Suffolk Council,,E07000245,E60000187,2019-04-01,
-local-authority,local-authority,WSM,LBO,Q7989145,City of Westminster,,E09000033,E60000201,,
-local-authority,local-authority,WSO,NMD,Q73072834,West Somerset District Council,,E07000191,,,2019-03-31
-local-authority,local-authority,WSX,CTY,Q6386353,West Sussex County Council,,E10000032,,,
-local-authority,local-authority,WYC,NMD,Q73072850,Wychavon District Council,,E07000238,E60000141,,
-local-authority,local-authority,WYCA,COMB,Q17035952,West Yorkshire Combined Authority,,E47000003,E60000056,2014-04-01,
-local-authority,local-authority,WYE,NMD,Q73072859,Wyre Forest District Council,,E07000239,E60000142,,
-local-authority,local-authority,WYO,NMD,Q65088676,Wycombe District Council,,E07000007,,,2020-03-31
-local-authority,local-authority,WYR,NMD,Q73072856,Wyre Borough Council,,E07000128,E60000046,,
-local-authority,local-authority,YOR,UA,Q17059453,City of York Council,,E06000014,E60000056,1905-06-18,
-local-authority,local-authority,CUA,UA,Q112160997,Cumberland Unitary Authority,,E06000063,E60000334,2023-04-01,
-local-authority,local-authority,WFUA,UA,Q111962803,Westmorland and Furness Council,,E06000064,E60000335,2023-04-01,
-local-authority,local-authority,NYUA,UA,Q107980431,North Yorkshire Council,,E06000065,E60000336,2023-04-01,
-local-authority,local-authority,SUA,UA,Q110682463,Somerset Council,,E06000066,E60000337,2023-04-01,
+addressbase-custodian,billing-authority,combined-authority,end-date,entity,entry-date,esd-inventory,local-authority-district,local-authority-type,local-enterprise-partnership,local-planning-authority,local-resilience-forum,name,notes,opendatacommunities-uri,organisation,parliament-thesaurus,prefix,reference,region,start-date,statistical-geography,twitter,website,wikidata,wikipedia
+3805,E3831,,,26,2023-11-19,,E07000223,NMD,,E60000281,sussex,Adur District Council,,http://opendatacommunities.org/id/district-council/adur,local-authority:ADU,453,local-authority,ADU,south-east,,E07000223,,https://www.adur-worthing.gov.uk,Q72980889,
+905,E0931,,2023-03-31,27,2023-11-19,,E07000026,NMD,,E60000019,cumbria,Allerdale Borough Council,,http://opendatacommunities.org/id/district-council/allerdale,local-authority:ALL,1131,local-authority,ALL,north-west,,E07000026,allerdale,https://www.allerdale.gov.uk,Q72980920,
+1005,E1031,,,28,2023-11-19,,E07000032,NMD,,E60000077,derbyshire,Amber Valley Borough Council,,http://opendatacommunities.org/id/district-council/amber-valley,local-authority:AMB,1257,local-authority,AMB,east-midlands,,E07000032,AmberValleyBC,https://www.ambervalley.gov.uk,Q72980961,
+3810,E3832,,,29,2023-11-19,,E07000224,NMD,,E60000282,sussex,Arun District Council,,http://opendatacommunities.org/id/district-council/arun,local-authority:ARU,1925,local-authority,ARU,south-east,,E07000224,ArunDistrict,https://www.arun.gov.uk,Q72980967,
+2205,E2231,,,30,2023-11-19,,E07000105,NMD,,E60000253,kent,Ashford Borough Council,,http://opendatacommunities.org/id/district-council/ashford,local-authority:ASF,1962,local-authority,ASF,south-east,,E07000105,AshfordCouncil,https://www.ashford.gov.uk,Q55098926,Ashford_Borough_Council
+3005,E3031,,,31,2023-11-19,,E07000170,NMD,,E60000106,nottinghamshire,Ashfield District Council,,http://opendatacommunities.org/id/district-council/ashfield,local-authority:ASH,1958,local-authority,ASH,east-midlands,,E07000170,ADCAshfield,https://www.ashfield.gov.uk,Q73038329,
+405,E0431,,2020-03-31,32,2023-11-19,,E07000004,NMD,,E60000233,thames-valley,Aylesbury Vale District Council,,http://opendatacommunities.org/id/district-council/aylesbury-vale,local-authority:AYL,3003,local-authority,AYL,south-east,,E07000004,,https://www.aylesburyvaledc.gov.uk,Q61995983,Aylesbury_Vale_District_Council
+3505,E3531,,,33,2023-11-19,,E07000200,NMD,,E60000183,suffolk,Babergh District Council,,http://opendatacommunities.org/id/district-council/babergh,local-authority:BAB,3042,local-authority,BAB,east-of-england,,E07000200,,https://www.babergh.gov.uk,Q73039037,
+3010,E3032,,,34,2023-11-19,,E07000171,NMD,,E60000107,nottinghamshire,Bassetlaw District Council,,http://opendatacommunities.org/id/district-council/bassetlaw,local-authority:BAE,3351,local-authority,BAE,east-midlands,,E07000171,,https://www.bassetlaw.gov.uk,Q73045241,
+1505,E1531,,,35,2023-11-19,,E07000066,NMD,,E60000154,essex,Basildon Borough Council,,http://opendatacommunities.org/id/district-council/basildon,local-authority:BAI,3341,local-authority,BAI,east-of-england,,E07000066,,https://www.basildon.gov.uk,Q4867303,Basildon_Borough_Council
+1705,E1731,,,36,2023-11-19,,E07000084,NMD,,E60000242,hampshire-&-isle-of-wight,Basingstoke and Deane Borough Council,,http://opendatacommunities.org/id/district-council/basingstoke,local-authority:BAN,3343,local-authority,BAN,south-east,,E07000084,,https://www.basingstoke.gov.uk,Q73072528,
+910,E0932,,2023-03-31,37,2023-11-19,,E07000027,NMD,,E60000020,cumbria,Barrow-in-Furness Borough Council,,http://opendatacommunities.org/id/district-council/barrow-in-furness,local-authority:BAR,3320,local-authority,BAR,north-west,,E07000027,BarrowCouncil,https://www.barrowbc.gov.uk,Q73072525,
+114,E0101,WECA,,38,2023-11-19,,E06000022,UA,,E60000288,avon-&-somerset,Bath and North East Somerset Council,,http://opendatacommunities.org/id/unitary-authority/bath-and-north-east-somerset,local-authority:BAS,3363,local-authority,BAS,south-west,1996-04-01,E06000022,bathnes,https://www.bathnes.gov.uk,Q16966588,Bath_and_North_East_Somerset_Council
+2372,E2301,,,39,2023-11-19,,E06000008,UA,,E60000013,lancashire,Blackburn with Darwen Borough Council,,http://opendatacommunities.org/id/unitary-authority/blackburn,local-authority:BBD,3991,local-authority,BBD,north-west,1998-04-01,E06000008,blackburndarwen,https://www.blackburn.gov.uk,Q16984481,Blackburn_with_Darwen_Borough_Council
+235,E0202,,,40,2023-11-19,,E06000055,UA,,E60000143,bedfordshire,Bedford Borough Council,,http://opendatacommunities.org/id/unitary-authority/bedford,local-authority:BDF,3490,local-authority,BDF,east-of-england,2009-04-01,E06000055,BedfordTweets,https://www.bedford.gov.uk,Q16239012,Bedford_Borough_Council
+5060,E5030,,,41,2023-11-19,,E09000002,LBO,,E60000202,london,London Borough of Barking and Dagenham,,http://opendatacommunities.org/id/london-borough-council/barking-and-dagenham,local-authority:BDG,3260,local-authority,BDG,london,,E09000002,lbbdcouncil,https://www.lbbd.gov.uk,Q4861056,Barking_and_Dagenham_London_Borough_Council
+5150,E5033,,,42,2023-11-19,,E09000005,LBO,,E60000205,london,London Borough of Brent,,http://opendatacommunities.org/id/london-borough-council/brent,local-authority:BEN,4304,local-authority,BEN,london,,E09000005,,https://www.brent.gov.uk,Q4961461,Brent_London_Borough_Council
+5120,E5032,,,43,2023-11-19,,E09000004,LBO,,E60000204,london,London Borough of Bexley,,http://opendatacommunities.org/id/london-borough-council/bexley,local-authority:BEX,3715,local-authority,BEX,london,,E09000004,LBofBexley,https://www.bexley.gov.uk,Q4899799,Bexley_London_Borough_Council
+4605,E4601,WMCA,,44,2023-11-19,,E08000025,MD,,E60000130,west-midlands,Birmingham City Council,,http://opendatacommunities.org/id/metropolitan-district-council/birmingham,local-authority:BIR,3862,local-authority,BIR,west-midlands,1986-07-01,E08000025,BhamCityCouncil,https://www.birmingham.gov.uk,Q4916650,Birmingham_City_Council
+,E0421,,2020-03-31,45,2023-11-19,,E10000002,CTY,,,,Buckinghamshire County Council,,http://opendatacommunities.org/id/county-council/buckinghamshire,local-authority:BKM,,local-authority,BKM,south-east,1905-06-19,E10000002,,https://www.buckscc.gov.uk,Q4983255,Buckinghamshire_County_Council
+2405,E2431,,,46,2023-11-19,,E07000129,NMD,,E60000085,leicestershire,Blaby District Council,,http://opendatacommunities.org/id/district-council/blaby,local-authority:BLA,3944,local-authority,BLA,east-midlands,,E07000129,BlabyDC,https://www.blaby.gov.uk,Q73072529,
+1250,E1202,,2019-03-31,47,2023-11-19,,E06000028,UA,,,,Bournemouth Borough Council,,http://opendatacommunities.org/id/unitary-authority/bournemouth,local-authority:BMH,4145,local-authority,BMH,,1905-06-19,E06000028,BCPCouncil,https://www.bournemouth.gov.uk,Q1144019,Bournemouth_Borough_Council
+5090,E5031,,,48,2023-11-19,,E09000003,LBO,,E60000203,london,London Borough of Barnet,,http://opendatacommunities.org/id/london-borough-council/barnet,local-authority:BNE,3278,local-authority,BNE,london,,E09000003,barnetcouncil,https://www.barnet.gov.uk,Q4861611,Barnet_London_Borough_Council
+1445,E1401,,,49,2023-11-19,,E06000043,UA,,E60000222,sussex,Brighton and Hove City Council,,http://opendatacommunities.org/id/unitary-authority/brighton-and-hove,local-authority:BNH,4379,local-authority,BNH,south-east,1905-06-19,E06000043,BrightonHoveCC,https://www.brighton-hove.gov.uk,Q16953725,Brighton_and_Hove_City_Council
+4405,E4401,SCR,,50,2023-11-19,,E08000016,MD,,E60000064,south-yorkshire,Barnsley Metropolitan Borough Council,,http://opendatacommunities.org/id/metropolitan-district-council/barnsley,local-authority:BNS,3296,local-authority,BNS,yorkshire-and-the-humber,1974-04-01,E08000016,BarnsleyCouncil,https://www.barnsley.gov.uk,Q16950416,Barnsley_Metropolitan_Borough_Council
+4205,E4201,GMCA,,51,2023-11-19,,E08000001,MD,,E60000025,greater-manchester,Bolton Metropolitan Borough Council,,http://opendatacommunities.org/id/metropolitan-district-council/bolton,local-authority:BOL,4026,local-authority,BOL,north-west,1974-04-01,E08000001,boltoncouncil,https://www.bolton.gov.uk,Q16952682,Bolton_Council
+1010,E1032,,,52,2023-11-19,,E07000033,NMD,,E60000078,derbyshire,Bolsover District Council,,http://opendatacommunities.org/id/district-council/bolsover,local-authority:BOS,4025,local-authority,BOS,east-midlands,,E07000033,,https://www.bolsover.gov.uk,Q73072533,
+2505,E2531,,,53,2023-11-19,,E07000136,NMD,,E60000092,lincolnshire,Boston Borough Council,,http://opendatacommunities.org/id/district-council/boston,local-authority:BOT,4119,local-authority,BOT,east-midlands,,E07000136,,https://www.boston.gov.uk,Q73072538,
+,,,,54,2023-11-19,,E06000058,UA,,E60000289,dorset,"Bournemouth, Christchurch and Poole Council",,http://opendatacommunities.org/id/unitary-authority/bournemouth-christchurch-and-poole,local-authority:BPC,453108,local-authority,BPC,south-west,2019-04-01,E06000058,BCPCouncil,https://www.bcpcouncil.gov.uk,Q54818205,"Bournemouth,_Christchurch_and_Poole_Council"
+2373,E2302,,,55,2023-11-19,,E06000009,UA,,E60000014,lancashire,Blackpool Borough Council,,http://opendatacommunities.org/id/unitary-authority/blackpool,local-authority:BPL,3999,local-authority,BPL,north-west,1905-06-20,E06000009,BpoolCouncil,https://www.blackpool.gov.uk,Q16984489,Blackpool_Council
+1510,E1532,,,56,2023-11-19,,E07000067,NMD,,E60000155,essex,Braintree District Council,,http://opendatacommunities.org/id/district-council/braintree,local-authority:BRA,4247,local-authority,BRA,east-of-england,,E07000067,,https://www.braintree.gov.uk,Q73072540,
+335,E0301,,,57,2023-11-19,,E06000036,UA,,E60000221,thames-valley,Bracknell Forest Council,,http://opendatacommunities.org/id/unitary-authority/bracknell-forest,local-authority:BRC,4198,local-authority,BRC,south-east,1998-04-01,E06000036,BracknellForest,https://www.bracknell-forest.gov.uk/,Q16985082,Bracknell_Forest_Council
+4705,E4701,WYCA,,58,2023-11-19,,E08000032,MD,,E60000068,west-yorkshire,City of Bradford Metropolitan District Council,,http://opendatacommunities.org/id/metropolitan-district-council/bradford,local-authority:BRD,4217,local-authority,BRD,yorkshire-and-the-humber,1974-04-01,E08000032,bradfordmdc,https://www.bradford.gov.uk,Q16953331,City_of_Bradford_Metropolitan_District_Council
+2605,E2631,,,59,2023-11-19,,E07000143,NMD,,E60000176,norfolk,Breckland District Council,,http://opendatacommunities.org/id/district-council/breckland,local-authority:BRE,4291,local-authority,BRE,east-of-england,,E07000143,BreckCouncil,https://www.breckland.gov.uk,Q73072542,
+1805,E1831,,,60,2023-11-19,,E07000234,NMD,,E60000137,west-mercia,Bromsgrove District Council,,http://opendatacommunities.org/id/district-council/bromsgrove,local-authority:BRM,16573,local-authority,BRM,west-midlands,,E07000234,,https://www.bromsgrove.gov.uk,Q73072550,
+2610,E2632,,,61,2023-11-19,,E07000144,NMD,,E60000177,norfolk,Broadland District Council,,http://opendatacommunities.org/id/district-council/broadland,local-authority:BRO,16541,local-authority,BRO,east-of-england,,E07000144,,https://www.broadland.gov.uk,Q73072548,
+3015,E3033,,,62,2023-11-19,,E07000172,NMD,,E60000108,nottinghamshire,Broxtowe Borough Council,,http://opendatacommunities.org/id/district-council/broxtowe,local-authority:BRT,16608,local-authority,BRT,east-midlands,,E07000172,broxtowebc,https://www.broxtowe.gov.uk,Q73072553,
+1515,E1533,,,63,2023-11-19,,E07000068,NMD,,E60000156,essex,Brentwood Borough Council,,http://opendatacommunities.org/id/district-council/brentwood,local-authority:BRW,4318,local-authority,BRW,east-of-england,,E07000068,,https://www.brentwood.gov.uk,Q73072544,
+1905,E1931,,,64,2023-11-19,,E07000095,NMD,,E60000166,hertfordshire,Broxbourne Borough Council,,http://opendatacommunities.org/id/district-council/broxbourne,local-authority:BRX,,local-authority,BRX,east-of-england,,E07000095,,https://www.broxbourne.gov.uk,Q4976877,Broxbourne_Borough_Council
+5180,E5034,,,65,2023-11-19,,E09000006,LBO,,E60000206,london,London Borough of Bromley,,http://opendatacommunities.org/id/london-borough-council/bromley,local-authority:BRY,16566,local-authority,BRY,london,,E09000006,LBofBromley,https://www.bromley.gov.uk,Q4973687,Bromley_London_Borough_Council
+116,E0102,WECA,,66,2023-11-19,,E06000023,UA,,E60000290,avon-&-somerset,Bristol City Council,,http://opendatacommunities.org/id/unitary-authority/bristol,local-authority:BST,4400,local-authority,BST,south-west,1905-06-18,E06000023,BristolCouncil,https://www.bristol.gov.uk,Q16953796,Bristol_City_Council
+,,,,67,2023-11-19,,E06000060,UA,,E60000331,,Buckinghamshire Council,,http://opendatacommunities.org/id/unitary-authority/buckinghamshire,local-authority:BUC,474721,local-authority,BUC,,2020-04-01,E06000060,buckscouncil,https://www.buckinghamshire.gov.uk/,Q65052846,Buckinghamshire_Council
+2315,E2333,,,68,2023-11-19,,E07000117,NMD,,E60000035,lancashire,Burnley Borough Council,,http://opendatacommunities.org/id/district-council/burnley,local-authority:BUN,16795,local-authority,BUN,north-west,,E07000117,burnleycouncil,https://www.burnley.gov.uk,Q73072554,
+4210,E4202,GMCA,,69,2023-11-19,,E08000002,MD,,E60000026,greater-manchester,Bury Metropolitan Borough Council,,http://opendatacommunities.org/id/metropolitan-district-council/bury,local-authority:BUR,16822,local-authority,BUR,north-west,1974-04-01,E08000002,BuryCouncil,https://www.bury.gov.uk,Q16954633,Bury_Metropolitan_Borough_Council
+505,E0531,CPCA,,70,2023-11-19,,E07000008,NMD,,E60000149,cambridgeshire,Cambridge City Council,,http://opendatacommunities.org/id/district-council/cambridge,local-authority:CAB,18518,local-authority,CAB,east-of-england,,E07000008,camcitco,https://www.cambridge.gov.uk,Q5025388,Cambridge_City_Council
+,E0521,,,71,2023-11-19,,E10000003,CTY,,E60000149,,Cambridgeshire County Council,,http://opendatacommunities.org/id/county-council/cambridgeshire,local-authority:CAM,,local-authority,CAM,east-of-england,,E10000003,,https://www.cambridgeshire.gov.uk,Q5025648,Cambridgeshire_County_Council
+3405,E3431,,,72,2023-11-19,,E07000192,NMD,,E60000117,staffordshire,Cannock Chase District Council,,http://opendatacommunities.org/id/district-council/cannock-chase,local-authority:CAN,18802,local-authority,CAN,west-midlands,,E07000192,,https://www.cannockchasedc.gov.uk,Q73072556,
+915,E0933,,2023-03-31,73,2023-11-19,,E07000028,NMD,,E60000021,cumbria,Carlisle City Council,,http://opendatacommunities.org/id/district-council/carlisle,local-authority:CAR,19050,local-authority,CAR,north-west,,E07000028,,https://www.carlisle.gov.uk,Q73072558,
+1520,E1534,,,74,2023-11-19,,E07000069,NMD,,E60000157,essex,Castle Point Borough Council,,http://opendatacommunities.org/id/district-council/castle-point,local-authority:CAS,19160,local-authority,CAS,east-of-england,,E07000069,,https://www.castlepoint.gov.uk,Q73072562,
+2210,E2232,,,75,2023-11-19,,E07000106,NMD,,E60000254,kent,Canterbury City Council,,http://opendatacommunities.org/id/district-council/canterbury,local-authority:CAT,18820,local-authority,CAT,south-east,,E07000106,,https://www.canterbury.gov.uk,Q55098924,Canterbury_City_Council
+240,E0203,,,76,2023-11-19,,E06000056,UA,,E60000144,bedfordshire,Central Bedfordshire Council,,http://opendatacommunities.org/id/unitary-authority/central-bedfordshire,local-authority:CBF,297660,local-authority,CBF,east-of-england,2009-04-01,E06000056,letstalkcentral,https://www.centralbedfordshire.gov.uk,Q16986562,Central_Bedfordshire_Council
+2410,E2432,,,77,2023-11-19,,E07000130,NMD,,E60000086,leicestershire,Charnwood Borough Council,,http://opendatacommunities.org/id/district-council/charnwood,local-authority:CHA,20089,local-authority,CHA,east-midlands,,E07000130,CharnwoodBC,https://www.charnwood.gov.uk,Q73072564,
+1210,E1232,,2019-03-31,78,2023-11-19,,E07000048,NMD,,,,Christchurch Borough Council,,http://opendatacommunities.org/id/district-council/christchurch,local-authority:CHC,20530,local-authority,CHC,,,E07000048,,https://www.dorsetforyou.com,Q73072580,
+660,E0603,,,79,2023-11-19,,E06000049,UA,,E60000015,cheshire,Cheshire East Council,,http://opendatacommunities.org/id/unitary-authority/cheshire-east,local-authority:CHE,297110,local-authority,CHE,north-west,2009-04-01,E06000049,CheshireEast,https://www.cheshireeast.gov.uk,Q16829355,Cheshire_East_Council
+3815,E3833,,,80,2023-11-19,,E07000225,NMD,,E60000283,sussex,Chichester District Council,,http://opendatacommunities.org/id/district-council/chichester,local-authority:CHI,20277,local-authority,CHI,south-east,1974-04-01,E07000225,ChichesterDC,https://www.chichester.gov.uk,Q73072573,Chichester_District_Council
+1525,E1535,,,81,2023-11-19,,E07000070,NMD,,E60000158,essex,Chelmsford City Council,,http://opendatacommunities.org/id/district-council/chelmsford,local-authority:CHL,20158,local-authority,CHL,east-of-england,,E07000070,ChelmsCouncil,https://www.chelmsford.gov.uk,Q73072566,
+415,E0432,,2020-03-31,82,2023-11-19,,E07000005,NMD,,E60000234,thames-valley,Chiltern District Council,,http://opendatacommunities.org/id/district-council/chiltern,local-authority:CHN,20454,local-authority,CHN,south-east,,E07000005,,https://www.chiltern.gov.uk,Q73072575,
+2320,E2334,,,83,2023-11-19,,E07000118,NMD,,E60000036,lancashire,Chorley Borough Council,,http://opendatacommunities.org/id/district-council/chorley,local-authority:CHO,20522,local-authority,CHO,north-west,,E07000118,,https://www.chorley.gov.uk,Q73072578,
+3105,E3131,,,84,2023-11-19,,E07000177,NMD,,E60000265,thames-valley,Cherwell District Council,,http://opendatacommunities.org/id/district-council/cherwell,local-authority:CHR,20221,local-authority,CHR,south-east,,E07000177,,https://www.cherwell-dc.gov.uk,Q73072569,
+1015,E1033,,,85,2023-11-19,,E07000034,NMD,,E60000079,derbyshire,Chesterfield Borough Council,,http://opendatacommunities.org/id/district-council/chesterfield,local-authority:CHS,20253,local-authority,CHS,east-midlands,,E07000034,,https://www.chesterfield.gov.uk,Q73072572,
+1605,E1631,,,86,2023-11-19,,E07000078,NMD,,E60000308,gloucestershire,Cheltenham Borough Council,,http://opendatacommunities.org/id/district-council/cheltenham,local-authority:CHT,20180,local-authority,CHT,south-west,,E07000078,,https://www.cheltenham.gov.uk,Q28401301,Cheltenham_Borough_Council
+665,E0604,,,87,2023-11-19,,E06000050,UA,,E60000016,cheshire,Cheshire West and Chester Council,,http://opendatacommunities.org/id/unitary-authority/cheshire-west-and-chester,local-authority:CHW,297099,local-authority,CHW,north-west,2009-04-01,E06000050,Go_CheshireWest,https://www.cheshirewestandchester.gov.uk,Q16829360,Cheshire_West_and_Chester_Council
+4710,E4702,WYCA,,88,2023-11-19,,E08000033,MD,,E60000069,west-yorkshire,Calderdale Metropolitan Borough Council,,http://opendatacommunities.org/id/metropolitan-district-council/calderdale,local-authority:CLD,18450,local-authority,CLD,yorkshire-and-the-humber,1974-04-01,E08000033,Calderdale,https://www.calderdale.gov.uk,Q16985873,Calderdale_Metropolitan_Borough_Council
+,E0920,,,89,2023-11-19,,E10000006,CTY,,,,Cumbria County Council,,http://opendatacommunities.org/id/county-council/cumbria,local-authority:CMA,28069,local-authority,CMA,north-west,,E10000006,,https://www.cumbria.gov.uk,Q5194027,Cumbria_County_Council
+5210,E5011,,,90,2023-11-19,,E09000007,LBO,,E60000188,london,London Borough of Camden,,http://opendatacommunities.org/id/london-borough-council/camden,local-authority:CMD,18584,local-authority,CMD,london,,E09000007,camdencouncil,https://www.camden.gov.uk,Q5025790,Camden_London_Borough_Council
+1530,E1536,,,91,2023-11-19,,E07000071,NMD,,E60000159,essex,Colchester Borough Council,,http://opendatacommunities.org/id/district-council/colchester,local-authority:COL,20998,local-authority,COL,east-of-england,,E07000071,,https://www.colchester.gov.uk,Q73072586,
+840,E0801,,,92,2023-11-19,,E06000052,UA,,E60000291,devon-cornwall-&-isle-of-scilly,Cornwall Council,,http://opendatacommunities.org/id/unitary-authority/cornwall,local-authority:CON,24599,local-authority,CON,south-west,2009-04-01,E06000052,CornwallCouncil,https://www.cornwall.gov.uk,Q3774189,Cornwall_Council
+920,E0934,,2023-03-31,93,2023-11-19,,E07000029,NMD,,E60000022,cumbria,Copeland Borough Council,,http://opendatacommunities.org/id/district-council/copeland,local-authority:COP,21482,local-authority,COP,north-west,,E07000029,,https://www.copeland.gov.uk,Q73072589,
+2805,E2831,,2021-03-31,94,2023-11-19,,E07000150,NMD,,,northamptonshire,Corby Borough Council,,http://opendatacommunities.org/id/district-council/corby,local-authority:COR,21503,local-authority,COR,east-midlands,1974-04-01,E07000150,,https://www.corby.gov.uk,Q73072591,
+1610,E1632,,,95,2023-11-19,,E07000079,NMD,,E60000309,gloucestershire,Cotswold District Council,,http://opendatacommunities.org/id/district-council/cotswold,local-authority:COT,25759,local-authority,COT,south-west,,E07000079,,https://www.cotswold.gov.uk,Q5175478,Cotswold_District_Council
+4610,E4602,WMCA,,96,2023-11-19,,E08000026,MD,,E60000131,west-midlands,Coventry City Council,,http://opendatacommunities.org/id/metropolitan-district-council/coventry,local-authority:COV,27726,local-authority,COV,west-midlands,1974-04-01,E08000026,coventrycc,https://www.coventry.gov.uk,Q5179058,Coventry_City_Council
+,,,,97,2023-11-19,,E47000008,COMB,,,,Cambridgeshire and Peterborough Combined Authority,,,local-authority:CPCA,432854,local-authority,CPCA,,2014-04-01,E47000008,,https://cambridgeshirepeterborough-ca.gov.uk,Q28451058,Cambridgeshire_and_Peterborough_Combined_Authority
+2705,E2731,,2023-03-31,98,2023-11-19,,E07000163,NMD,,E60000057,north-yorkshire,Craven District Council,,http://opendatacommunities.org/id/district-council/craven,local-authority:CRA,27794,local-authority,CRA,yorkshire-and-the-humber,,E07000163,,https://www.cravendc.gov.uk,Q73072595,
+3820,E3834,,,99,2023-11-19,,E07000226,NMD,,E60000284,sussex,Crawley Borough Council,,http://opendatacommunities.org/id/district-council/crawley,local-authority:CRW,27799,local-authority,CRW,south-east,1974-04-01,E07000226,,https://www.crawley.gov.uk,Q30255982,Crawley_Borough_Council
+5240,E5035,,,100,2023-11-19,,E09000008,LBO,,E60000207,london,London Borough of Croydon,,http://opendatacommunities.org/id/london-borough-council/croydon,local-authority:CRY,27989,local-authority,CRY,london,1965-04-01,E09000008,yourcroydon,https://www.croydon.gov.uk,Q5189676,Croydon_London_Borough_Council
+,,,,10000,2023-11-19,,E06000063,UA,,E60000334,,Cumberland Unitary Authority,,,local-authority:CUA,,local-authority,CUA,,2023-04-01,E06000063,,https://www.cumberland.gov.uk/,Q112160997,
+1910,E1932,,,101,2023-11-19,,E07000096,NMD,,E60000167,hertfordshire,Dacorum Borough Council,,http://opendatacommunities.org/id/district-council/dacorum,local-authority:DAC,28186,local-authority,DAC,east-of-england,,E07000096,DacorumBC,https://www.dacorum.gov.uk,Q5207723,Dacorum_Borough_Council
+1350,E1301,TVCA,,102,2023-11-19,,E06000005,UA,,E60000002,durham-&-darlington,Darlington Borough Council,,http://opendatacommunities.org/id/unitary-authority/darlington,local-authority:DAL,28281,local-authority,DAL,north-east,1997-04-01,E06000005,darlingtonbc,https://www.darlington.gov.uk,Q16948698,Darlington_Borough_Council
+2215,E2233,,,103,2023-11-19,,E07000107,NMD,,E60000255,kent,Dartford Borough Council,,http://opendatacommunities.org/id/district-council/dartford,local-authority:DAR,28291,local-authority,DAR,south-east,,E07000107,,https://www.dartford.gov.uk,Q55098919,Dartford_Borough_Council
+2810,E2832,,2021-03-31,104,2023-11-19,,E07000151,NMD,,,northamptonshire,Daventry District Council,,http://opendatacommunities.org/id/district-council/daventry,local-authority:DAV,28340,local-authority,DAV,east-midlands,1974-04-01,E07000151,,https://www.daventrydc.gov.uk,Q73072596,
+,E1021,,,105,2023-11-19,,E10000007,CTY,,E60000073,,Derbyshire County Council,,http://opendatacommunities.org/id/county-council/derbyshire,local-authority:DBY,,local-authority,DBY,east-midlands,,E10000007,,https://www.derbyshire.gov.uk,Q5261561,Derbyshire_County_Council
+1045,E1035,,,106,2023-11-19,,E07000035,NMD,,E60000080,derbyshire,Derbyshire Dales District Council,,http://opendatacommunities.org/id/district-council/derbyshire-dales,local-authority:DEB,28879,local-authority,DEB,east-midlands,,E07000035,,https://www.derbyshiredales.gov.uk,Q73072598,
+1055,E1001,,,107,2023-11-19,,E06000015,UA,,E60000073,derbyshire,Derby City Council,,http://opendatacommunities.org/id/unitary-authority/derby,local-authority:DER,28859,local-authority,DER,east-midlands,,E06000015,DerbyCC,https://www.derby.gov.uk,Q5261430,Derby_City_Council
+,E1121,,,108,2023-11-19,,E10000008,CTY,,,,Devon County Council,,http://opendatacommunities.org/id/county-council/devon,local-authority:DEV,,local-authority,DEV,south-west,,E10000008,DevonCC,https://www.devon.gov.uk,Q6385990,Devon_County_Council
+4410,E4402,SCR,,109,2023-11-19,,E08000017,MD,,E60000065,south-yorkshire,Doncaster Metropolitan Borough Council,,http://opendatacommunities.org/id/metropolitan-district-council/doncaster,local-authority:DNC,29382,local-authority,DNC,yorkshire-and-the-humber,1974-04-01,E08000017,MyDoncaster,https://www.doncaster.gov.uk,Q16988947,Doncaster_Metropolitan_Borough_Council
+,E1221,,2019-03-31,110,2023-11-19,,E10000009,CTY,,,,Dorset County Council,,http://opendatacommunities.org/id/county-council/dorset,local-authority:DOR,,local-authority,DOR,south-west,,E10000009,,https://www.dorsetforyou.com,Q5298839,Dorset_County_Council
+2220,E2234,,,111,2023-11-19,,E07000108,NMD,,E60000256,kent,Dover District Council,,http://opendatacommunities.org/id/district-council/dover,local-authority:DOV,29433,local-authority,DOV,south-east,,E07000108,,https://www.dover.gov.uk,Q55098918,Dover_District_Council
+,,,,112,2023-11-19,,E06000059,UA,,E60000292,dorset,Dorset Council,,http://opendatacommunities.org/id/unitary-authority/dorset,local-authority:DST,453118,local-authority,DST,south-west,2019-04-01,E06000059,DorsetCouncilUK,https://www.dorsetcouncil.gov.uk,Q55609905,Dorset_Council_(UK)
+4615,E4603,WMCA,,113,2023-11-19,,E08000027,MD,,E60000132,west-midlands,Dudley Metropolitan Borough Council,,http://opendatacommunities.org/id/metropolitan-district-council/dudley,local-authority:DUD,29556,local-authority,DUD,west-midlands,1974-04-01,E08000027,dudleymbc,https://www.dudley.gov.uk,Q16991635,Dudley_Metropolitan_Borough_Council
+1355,E1302,NECA,,114,2023-11-19,,E06000047,UA,,E60000001,durham-&-darlington,Durham County Council,,http://opendatacommunities.org/id/unitary-authority/county-durham,local-authority:DUR,29649,local-authority,DUR,north-east,2009-04-01,E06000047,durhamcouncil,https://www.durham.gov.uk,Q5316492,Durham_County_Council
+5270,E5036,,,115,2023-11-19,,E09000009,LBO,,E60000208,london,London Borough of Ealing,,http://opendatacommunities.org/id/london-borough-council/ealing,local-authority:EAL,32803,local-authority,EAL,london,,E09000009,ealingcouncil,https://www.ealing.gov.uk,Q5325486,Ealing_London_Borough_Council
+1410,E1432,,,116,2023-11-19,,E07000061,NMD,,E60000237,sussex,Eastbourne Borough Council,,http://opendatacommunities.org/id/district-council/eastbourne,local-authority:EAS,33037,local-authority,EAS,south-east,,E07000061,,https://www.eastbourne.gov.uk,Q30588396,Eastbourne_Borough_Council
+1715,E1733,,,117,2023-11-19,,E07000086,NMD,,E60000244,hampshire-&-isle-of-wight,Eastleigh Borough Council,,http://opendatacommunities.org/id/district-council/eastleigh,local-authority:EAT,33082,local-authority,EAT,south-east,,E07000086,,https://www.eastleigh.gov.uk,Q73072609,
+510,E0532,CPCA,,118,2023-11-19,,E07000009,NMD,,E60000150,cambridgeshire,East Cambridgeshire District Council,,http://opendatacommunities.org/id/district-council/east-cambridgeshire,local-authority:ECA,32869,local-authority,ECA,east-of-england,,E07000009,,https://www.eastcambs.gov.uk,Q65090031,East_Cambridgeshire_District_Council
+1105,E1131,,,119,2023-11-19,,E07000040,NMD,,E60000300,devon-cornwall-&-isle-of-scilly,East Devon District Council,,http://opendatacommunities.org/id/district-council/east-devon,local-authority:EDE,32877,local-authority,EDE,south-west,,E07000040,eastdevon,https://eastdevon.gov.uk,Q69118038,
+925,E0935,,2023-03-31,120,2023-11-19,,E07000030,NMD,,E60000023,cumbria,Eden District Council,,http://opendatacommunities.org/id/district-council/eden,local-authority:EDN,17154,local-authority,EDN,north-west,,E07000030,,https://www.eden.gov.uk,Q73072611,
+1240,E1233,,2019-03-31,121,2023-11-19,,E07000049,NMD,,,,East Dorset District Council,,http://opendatacommunities.org/id/district-council/east-dorset,local-authority:EDO,32880,local-authority,EDO,,1974-04-01,E07000049,,http://www.eastdorsetdc.gov.uk/,Q73072599,
+1710,E1732,,,122,2023-11-19,,E07000085,NMD,,E60000243,hampshire-&-isle-of-wight,East Hampshire District Council,,http://opendatacommunities.org/id/district-council/east-hampshire,local-authority:EHA,32901,local-authority,EHA,south-east,,E07000085,,https://www.easthants.gov.uk,Q73072602,
+1915,E1933,,,123,2023-11-19,,E07000242,NMD,,E60000168,hertfordshire,East Hertfordshire District Council,,http://opendatacommunities.org/id/district-council/east-hertfordshire,local-authority:EHE,32903,local-authority,EHE,east-of-england,,E07000242,,https://www.eastherts.gov.uk,Q5328577,East_Hertfordshire_District_Council
+2510,E2532,,,124,2023-11-19,,E07000137,NMD,,E60000093,lincolnshire,East Lindsey District Council,,http://opendatacommunities.org/id/district-council/east-lindsey,local-authority:ELI,32924,local-authority,ELI,east-midlands,,E07000137,,https://www.e-lindsey.gov.uk,Q73072603,
+3605,E3631,,,125,2023-11-19,,E07000207,NMD,,E60000270,surrey,Elmbridge Borough Council,,http://opendatacommunities.org/id/district-council/elmbridge,local-authority:ELM,17454,local-authority,ELM,south-east,,E07000207,,https://www.elmbridge.gov.uk,Q73072615,
+5300,E5037,,,126,2023-11-19,,E09000010,LBO,,E60000209,london,London Borough of Enfield,,http://opendatacommunities.org/id/london-borough-council/enfield,local-authority:ENF,17658,local-authority,ENF,london,1965-04-01,E09000010,,https://www.enfield.gov.uk,Q5377310,Enfield_London_Borough_Council
+2815,E2833,,2021-03-31,127,2023-11-19,,E07000152,NMD,,,northamptonshire,East Northamptonshire Council,,http://opendatacommunities.org/id/district-council/east-northamptonshire,local-authority:ENO,32974,local-authority,ENO,east-midlands,1974-04-01,E07000152,,https://www.east-northamptonshire.gov.uk,Q73072604,
+1535,E1537,,,128,2023-11-19,,E07000072,NMD,,E60000160,essex,Epping Forest District Council,,http://opendatacommunities.org/id/district-council/epping-forest,local-authority:EPP,18047,local-authority,EPP,east-of-england,,E07000072,,https://www.eppingforestdc.gov.uk,Q73072617,
+3610,E3632,,,129,2023-11-19,,E07000208,NMD,,E60000271,surrey,Epsom and Ewell Borough Council,,http://opendatacommunities.org/id/district-council/epsom-and-ewell,local-authority:EPS,18051,local-authority,EPS,south-east,,E07000208,,https://www.epsom-ewell.gov.uk,Q73072619,
+1025,E1036,,,130,2023-11-19,,E07000036,NMD,,E60000081,derbyshire,Erewash Borough Council,,http://opendatacommunities.org/id/district-council/erewash,local-authority:ERE,18115,local-authority,ERE,east-midlands,,E07000036,ErewashBC,https://www.erewash.gov.uk,Q73072621,
+2001,E2001,,,131,2023-11-19,,E06000011,UA,,E60000052,humber,East Riding of Yorkshire Council,,http://opendatacommunities.org/id/unitary-authority/east-riding,local-authority:ERY,32995,local-authority,ERY,yorkshire-and-the-humber,1996-04-01,E06000011,East_Riding,https://www.eastriding.gov.uk/,Q16989282,East_Riding_of_Yorkshire_Council
+,,,,132,2023-11-19,,E07000244,NMD,,E60000184,suffolk,East Suffolk Council,,http://opendatacommunities.org/id/district-council/east-suffolk,local-authority:ESK,444878,local-authority,ESK,east-of-england,2019-04-01,E07000244,,https://www.eastsuffolk.gov.uk,Q59536023,East_Suffolk_Council
+,E1521,,,133,2023-11-19,,E10000012,CTY,,,,Essex County Council,,http://opendatacommunities.org/id/county-council/essex,local-authority:ESS,,local-authority,ESS,east-of-england,,E10000012,Essex_CC,https://www.essex.gov.uk/,Q5399679,Essex_County_Council
+3410,E3432,,,134,2023-11-19,,E07000193,NMD,,E60000118,staffordshire,East Staffordshire Borough Council,,http://opendatacommunities.org/id/district-council/east-staffordshire,local-authority:EST,33000,local-authority,EST,west-midlands,,E07000193,,https://www.eaststaffsbc.gov.uk,Q73072606,
+,E1421,,,135,2023-11-19,,E10000011,CTY,,,,East Sussex County Council,,http://opendatacommunities.org/id/county-council/east-sussex,local-authority:ESX,,local-authority,ESX,south-east,,E10000011,eastsussexcc,https://www.eastsussex.gov.uk,Q5329458,East_Sussex_County_Council
+1110,E1132,,,136,2023-11-19,,E07000041,NMD,,E60000301,devon-cornwall-&-isle-of-scilly,Exeter City Council,,http://opendatacommunities.org/id/district-council/exeter,local-authority:EXE,33690,local-authority,EXE,south-west,,E07000041,ExeterCouncil,https://www.exeter.gov.uk,Q5420103,Exeter_City_Council
+1720,E1734,,,137,2023-11-19,,E07000087,NMD,,E60000245,hampshire-&-isle-of-wight,Fareham Borough Council,,http://opendatacommunities.org/id/district-council/fareham,local-authority:FAR,33939,local-authority,FAR,south-east,,E07000087,,https://www.fareham.gov.uk,Q73072624,
+515,E0533,CPCA,,138,2023-11-19,,E07000010,NMD,,E60000151,cambridgeshire,Fenland District Council,,http://opendatacommunities.org/id/district-council/fenland,local-authority:FEN,34155,local-authority,FEN,east-of-england,,E07000010,,https://www.fenland.gov.uk,Q73072625,
+1615,E1633,,,139,2023-11-19,,E07000080,NMD,,E60000310,gloucestershire,Forest of Dean District Council,,http://opendatacommunities.org/id/district-council/forest-of-dean,local-authority:FOE,34755,local-authority,FOE,south-west,,E07000080,,https://www.fdean.gov.uk,Q28401332,Forest_of_Dean_District_Council
+3510,E3532,,2019-03-31,140,2023-11-19,,E07000201,NMD,,,,Forest Heath District Council,,http://opendatacommunities.org/id/district-council/forest-heath,local-authority:FOR,34753,local-authority,FOR,,1974-04-01,E07000201,,https://www.forest-heath.gov.uk,Q73072627,
+2325,E2335,,,141,2023-11-19,,E07000119,NMD,,E60000037,lancashire,Fylde Borough Council,,http://opendatacommunities.org/id/district-council/fylde,local-authority:FYL,35252,local-authority,FYL,north-west,,E07000119,,https://www.fylde.gov.uk,Q73072630,
+4505,E4501,NECA,,142,2023-11-19,,E08000037,MD,,E60000008,northumbria,Gateshead Metropolitan Borough Council,,http://opendatacommunities.org/id/metropolitan-district-council/gateshead,local-authority:GAT,35374,local-authority,GAT,north-east,1974-04-01,E08000037,Gateshead,https://www.gateshead.gov.uk,Q54666929,
+3020,E3034,,,143,2023-11-19,,E07000173,NMD,,E60000109,nottinghamshire,Gedling Borough Council,,http://opendatacommunities.org/id/district-council/gedling,local-authority:GED,36252,local-authority,GED,east-midlands,,E07000173,GedlingBC,https://www.gedling.gov.uk,Q73072632,
+,E5100,,,144,2023-11-19,,E12000007,SRA,,,,Greater London Authority,,http://opendatacommunities.org/id/greater-london-authority/greater-london-authority,local-authority:GLA,37006,local-authority,GLA,,1905-06-22,E12000007,,https://www.london.gov.uk,Q1135166,Greater_London_Authority
+1620,E1634,,,145,2023-11-19,,E07000081,NMD,,E60000311,gloucestershire,Gloucester City Council,,http://opendatacommunities.org/id/district-council/gloucester,local-authority:GLO,36678,local-authority,GLO,south-west,,E07000081,,https://www.gloucester.gov.uk,Q28401303,Gloucester_City_Council
+,E1620,,,146,2023-11-19,,E10000013,CTY,,E60000311,,Gloucestershire County Council,,http://opendatacommunities.org/id/county-council/gloucestershire,local-authority:GLS,,local-authority,GLS,south-west,,E10000013,gloscc,https://www.gloucestershire.gov.uk,Q16839354,Gloucestershire_County_Council
+,E6348,,,147,2023-11-19,,E47000001,COMB,,E60000027,,Greater Manchester Combined Authority,,http://opendatacommunities.org/id/greater-manchester-combined-authority/greater-manchester,local-authority:GMCA,401738,local-authority,GMCA,,2014-04-01,E47000001,greatermcr,https://www.greatermanchester-ca.gov.uk,Q5600634,Greater_Manchester_Combined_Authority
+1725,E1735,,,148,2023-11-19,,E07000088,NMD,,E60000246,hampshire-&-isle-of-wight,Gosport Borough Council,,http://opendatacommunities.org/id/district-council/gosport,local-authority:GOS,36777,local-authority,GOS,south-east,,E07000088,,https://www.gosport.gov.uk,Q73072634,Gosport_Borough_Council
+2230,E2236,,,149,2023-11-19,,E07000109,NMD,,E60000258,kent,Gravesham Borough Council,,http://opendatacommunities.org/id/district-council/gravesham,local-authority:GRA,36949,local-authority,GRA,south-east,,E07000109,,https://www.gravesham.gov.uk,Q55098935,Gravesham_Borough_Council
+5330,E5012,,,150,2023-11-19,,E09000011,LBO,,E60000210,london,Royal Borough of Greenwich,,http://opendatacommunities.org/id/london-borough-council/greenwich,local-authority:GRE,37126,local-authority,GRE,london,,E09000011,Royal_Greenwich,https://www.royalgreenwich.gov.uk,Q5604860,Greenwich_London_Borough_Council
+3615,E3633,,,151,2023-11-19,,E07000209,NMD,,E60000272,surrey,Guildford Borough Council,,http://opendatacommunities.org/id/district-council/guildford,local-authority:GRT,37225,local-authority,GRT,south-east,,E07000209,,https://www.guildford.gov.uk,Q73072637,
+2615,E2633,,,152,2023-11-19,,E07000145,NMD,,E60000178,norfolk,Great Yarmouth Borough Council,,http://opendatacommunities.org/id/district-council/great-yarmouth,local-authority:GRY,36978,local-authority,GRY,east-of-england,,E07000145,,https://www.great-yarmouth.gov.uk,Q73072635,
+1735,E1737,,,153,2023-11-19,,E07000090,NMD,,E60000248,hampshire-&-isle-of-wight,Havant Borough Council,,http://opendatacommunities.org/id/district-council/havant,local-authority:HAA,35656,local-authority,HAA,south-east,,E07000090,,https://www.havant.gov.uk,Q73072652,
+2710,E2732,,2023-03-31,154,2023-11-19,,E07000164,NMD,,E60000058,north-yorkshire,Hambleton District Council,,http://opendatacommunities.org/id/district-council/hambleton,local-authority:HAE,35441,local-authority,HAE,yorkshire-and-the-humber,,E07000164,,https://www.hambleton.gov.uk,Q73072640,
+2715,E2753,,2023-03-31,155,2023-11-19,,E07000165,NMD,,E60000059,north-yorkshire,Harrogate Borough Council,,http://opendatacommunities.org/id/district-council/harrogate,local-authority:HAG,35579,local-authority,HAG,yorkshire-and-the-humber,,E07000165,Harrogatebc,https://www.harrogate.gov.uk,Q73072647,
+650,E0601,LCR,,156,2023-11-19,,E06000006,UA,,E60000017,cheshire,Halton Borough Council,,http://opendatacommunities.org/id/unitary-authority/halton,local-authority:HAL,35432,local-authority,HAL,north-west,1998-04-01,E06000006,haltonbc,https://www.halton.gov.uk,Q16983144,Halton_Borough_Council
+,E1721,,,157,2023-11-19,,E10000014,CTY,,,,Hampshire County Council,,http://opendatacommunities.org/id/county-council/hampshire,local-authority:HAM,,local-authority,HAM,south-east,,E10000014,,https://www.hants.gov.uk,Q5646045,Hampshire_County_Council
+2415,E2433,,,158,2023-11-19,,E07000131,NMD,,E60000087,leicestershire,Harborough District Council,,http://opendatacommunities.org/id/district-council/harborough,local-authority:HAO,35513,local-authority,HAO,east-midlands,,E07000131,,https://www.harborough.gov.uk,Q73072642,
+1540,E1538,,,159,2023-11-19,,E07000073,NMD,,E60000161,essex,Harlow District Council,,http://opendatacommunities.org/id/district-council/harlow,local-authority:HAR,35549,local-authority,HAR,east-of-england,,E07000073,,https://www.harlow.gov.uk,Q73072645,Harlow_District_Council
+1415,E1433,,,160,2023-11-19,,E07000062,NMD,,E60000238,sussex,Hastings Borough Council,,http://opendatacommunities.org/id/district-council/hastings,local-authority:HAS,35644,local-authority,HAS,south-east,,E07000062,,https://www.hastings.gov.uk,Q73072650,Hastings_Borough_Council
+1730,E1736,,,161,2023-11-19,,E07000089,NMD,,E60000247,hampshire-&-isle-of-wight,Hart District Council,,http://opendatacommunities.org/id/district-council/hart,local-authority:HAT,35600,local-authority,HAT,south-east,,E07000089,,https://www.hart.gov.uk,Q73072649,
+5480,E5040,,,162,2023-11-19,,E09000016,LBO,,E60000212,london,London Borough of Havering,,http://opendatacommunities.org/id/london-borough-council/havering,local-authority:HAV,35662,local-authority,HAV,london,,E09000016,,https://www.havering.gov.uk,Q5683826,Havering_London_Borough_Council
+5360,E5013,,,163,2023-11-19,,E09000012,LBO,,E60000190,london,London Borough of Hackney,,http://opendatacommunities.org/id/london-borough-council/hackney,local-authority:HCK,37322,local-authority,HCK,london,,E09000012,hackneycouncil,https://www.hackney.gov.uk,Q5637369,Hackney_London_Borough_Council
+1850,E1801,,,164,2023-11-19,,E06000019,UA,,E60000113,west-mercia,Herefordshire Council,,http://opendatacommunities.org/id/unitary-authority/herefordshire,local-authority:HEF,36035,local-authority,HEF,west-midlands,1998-04-01,E06000019,HfdsCouncil,https://www.herefordshire.gov.uk,Q5738061,Herefordshire_Council
+1920,E1934,,,165,2023-11-19,,E07000098,NMD,,E60000169,hertfordshire,Hertsmere Borough Council,,http://opendatacommunities.org/id/district-council/hertsmere,local-authority:HER,36093,local-authority,HER,east-of-england,,E07000098,,https://www.hertsmere.gov.uk,Q15223753,Hertsmere_Borough_Council
+1030,E1037,,,166,2023-11-19,,E07000037,NMD,,E60000082,derbyshire,High Peak Borough Council,,http://opendatacommunities.org/id/district-council/high-peak,local-authority:HIG,36124,local-authority,HIG,east-midlands,,E07000037,,https://www.highpeak.gov.uk,Q5756024,High_Peak_Borough_Council
+5510,E5041,,,167,2023-11-19,,E09000017,LBO,,E60000213,london,London Borough of Hillingdon,,http://opendatacommunities.org/id/london-borough-council/hillingdon,local-authority:HIL,36213,local-authority,HIL,london,,E09000017,Hillingdon,https://www.hillingdon.gov.uk,Q5763303,Hillingdon_London_Borough_Council
+2420,E2434,,,168,2023-11-19,,E07000132,NMD,,E60000088,leicestershire,Hinckley and Bosworth Borough Council,,http://opendatacommunities.org/id/district-council/hinckley-and-bosworth,local-authority:HIN,24879,local-authority,HIN,east-midlands,,E07000132,,https://www.hinckley-bosworth.gov.uk,Q73072654,
+5390,E5014,,,169,2023-11-19,,E09000013,LBO,,E60000191,london,London Borough of Hammersmith & Fulham,,http://opendatacommunities.org/id/london-borough-council/hammersmith-and-fulham,local-authority:HMF,35451,local-authority,HMF,london,,E09000013,,https://www.lbhf.gov.uk/,Q5645758,Hammersmith_and_Fulham_London_Borough_Council
+5540,E5042,,,170,2023-11-19,,E09000018,LBO,,E60000214,london,London Borough of Hounslow,,http://opendatacommunities.org/id/london-borough-council/hounslow,local-authority:HNS,25248,local-authority,HNS,london,,E09000018,LBofHounslow,https://www.hounslow.gov.uk,Q5913301,Hounslow_London_Borough_Council
+3825,E3835,,,171,2023-11-19,,E07000227,NMD,,E60000285,sussex,Horsham District Council,,http://opendatacommunities.org/id/district-council/horsham,local-authority:HOR,25203,local-authority,HOR,south-east,1974-04-01,E07000227,,https://www.horsham.gov.uk,Q73072656,
+724,E0701,TVCA,,172,2023-11-19,,E06000001,UA,,E60000003,cleveland,Hartlepool Borough Council,,http://opendatacommunities.org/id/unitary-authority/hartlepool,local-authority:HPL,35605,local-authority,HPL,north-east,1905-06-18,E06000001,HpoolCouncil,https://www.hartlepool.gov.uk,Q16993720,Hartlepool_Borough_Council
+,E1920,,,173,2023-11-19,,E10000015,CTY,,,,Hertfordshire County Council,,http://opendatacommunities.org/id/county-council/hertfordshire,local-authority:HRT,,local-authority,HRT,east-of-england,,E10000015,,https://www.hertsdirect.org/,Q5744765,Hertfordshire_County_Council
+5450,E5039,,,174,2023-11-19,,E09000015,LBO,,E60000211,london,London Borough of Harrow,,http://opendatacommunities.org/id/london-borough-council/harrow,local-authority:HRW,35586,local-authority,HRW,london,,E09000015,,https://www.harrow.gov.uk,Q5666565,Harrow_London_Borough_Council
+5420,E5038,,,175,2023-11-19,,E09000014,LBO,,E60000192,london,London Borough of Haringey,,http://opendatacommunities.org/id/london-borough-council/haringey,local-authority:HRY,35523,local-authority,HRY,london,1965-04-01,E09000014,,https://www.haringey.gov.uk,Q5657624,Haringey_London_Borough_Council
+520,E0551,CPCA,,176,2023-11-19,,E07000011,NMD,,E60000152,cambridgeshire,Huntingdonshire District Council,,http://opendatacommunities.org/id/district-council/huntingdonshire,local-authority:HUN,26266,local-authority,HUN,east-of-england,,E07000011,,https://www.huntingdonshire.gov.uk,Q73072657,Huntingdonshire_District_Council
+2330,E2336,,,177,2023-11-19,,E07000120,NMD,,E60000038,lancashire,Hyndburn Borough Council,,http://opendatacommunities.org/id/district-council/hyndburn,local-authority:HYN,26299,local-authority,HYN,north-west,,E07000120,,https://www.hyndburnbc.gov.uk,Q65089006,Hyndburn_Borough_Council
+835,E4001,,,178,2023-11-19,,E06000053,UA,,E60000293,devon-cornwall-&-isle-of-scilly,Council of the Isles of Scilly,,http://opendatacommunities.org/id/unitary-authority/scilly,local-authority:IOS,67774,local-authority,IOS,south-west,1974-04-01,E06000053,ioscouncil,https://www.scilly.gov.uk,Q28195166,Council_of_the_Isles_of_Scilly
+2114,E2101,,,179,2023-11-19,,E06000046,UA,,E60000223,hampshire-&-isle-of-wight,Isle of Wight Council,,http://opendatacommunities.org/id/unitary-authority/isle-of-wight,local-authority:IOW,41190,local-authority,IOW,south-east,1905-06-17,E06000046,iwight,https://www.iow.gov.uk/,Q6084095,Isle_of_Wight_Council
+3515,E3533,,,180,2023-11-19,,E07000202,NMD,,E60000185,suffolk,Ipswich Borough Council,,http://opendatacommunities.org/id/district-council/ipswich,local-authority:IPS,41011,local-authority,IPS,east-of-england,,E07000202,,https://www.ipswich.gov.uk,Q16191496,Ipswich_Borough_Council
+5570,E5015,,,181,2023-11-19,,E09000019,LBO,,E60000193,london,London Borough of Islington,,http://opendatacommunities.org/id/london-borough-council/islington,local-authority:ISL,41201,local-authority,ISL,london,,E09000019,IslingtonBC,https://www.islington.gov.uk,Q6084379,Islington_London_Borough_Council
+5600,E5016,,,182,2023-11-19,,E09000020,LBO,,E60000194,london,Royal Borough of Kensington and Chelsea,,http://opendatacommunities.org/id/london-borough-council/kensington-and-chelsea,local-authority:KEC,,local-authority,KEC,london,,E09000020,,https://www.rbkc.gov.uk/,Q6391507,Kensington_and_Chelsea_London_Borough_Council
+,E2221,,,183,2023-11-19,,E10000016,CTY,,,,Kent County Council,,http://opendatacommunities.org/id/county-council/kent,local-authority:KEN,,local-authority,KEN,south-east,,E10000016,,https://www.kent.gov.uk,Q6386127,Kent_County_Council
+2820,E2834,,2021-03-31,184,2023-11-19,,E07000153,NMD,,,northamptonshire,Kettering Borough Council,,http://opendatacommunities.org/id/district-council/kettering,local-authority:KET,41933,local-authority,KET,east-midlands,1974-04-01,E07000153,,https://www.kettering.gov.uk,Q6395462,Kettering_Borough_Council
+2004,E2002,,,185,2023-11-19,,E06000010,UA,,E60000053,humber,Hull City Council,,http://opendatacommunities.org/id/unitary-authority/hull,local-authority:KHL,42046,local-authority,KHL,yorkshire-and-the-humber,1996-04-01,E06000010,Hullccnews,https://www.hullcc.gov.uk,Q5935834,Hull_City_Council
+2635,E2634,,,186,2023-11-19,,E07000146,NMD,,E60000179,norfolk,Borough Council of King's Lynn and West Norfolk,,http://opendatacommunities.org/id/district-council/west-norfolk,local-authority:KIN,42024,local-authority,KIN,east-of-england,,E07000146,,https://www.west-norfolk.gov.uk,Q73072537,
+4715,E4703,WYCA,,187,2023-11-19,,E08000034,MD,,E60000070,west-yorkshire,Kirklees Council,,http://opendatacommunities.org/id/metropolitan-district-council/kirklees,local-authority:KIR,42066,local-authority,KIR,yorkshire-and-the-humber,1974-04-01,E08000034,KirkleesCouncil,https://www.kirklees.gov.uk,Q16995709,Kirklees_Council
+5630,E5043,,,188,2023-11-19,,E09000021,LBO,,E60000215,london,Royal Borough of Kingston upon Thames,,http://opendatacommunities.org/id/london-borough-council/kingston,local-authority:KTT,42050,local-authority,KTT,london,,E09000021,RBKingston,https://www.kingston.gov.uk,Q6413671,Kingston_upon_Thames_London_Borough_Council
+4305,E4301,LCR,,189,2023-11-19,,E08000011,MD,,E60000047,merseyside,Knowsley Metropolitan Borough Council,,http://opendatacommunities.org/id/metropolitan-district-council/knowsley,local-authority:KWL,42093,local-authority,KWL,north-west,1974-04-01,E08000011,KnowsleyCouncil,https://www.knowsley.gov.uk,Q16995750,Knowsley_Metropolitan_Borough_Council
+2335,E2337,,,190,2023-11-19,,E07000121,NMD,,E60000039,lancashire,Lancaster City Council,,http://opendatacommunities.org/id/district-council/lancaster,local-authority:LAC,42333,local-authority,LAC,north-west,,E07000121,lancastercc,https://www.lancaster.gov.uk,Q73072658,
+,E2321,,,191,2023-11-19,,E10000017,CTY,,,,Lancashire County Council,,http://opendatacommunities.org/id/county-council/lancashire,local-authority:LAN,,local-authority,LAN,north-west,,E10000017,,https://www.lancashire.gov.uk,Q6386149,Lancashire_County_Council
+5660,E5017,,,192,2023-11-19,,E09000022,LBO,,E60000195,london,London Borough of Lambeth,,http://opendatacommunities.org/id/london-borough-council/lambeth,local-authority:LBH,42273,local-authority,LBH,london,,E09000022,lambeth_council,https://www.lambeth.gov.uk,Q6481450,Lambeth_London_Borough_Council
+2465,E2401,,,193,2023-11-19,,E06000016,UA,,E60000074,leicestershire,Leicester City Council,,http://opendatacommunities.org/id/unitary-authority/leicester,local-authority:LCE,42695,local-authority,LCE,east-midlands,1905-06-19,E06000016,Leicester_News,https://www.leicester.gov.uk,Q6519163,Leicester_City_Council
+,,,,194,2023-11-19,,E47000004,COMB,,E60000048,,Liverpool City Region,,,local-authority:LCR,403217,local-authority,LCR,north-west,2014-04-01,E47000004,LpoolCityRegion,https://www.liverpoolcityregion-ca.gov.uk,Q16996746,Liverpool_City_Region_Combined_Authority
+4720,E4704,WYCA,,195,2023-11-19,,E08000035,MD,,E60000071,west-yorkshire,Leeds City Council,,http://opendatacommunities.org/id/metropolitan-district-council/leeds,local-authority:LDS,42600,local-authority,LDS,yorkshire-and-the-humber,1905-06-08,E08000035,LeedsCC_News,https://www.leeds.gov.uk,Q6515870,Leeds_City_Council
+,E2421,,,196,2023-11-19,,E10000018,CTY,,E60000074,,Leicestershire County Council,,http://opendatacommunities.org/id/county-council/leicestershire,local-authority:LEC,,local-authority,LEC,east-midlands,1889-01-01,E10000018,,https://www.leicestershire.gov.uk/,Q6386198,Leicestershire_County_Council
+1425,E1435,,,197,2023-11-19,,E07000063,NMD,,E60000239,sussex,Lewes District Council,,http://opendatacommunities.org/id/district-council/lewes,local-authority:LEE,42802,local-authority,LEE,south-east,,E07000063,,https://www.lewes-eastbourne.gov.uk,Q73072662,
+5690,E5018,,,198,2023-11-19,,E09000023,LBO,,E60000196,london,London Borough of Lewisham,,http://opendatacommunities.org/id/london-borough-council/lewisham,local-authority:LEW,42816,local-authority,LEW,london,,E09000023,,https://www.lewisham.gov.uk,Q6537320,Lewisham_London_Borough_Council
+2515,E2533,,,199,2023-11-19,,E07000138,NMD,,E60000094,lincolnshire,City of Lincoln Council,,http://opendatacommunities.org/id/district-council/lincoln,local-authority:LIC,42978,local-authority,LIC,east-midlands,,E07000138,,https://www.lincoln.gov.uk,Q73072583,City_of_Lincoln_Council
+3415,E3433,,,200,2023-11-19,,E07000194,NMD,,E60000119,staffordshire,Lichfield District Council,,http://opendatacommunities.org/id/district-council/lichfield,local-authority:LIF,42924,local-authority,LIF,west-midlands,,E07000194,,https://www.lichfielddc.gov.uk,Q6543271,Lichfield_District_Council
+,E2520,,,201,2023-11-19,,E10000019,CTY,,E60000094,,Lincolnshire County Council,,http://opendatacommunities.org/id/county-council/lincolnshire,local-authority:LIN,,local-authority,LIN,east-midlands,,E10000019,,https://www.lincolnshire.gov.uk,Q16996347,Lincolnshire_County_Council
+4310,E4302,LCR,,202,2023-11-19,,E08000012,MD,,E60000048,merseyside,Liverpool City Council,,http://opendatacommunities.org/id/metropolitan-district-council/liverpool,local-authority:LIV,43089,local-authority,LIV,north-west,1905-06-08,E08000012,lpoolcouncil,https://www.liverpool.gov.uk,Q6658351,Liverpool_City_Council
+5030,E5010,,,203,2023-11-19,,E09000001,CC,,E60000189,london,City of London Corporation,,http://opendatacommunities.org/id/london-borough-council/city-of-london,local-authority:LND,20561,local-authority,LND,london,1905-06-28,E09000001,,https://www.cityoflondon.gov.uk/,Q1094147,City_of_London_Corporation
+230,E0201,,,204,2023-11-19,,E06000032,UA,,E60000145,bedfordshire,Luton Borough Council,,http://opendatacommunities.org/id/unitary-authority/luton,local-authority:LUT,43852,local-authority,LUT,east-of-england,1905-06-19,E06000032,lutoncouncil,https://www.luton.gov.uk,Q16997109,Luton_Borough_Council
+2235,E2237,,,205,2023-11-19,,E07000110,NMD,,E60000259,kent,Maidstone Borough Council,,http://opendatacommunities.org/id/district-council/maidstone,local-authority:MAI,43979,local-authority,MAI,south-east,,E07000110,,https://www.maidstone.gov.uk,Q16997208,Maidstone_Borough_Council
+1545,E1539,,,206,2023-11-19,,E07000074,NMD,,E60000162,essex,Maldon District Council,,http://opendatacommunities.org/id/district-council/maldon,local-authority:MAL,44031,local-authority,MAL,east-of-england,,E07000074,,https://www.maldon.gov.uk,Q73072663,
+4215,E4203,GMCA,,207,2023-11-19,,E08000003,MD,,E60000027,greater-manchester,Manchester City Council,,http://opendatacommunities.org/id/metropolitan-district-council/manchester,local-authority:MAN,44096,local-authority,MAN,north-west,1974-04-01,E08000003,ManCityCouncil,https://www.manchester.gov.uk,Q2302252,Manchester_City_Council
+3025,E3035,,,208,2023-11-19,,E07000174,NMD,,E60000110,nottinghamshire,Mansfield District Council,,http://opendatacommunities.org/id/district-council/mansfield,local-authority:MAS,44158,local-authority,MAS,east-midlands,,E07000174,,https://www.mansfield.gov.uk,Q73072669,
+1820,E1851,,,209,2023-11-19,,E07000235,NMD,,E60000138,west-mercia,Malvern Hills District Council,,http://opendatacommunities.org/id/district-council/malvern-hills,local-authority:MAV,44044,local-authority,MAV,west-midlands,,E07000235,,https://www.malvernhills.gov.uk,Q73072667,
+734,E0702,TVCA,,210,2023-11-19,,E06000002,UA,,E60000004,cleveland,Middlesbrough Borough Council,,http://opendatacommunities.org/id/unitary-authority/middlesbrough,local-authority:MDB,45710,local-authority,MDB,north-east,1905-06-18,E06000002,MbroCouncil,https://www.middlesbrough.gov.uk,Q6841843,Middlesbrough_Council
+1135,E1133,,,211,2023-11-19,,E07000042,NMD,,E60000302,devon-cornwall-&-isle-of-scilly,Mid Devon District Council,,http://opendatacommunities.org/id/district-council/mid-devon,local-authority:MDE,45648,local-authority,MDE,south-west,,E07000042,,https://www.middevon.gov.uk,Q73072676,
+2280,E2201,,,212,2023-11-19,,E06000035,UA,,E60000224,kent,Medway Council,,http://opendatacommunities.org/id/unitary-authority/medway,local-authority:MDW,45310,local-authority,MDW,south-east,1998-04-01,E06000035,medway_council,https://www.medway.gov.uk,Q16997526,Medway_Council
+2430,E2436,,,213,2023-11-19,,E07000133,NMD,,E60000089,leicestershire,Melton Borough Council,,http://opendatacommunities.org/id/district-council/melton,local-authority:MEL,45336,local-authority,MEL,east-midlands,,E07000133,,https://www.melton.gov.uk,Q73072672,
+3305,E3331,,2023-03-31,214,2023-11-19,,E07000187,NMD,,E60000314,avon-&-somerset,Mendip District Council,,http://opendatacommunities.org/id/district-council/mendip,local-authority:MEN,45352,local-authority,MEN,south-west,,E07000187,,https://www.mendip.gov.uk,Q73072673,
+435,E0401,,,215,2023-11-19,,E06000042,UA,,E60000225,thames-valley,Milton Keynes Council,,http://opendatacommunities.org/id/unitary-authority/milton-keynes,local-authority:MIK,45853,local-authority,MIK,south-east,1905-06-19,E06000042,mkcouncil,https://www.milton-keynes.gov.uk/,Q16997843,Milton_Keynes_City_Council
+3620,E3634,,,216,2023-11-19,,E07000210,NMD,,E60000273,surrey,Mole Valley District Council,,http://opendatacommunities.org/id/district-council/mole-valley,local-authority:MOL,46115,local-authority,MOL,south-east,,E07000210,,https://www.molevalley.gov.uk,Q73072681,
+5720,E5044,,,217,2023-11-19,,E09000024,LBO,,E60000216,london,London Borough of Merton,,http://opendatacommunities.org/id/london-borough-council/merton,local-authority:MRT,45518,local-authority,MRT,london,,E09000024,,https://www.merton.gov.uk,Q6820723,Merton_London_Borough_Council
+3830,E3836,,,218,2023-11-19,,E07000228,NMD,,E60000286,sussex,Mid Sussex District Council,,http://opendatacommunities.org/id/district-council/mid-sussex,local-authority:MSS,45680,local-authority,MSS,south-east,1974-04-01,E07000228,,https://www.midsussex.gov.uk,Q73072679,
+3520,E3534,,,219,2023-11-19,,E07000203,NMD,,E60000186,suffolk,Mid Suffolk District Council,,http://opendatacommunities.org/id/district-council/mid-suffolk,local-authority:MSU,45677,local-authority,MSU,east-of-england,,E07000203,,https://www.midsuffolk.gov.uk,Q73072678,
+2935,E2901,NTCA,,220,2023-11-19,,E06000057,UA,,E60000005,northumbria,Northumberland County Council,,http://opendatacommunities.org/id/unitary-authority/northumberland,local-authority:NBL,59853,local-authority,NBL,north-east,2009-04-01,E06000057,N_landCouncil,https://www.northumberland.gov.uk,Q6386521,Northumberland_County_Council
+1115,E1134,,,221,2023-11-19,,E07000043,NMD,,E60000303,devon-cornwall-&-isle-of-scilly,North Devon District Council,,http://opendatacommunities.org/id/district-council/north-devon,local-authority:NDE,59060,local-authority,NDE,south-west,,E07000043,,https://www.northdevon.gov.uk,Q7055115,North_Devon_Council
+1215,E1234,,2019-03-31,222,2023-11-19,,E07000050,NMD,,,,North Dorset District Council,,http://opendatacommunities.org/id/district-council/north-dorset,local-authority:NDO,59067,local-authority,NDO,,,E07000050,,https://www.dorsetforyou.com,Q73072691,
+3030,E3036,,,223,2023-11-19,,E07000175,NMD,,E60000111,nottinghamshire,Newark and Sherwood District Council,,http://opendatacommunities.org/id/district-council/newark-and-sherwood,local-authority:NEA,58572,local-authority,NEA,east-midlands,,E07000175,,https://www.newark-sherwooddc.gov.uk,Q73072684,
+3420,E3434,,,224,2023-11-19,,E07000195,NMD,,E60000120,staffordshire,Newcastle-under-Lyme Borough Council,,http://opendatacommunities.org/id/district-council/newcastle-staffs,local-authority:NEC,58616,local-authority,NEC,west-midlands,,E07000195,,https://www.newcastle-staffs.gov.uk,Q73072687,
+,,,,225,2023-11-19,,E47000010,COMB,,,,North East Combined Authority,,,local-authority:NECA,403198,local-authority,NECA,,2014-04-15,E47000010,NorthTyneCA,https://northeastca.gov.uk/,Q16986408,North_East_Combined_Authority
+1035,E1038,,,226,2023-11-19,,E07000038,NMD,,E60000083,derbyshire,North East Derbyshire District Council,,http://opendatacommunities.org/id/district-council/north-east-derbyshire,local-authority:NED,59093,local-authority,NED,east-midlands,,E07000038,,https://www.ne-derbyshire.gov.uk,Q73072692,
+2002,E2003,,,227,2023-11-19,,E06000012,UA,,E60000054,humber,North East Lincolnshire Council,,http://opendatacommunities.org/id/unitary-authority/north-east-lincolnshire,local-authority:NEL,59103,local-authority,NEL,yorkshire-and-the-humber,1996-04-01,E06000012,nelcouncil,https://www.nelincs.gov.uk,Q17016820,North_East_Lincolnshire_Council
+4510,E4502,NTCA,,228,2023-11-19,,E08000021,MD,,E60000009,northumbria,Newcastle City Council,,http://opendatacommunities.org/id/metropolitan-district-council/newcastle,local-authority:NET,58605,local-authority,NET,north-east,1974-04-01,E08000021,NewcastleCC,https://www.newcastle.gov.uk,Q16998823,Newcastle_City_Council
+1740,E1738,,,229,2023-11-19,,E07000091,NMD,,E60000249,hampshire-&-isle-of-wight,New Forest District Council,,http://opendatacommunities.org/id/district-council/new-forest,local-authority:NEW,58464,local-authority,NEW,south-east,,E07000091,,https://www.newforestdc.gov.uk,Q73072682,
+,E2620,,,230,2023-11-19,,E10000020,CTY,,,,Norfolk County Council,,http://opendatacommunities.org/id/county-council/norfolk,local-authority:NFK,,local-authority,NFK,east-of-england,,E10000020,,https://www.norfolk.gov.uk,Q6386227,Norfolk_County_Council
+3060,E3001,,,231,2023-11-19,,E06000018,UA,,E60000075,nottinghamshire,Nottingham City Council,,http://opendatacommunities.org/id/unitary-authority/nottingham,local-authority:NGM,59938,local-authority,NGM,east-midlands,1905-06-20,E06000018,MyNottingham,https://www.nottinghamcity.gov.uk,Q7063612,Nottingham_City_Council
+1925,E1935,,,232,2023-11-19,,E07000099,NMD,,E60000170,hertfordshire,North Hertfordshire District Council,,http://opendatacommunities.org/id/district-council/north-hertfordshire,local-authority:NHE,59164,local-authority,NHE,east-of-england,,E07000099,,https://www.north-herts.gov.uk,Q7055592,North_Hertfordshire_District_Council
+2520,E2534,,,233,2023-11-19,,E07000139,NMD,,E60000095,lincolnshire,North Kesteven District Council,,http://opendatacommunities.org/id/district-council/north-kesteven,local-authority:NKE,59176,local-authority,NKE,east-midlands,,E07000139,,https://www.n-kesteven.gov.uk,Q28401189,North_Kesteven_District_Council
+2003,E2004,,,234,2023-11-19,,E06000013,UA,,E60000055,humber,North Lincolnshire Council,,http://opendatacommunities.org/id/unitary-authority/north-lincolnshire,local-authority:NLN,59184,local-authority,NLN,yorkshire-and-the-humber,1996-04-01,E06000013,NorthLincsCNews,https://www.northlincs.gov.uk,Q17016863,North_Lincolnshire_Council
+2620,E2635,,,235,2023-11-19,,E07000147,NMD,,E60000180,norfolk,North Norfolk District Council,,http://opendatacommunities.org/id/district-council/north-norfolk,local-authority:NNO,59203,local-authority,NNO,east-of-england,,E07000147,,https://www.northnorfolk.org/,Q73072695,
+,,,,501908,2023-11-19,,E06000061,UA,,E60000332,,North Northamtonshire Council,,,local-authority:NNUA,,local-authority,NNUA,,2020-04-01,E06000061,,https://www.northnorthants.gov.uk/,Q111232446,
+2825,E2835,,2020-03-31,236,2023-11-19,,E07000154,NMD,,,northamptonshire,Northampton Borough Council,,http://opendatacommunities.org/id/district-council/northampton,local-authority:NOR,,local-authority,NOR,east-midlands,1974-04-01,E07000154,NorthamptonBC,https://www.northampton.gov.uk,Q73072702,Northampton_Borough_Council
+2625,E2636,,,237,2023-11-19,,E07000148,NMD,,E60000181,norfolk,Norwich City Council,,http://opendatacommunities.org/id/district-council/norwich,local-authority:NOW,59917,local-authority,NOW,east-of-england,,E07000148,,https://www.norwich.gov.uk,Q17012769,Norwich_City_Council
+121,E0104,,,238,2023-11-19,,E06000024,UA,,E60000294,avon-&-somerset,North Somerset Council,,http://opendatacommunities.org/id/unitary-authority/north-somerset,local-authority:NSM,59245,local-authority,NSM,south-west,1996-04-01,E06000024,NorthSomersetC,https://www.n-somerset.gov.uk,Q17016922,North_Somerset_Council
+,,,,239,2023-11-19,,E47000011,COMB,,,,North of Tyne Combined Authority,,,local-authority:NTCA,449341,local-authority,NTCA,,2018-11-02,E47000011,,https://www.northoftyne-ca.gov.uk/,Q55136954,North_of_Tyne_Combined_Authority
+,E2820,,2021-03-31,240,2023-11-19,,E10000021,CTY,,,,Northamptonshire County Council,,http://opendatacommunities.org/id/county-council/northamptonshire,local-authority:NTH,59427,local-authority,NTH,east-midlands,1974-04-01,E10000021,,https://www.northamptonshire.gov.uk,Q14942414,Northamptonshire_County_Council
+,E3021,,,241,2023-11-19,,E10000024,CTY,,E60000075,,Nottinghamshire County Council,,http://opendatacommunities.org/id/county-council/nottinghamshire,local-authority:NTT,,local-authority,NTT,east-midlands,1937-01-01,E10000024,NottsCC,https://www.nottinghamshire.gov.uk/council-and-democracy,Q16934215,Nottinghamshire_County_Council
+4515,E4503,NTCA,,242,2023-11-19,,E08000022,MD,,E60000010,northumbria,North Tyneside Council,,http://opendatacommunities.org/id/metropolitan-district-council/north-tyneside,local-authority:NTY,59283,local-authority,NTY,north-east,1974-04-01,E08000022,NTCouncilTeam,https://www.northtyneside.gov.uk,Q17017005,North_Tyneside_Council
+3710,E3732,,,243,2023-11-19,,E07000219,NMD,,E60000126,warwickshire,Nuneaton and Bedworth Borough Council,,http://opendatacommunities.org/id/district-council/nuneaton-and-bedworth,local-authority:NUN,60081,local-authority,NUN,west-midlands,,E07000219,,https://www.nuneatonandbedworth.gov.uk,Q73072703,
+3705,E3731,,,244,2023-11-19,,E07000218,NMD,,E60000125,warwickshire,North Warwickshire Borough Council,,http://opendatacommunities.org/id/district-council/north-warwickshire,local-authority:NWA,59314,local-authority,NWA,west-midlands,,E07000218,,https://www.northwarks.gov.uk,Q73072698,
+2435,E2437,,,245,2023-11-19,,E07000134,NMD,,E60000090,leicestershire,North West Leicestershire District Council,,http://opendatacommunities.org/id/district-council/north-west-leicestershire,local-authority:NWL,59353,local-authority,NWL,east-midlands,,E07000134,,https://www.nwleics.gov.uk,Q73072699,
+5750,E5045,,,246,2023-11-19,,E09000025,LBO,,E60000197,london,London Borough of Newham,,http://opendatacommunities.org/id/london-borough-council/newham,local-authority:NWM,43395,local-authority,NWM,london,,E09000025,,https://www.newham.gov.uk,Q7018141,Newham_London_Borough_Council
+,E2721,,2023-03-31,247,2023-11-19,,E10000023,CTY,,,,North Yorkshire County Council,,http://opendatacommunities.org/id/county-council/north-yorkshire,local-authority:NYK,,local-authority,NYK,yorkshire-and-the-humber,,E10000023,northyorkscc,https://www.northyorks.gov.uk,Q17017103,North_Yorkshire_County_Council
+,,,,10004,2023-11-19,,E06000065,UA,,E60000336,,North Yorkshire Council,,,local-authority:NYUA,,local-authority,NYUA,,2023-04-01,E06000065,,https://www.northyorks.gov.uk/,Q107980431,
+2440,E2438,,,248,2023-11-19,,E07000135,NMD,,E60000091,leicestershire,Oadby and Wigston Borough Council,,http://opendatacommunities.org/id/district-council/oadby-and-wigston,local-authority:OAD,60132,local-authority,OAD,east-midlands,,E07000135,,https://oadby-wigston.gov.uk,Q73072704,
+4220,E4204,GMCA,,249,2023-11-19,,E08000004,MD,,E60000028,greater-manchester,Oldham Metropolitan Borough Council,,http://opendatacommunities.org/id/metropolitan-district-council/oldham,local-authority:OLD,60400,local-authority,OLD,north-west,1905-06-07,E08000004,OldhamCouncil,https://www.oldham.gov.uk,Q17017730,Oldham_Council
+,E3120,,,250,2023-11-19,,E10000025,CTY,,E60000266,,Oxfordshire County Council,,http://opendatacommunities.org/id/county-council/oxfordshire,local-authority:OXF,,local-authority,OXF,south-east,,E10000025,,https://www.oxfordshire.gov.uk,Q6386253,Oxfordshire_County_Council
+3110,E3132,,,251,2023-11-19,,E07000178,NMD,,E60000266,thames-valley,Oxford City Council,,http://opendatacommunities.org/id/district-council/oxford,local-authority:OXO,60776,local-authority,OXO,south-east,,E07000178,,https://www.oxford.gov.uk,Q7115277,Oxford_City_Council
+2340,E2338,,,252,2023-11-19,,E07000122,NMD,,E60000040,lancashire,Pendle Borough Council,,http://opendatacommunities.org/id/district-council/pendle,local-authority:PEN,61329,local-authority,PEN,north-west,,E07000122,,https://www.pendle.gov.uk,Q7162423,Pendle_Borough_Council
+1160,E1101,,,253,2023-11-19,,E06000026,UA,,E60000295,devon-cornwall-&-isle-of-scilly,Plymouth City Council,,http://opendatacommunities.org/id/unitary-authority/plymouth,local-authority:PLY,82878,local-authority,PLY,south-west,1998-04-01,E06000026,plymouthcc,https://www.plymouth.gov.uk,Q7205775,Plymouth_City_Council
+1255,E1201,,2019-03-31,254,2023-11-19,,E06000029,UA,,,,Borough of Poole,,http://opendatacommunities.org/id/unitary-authority/poole,local-authority:POL,61608,local-authority,POL,,1997-04-01,E06000029,,https://www.boroughofpoole.com,Q7228609,Poole_Borough_Council
+1775,E1701,,,255,2023-11-19,,E06000044,UA,,E60000226,hampshire-&-isle-of-wight,Portsmouth City Council,,http://opendatacommunities.org/id/unitary-authority/portsmouth,local-authority:POR,61679,local-authority,POR,south-east,1905-06-20,E06000044,portsmouthtoday,https://www.portsmouth.gov.uk,Q17104656,Portsmouth_City_Council
+2345,E2339,,,256,2023-11-19,,E07000123,NMD,,E60000041,lancashire,Preston City Council,,http://opendatacommunities.org/id/district-council/preston,local-authority:PRE,61876,local-authority,PRE,north-west,,E07000123,,https://www.preston.gov.uk,Q65089357,Preston_City_Council
+540,E0501,CPCA,,257,2023-11-19,,E06000031,UA,,E60000146,cambridgeshire,Peterborough City Council,,http://opendatacommunities.org/id/unitary-authority/peterborough,local-authority:PTE,61538,local-authority,PTE,east-of-england,1905-06-20,E06000031,PeterboroughCC,https://www.peterborough.gov.uk,Q6664413,Peterborough_City_Council
+1225,E1236,,2019-03-31,258,2023-11-19,,E07000051,NMD,,,,Purbeck District Council,,http://opendatacommunities.org/id/district-council/purbeck,local-authority:PUR,65559,local-authority,PUR,,,E07000051,,https://www.dorsetforyou.com,Q73072707,
+728,E0703,TVCA,,259,2023-11-19,,E06000003,UA,,E60000006,cleveland,Redcar and Cleveland Borough Council,,http://opendatacommunities.org/id/unitary-authority/redcar-and-cleveland,local-authority:RCC,66064,local-authority,RCC,north-east,1996-04-01,E06000003,RedcarCleveland,https://www.redcar-cleveland.gov.uk,Q17019415,Redcar_and_Cleveland_Borough_Council
+4225,E4205,GMCA,,260,2023-11-19,,E08000005,MD,,E60000029,greater-manchester,Rochdale Metropolitan Borough Council,,http://opendatacommunities.org/id/metropolitan-district-council/rochdale,local-authority:RCH,66760,local-authority,RCH,north-west,1905-05-27,E08000005,RochdaleCouncil,https://www.rochdale.gov.uk,Q17019804,Rochdale_Borough_Council
+5780,E5046,,,261,2023-11-19,,E09000026,LBO,,E60000217,london,London Borough of Redbridge,,http://opendatacommunities.org/id/london-borough-council/redbridge,local-authority:RDB,66059,local-authority,RDB,london,,E09000026,RedbridgeLive,https://www.redbridge.gov.uk,Q7305508,Redbridge_London_Borough_Council
+345,E0303,,,262,2023-11-19,,E06000038,UA,,E60000227,thames-valley,Reading Borough Council,,http://opendatacommunities.org/id/unitary-authority/reading,local-authority:RDG,66004,local-authority,RDG,south-east,1905-05-27,E06000038,ReadingCouncil,http://www.reading.gov.uk,Q17018654,Reading_Borough_Council
+1825,E1835,,,263,2023-11-19,,E07000236,NMD,,E60000139,west-mercia,Redditch Borough Council,,http://opendatacommunities.org/id/district-council/redditch,local-authority:RED,66070,local-authority,RED,west-midlands,,E07000236,,https://www.redditchbc.gov.uk,Q14978996,Redditch_Borough_Council
+3625,E3635,,,264,2023-11-19,,E07000211,NMD,,E60000274,surrey,Reigate and Banstead Borough Council,,http://opendatacommunities.org/id/district-council/reigate-banstead,local-authority:REI,66252,local-authority,REI,south-east,,E07000211,,https://www.reigate-banstead.gov.uk,Q73072709,
+2350,E2340,,,265,2023-11-19,,E07000124,NMD,,E60000042,lancashire,Ribble Valley Borough Council,,http://opendatacommunities.org/id/district-council/ribble-valley,local-authority:RIB,66591,local-authority,RIB,north-west,,E07000124,,https://www.ribblevalley.gov.uk,Q73072712,
+5810,E5047,,,266,2023-11-19,,E09000027,LBO,,E60000218,london,London Borough of Richmond upon Thames,,http://opendatacommunities.org/id/london-borough-council/richmond,local-authority:RIC,66618,local-authority,RIC,london,,E09000027,LBRUT,https://www.richmond.gov.uk,Q7331065,Richmond_upon_Thames_London_Borough_Council
+2720,E2734,,2023-03-31,267,2023-11-19,,E07000166,NMD,,E60000060,north-yorkshire,Richmondshire District Council,,http://opendatacommunities.org/id/district-council/richmondshire,local-authority:RIH,66622,local-authority,RIH,yorkshire-and-the-humber,,E07000166,,https://richmondshire.gov.uk,Q73072715,
+1550,E1540,,,268,2023-11-19,,E07000075,NMD,,E60000163,essex,Rochford District Council,,http://opendatacommunities.org/id/district-council/rochford,local-authority:ROC,66766,local-authority,ROC,east-of-england,,E07000075,,https://www.rochford.gov.uk,Q73072717,
+1430,E1436,,,269,2023-11-19,,E07000064,NMD,,E60000240,sussex,Rother District Council,,http://opendatacommunities.org/id/district-council/rother,local-authority:ROH,66849,local-authority,ROH,south-east,,E07000064,RotherDC,https://www.rother.gov.uk,Q73072720,Rother_District_Council
+2355,E2341,,,270,2023-11-19,,E07000125,NMD,,E60000043,lancashire,Rossendale Borough Council,,http://opendatacommunities.org/id/district-council/rossendale,local-authority:ROS,66840,local-authority,ROS,north-west,,E07000125,,https://www.rossendale.gov.uk,Q7369771,Rossendale_Borough_Council
+4415,E4403,SCR,,271,2023-11-19,,E08000018,MD,,E60000066,south-yorkshire,Rotherham Metropolitan Borough Council,,http://opendatacommunities.org/id/metropolitan-district-council/rotherham,local-authority:ROT,66858,local-authority,ROT,yorkshire-and-the-humber,1905-05-27,E08000018,RMBCPress,https://www.rotherham.gov.uk,Q17020059,Rotherham_Metropolitan_Borough_Council
+3715,E3733,,,272,2023-11-19,,E07000220,NMD,,E60000127,warwickshire,Rugby Borough Council,,http://opendatacommunities.org/id/district-council/rugby,local-authority:RUG,67239,local-authority,RUG,west-midlands,,E07000220,,https://www.rugby.gov.uk,Q73072725,
+1750,E1740,,,273,2023-11-19,,E07000092,NMD,,E60000250,hampshire-&-isle-of-wight,Rushmoor Borough Council,,http://opendatacommunities.org/id/district-council/rushmoor,local-authority:RUH,67311,local-authority,RUH,south-east,,E07000092,,https://www.rushmoor.gov.uk,Q73072730,
+3630,E3636,,,274,2023-11-19,,E07000212,NMD,,E60000275,surrey,Runnymede Borough Council,,http://opendatacommunities.org/id/district-council/runnymede,local-authority:RUN,67252,local-authority,RUN,south-east,,E07000212,,https://www.runnymede.gov.uk,Q73072726,
+3040,E3038,,,275,2023-11-19,,E07000176,NMD,,E60000112,nottinghamshire,Rushcliffe Borough Council,,http://opendatacommunities.org/id/district-council/rushcliffe,local-authority:RUS,67309,local-authority,RUS,east-midlands,,E07000176,,https://www.rushcliffe.gov.uk,Q73072729,
+2470,E2402,,,276,2023-11-19,,E06000017,UA,,E60000076,leicestershire,Rutland County Council,,http://opendatacommunities.org/id/unitary-authority/rutland,local-authority:RUT,67340,local-authority,RUT,east-midlands,1997-04-01,E06000017,rutlandcouncil,https://www.rutland.gov.uk,Q7383481,Rutland_County_Council
+2725,E2755,,2023-03-31,277,2023-11-19,,E07000167,NMD,,E60000061,north-yorkshire,Ryedale District Council,,http://opendatacommunities.org/id/district-council/ryedale,local-authority:RYE,67358,local-authority,RYE,yorkshire-and-the-humber,,E07000167,,https://www.ryedale.gov.uk,Q73072732,
+1930,E1936,,,278,2023-11-19,,E07000240,NMD,,E60000171,hertfordshire,St Albans City and District Council,,http://opendatacommunities.org/id/district-council/st-albans,local-authority:SAL,68877,local-authority,SAL,east-of-england,1974-04-01,E07000240,,https://www.stalbans.gov.uk,Q7592257,St_Albans_City_and_District_Council
+4620,E4604,WMCA,,279,2023-11-19,,E08000028,MD,,E60000133,west-midlands,Sandwell Metropolitan Borough Council,,http://opendatacommunities.org/id/metropolitan-district-council/sandwell,local-authority:SAW,67499,local-authority,SAW,west-midlands,1905-06-07,E08000028,sandwellcouncil,https://www.sandwell.gov.uk,Q7417057,Sandwell_Metropolitan_Borough_Council
+410,E0434,,2020-03-31,280,2023-11-19,,E07000006,NMD,,E60000235,thames-valley,South Bucks District Council,,http://opendatacommunities.org/id/district-council/south-bucks,local-authority:SBU,426086,local-authority,SBU,south-east,,E07000006,,https://www.southbucks.gov.uk,Q65089619,South_Bucks_District_Council
+530,E0536,CPCA,,281,2023-11-19,,E07000012,NMD,,E60000153,cambridgeshire,South Cambridgeshire District Council,,http://opendatacommunities.org/id/district-council/south-cambridgeshire,local-authority:SCA,68236,local-authority,SCA,east-of-england,,E07000012,,https://www.scambs.gov.uk,Q7566485,South_Cambridgeshire_District_Council
+2730,E2736,,2023-03-31,282,2023-11-19,,E07000168,NMD,,E60000062,north-yorkshire,Scarborough Borough Council,,http://opendatacommunities.org/id/district-council/scarborough,local-authority:SCE,67582,local-authority,SCE,yorkshire-and-the-humber,,E07000168,,https://www.scarborough.gov.uk,Q73072735,
+,,,,283,2023-11-19,,E47000002,COMB,,E60000067,,Sheffield City Region,,,local-authority:SCR,403214,local-authority,SCR,,2018-05-03,E47000002,,https://southyorkshire-ca.gov.uk/,Q17020947,South_Yorkshire_Mayoral_Combined_Authority
+1040,E1039,,,284,2023-11-19,,E07000039,NMD,,E60000084,derbyshire,South Derbyshire District Council,,http://opendatacommunities.org/id/district-council/south-derbyshire,local-authority:SDE,68248,local-authority,SDE,east-midlands,,E07000039,,https://www.southderbyshire.gov.uk/,Q73072741,
+3525,E3535,,2019-03-31,285,2023-11-19,,E07000204,NMD,,,,St Edmundsbury Borough Council,,http://opendatacommunities.org/id/district-council/st-edmundsbury,local-authority:SED,68906,local-authority,SED,,,E07000204,,https://www.stedmundsbury.gov.uk,Q73072776,
+3310,E3332,,2023-03-31,286,2023-11-19,,E07000188,NMD,,E60000315,avon-&-somerset,Sedgemoor District Council,,http://opendatacommunities.org/id/district-council/sedgemoor,local-authority:SEG,69746,local-authority,SEG,south-west,,E07000188,,https://www.sedgemoor.gov.uk,Q73072737,Sedgemoor_District_Council
+2735,E2757,,2023-03-31,287,2023-11-19,,E07000169,NMD,,E60000063,north-yorkshire,Selby District Council,,http://opendatacommunities.org/id/district-council/selby,local-authority:SEL,69766,local-authority,SEL,yorkshire-and-the-humber,,E07000169,,https://www.selby.gov.uk,Q73072740,
+2245,E2239,,,288,2023-11-19,,E07000111,NMD,,E60000260,kent,Sevenoaks District Council,,http://opendatacommunities.org/id/district-council/sevenoaks,local-authority:SEV,69874,local-authority,SEV,south-east,,E07000111,,https://www.sevenoaks.gov.uk,Q55098936,Sevenoaks_District_Council
+,E3520,,,289,2023-11-19,,E10000029,CTY,,,,Suffolk County Council,,http://opendatacommunities.org/id/county-council/suffolk,local-authority:SFK,,local-authority,SFK,east-of-england,,E10000029,,https://www.suffolk.gov.uk,Q3305205,Suffolk_County_Council
+4320,E4304,LCR,,290,2023-11-19,,E08000014,MD,,E60000049,merseyside,Sefton Metropolitan Borough Council,,http://opendatacommunities.org/id/metropolitan-district-council/sefton,local-authority:SFT,69756,local-authority,SFT,north-west,1905-06-08,E08000014,seftoncouncil,https://www.sefton.gov.uk,Q7446119,Sefton_Council
+119,E0103,WECA,,291,2023-11-19,,E06000025,UA,,E60000296,avon-&-somerset,South Gloucestershire Council,,http://opendatacommunities.org/id/unitary-authority/south-gloucestershire,local-authority:SGC,68358,local-authority,SGC,south-west,1905-06-18,E06000025,sgloscouncil,https://www.southglos.gov.uk,Q17020724,South_Gloucestershire_Council
+1125,E1136,,,292,2023-11-19,,E07000044,NMD,,E60000304,devon-cornwall-&-isle-of-scilly,South Hams District Council,,http://opendatacommunities.org/id/district-council/south-hams,local-authority:SHA,68363,local-authority,SHA,south-west,,E07000044,SouthHams_DC,https://www.southhams.gov.uk/,Q23461861,South_Hams_District_Council
+2250,E2240,,,293,2023-11-19,,E07000112,NMD,,E60000257,kent,Folkestone and Hythe Council,,http://opendatacommunities.org/id/district-council/shepway,local-authority:SHE,,local-authority,SHE,south-east,,E07000112,,https://www.folkestone-hythe.gov.uk,Q55099243,Folkestone_%26_Hythe_District_Council
+4420,E4404,SCR,,294,2023-11-19,,E08000019,MD,,E60000067,south-yorkshire,Sheffield City Council,,http://opendatacommunities.org/id/metropolitan-district-council/sheffield,local-authority:SHF,69983,local-authority,SHF,yorkshire-and-the-humber,1905-06-08,E08000019,SheffCouncil,https://www.sheffield.gov.uk,Q7492609,Sheffield_City_Council
+4315,E4303,LCR,,295,2023-11-19,,E08000013,MD,,E60000050,merseyside,St Helens Council,,http://opendatacommunities.org/id/metropolitan-district-council/st-helens,local-authority:SHN,68925,local-authority,SHN,north-west,1905-06-08,E08000013,,https://www.sthelens.gov.uk,Q17022094,St_Helens_Council
+2525,E2535,,,296,2023-11-19,,E07000140,NMD,,E60000096,lincolnshire,South Holland District Council,,http://opendatacommunities.org/id/district-council/south-holland,local-authority:SHO,68364,local-authority,SHO,east-midlands,,E07000140,,https://www.sholland.gov.uk,Q73072743,
+3245,E3202,,,297,2023-11-19,,E06000051,UA,,E60000114,west-mercia,Shropshire Council,,http://opendatacommunities.org/id/unitary-authority/shropshire,local-authority:SHR,70144,local-authority,SHR,west-midlands,2009-04-01,E06000051,,https://www.shropshire.gov.uk,Q93612,Shropshire_Council
+2530,E2536,,,298,2023-11-19,,E07000141,NMD,,E60000097,lincolnshire,South Kesteven District Council,,http://opendatacommunities.org/id/district-council/south-kesteven,local-authority:SKE,68371,local-authority,SKE,east-midlands,,E07000141,,https://www.southkesteven.gov.uk,Q73072747,
+4235,E4207,GMCA,,299,2023-11-19,,E08000007,MD,,E60000031,greater-manchester,Stockport Metropolitan Borough Council,,http://opendatacommunities.org/id/metropolitan-district-council/stockport,local-authority:SKP,69323,local-authority,SKP,north-west,1905-05-27,E08000007,StockportMBC,https://www.stockport.gov.uk,Q7618164,Stockport_Metropolitan_Borough_Council
+930,E0936,,2023-03-31,300,2023-11-19,,E07000031,NMD,,E60000024,cumbria,South Lakeland District Council,,http://opendatacommunities.org/id/district-council/south-lakeland,local-authority:SLA,68373,local-authority,SLA,north-west,,E07000031,,https://www.southlakeland.gov.uk,Q73072749,
+4230,E4206,GMCA,,301,2023-11-19,,E08000006,MD,,E60000030,greater-manchester,Salford City Council,,http://opendatacommunities.org/id/metropolitan-district-council/salford,local-authority:SLF,67435,local-authority,SLF,north-west,1905-05-27,E08000006,SalfordCouncil,https://www.salford.gov.uk,Q17020402,Salford_City_Council
+350,E0304,,,302,2023-11-19,,E06000039,UA,,E60000228,thames-valley,Slough Borough Council,,http://opendatacommunities.org/id/unitary-authority/slough,local-authority:SLG,70343,local-authority,SLG,south-east,1998-04-01,E06000039,SloughCouncil,https://www.slough.gov.uk,Q7541466,Slough_Borough_Council
+4525,E4505,NECA,,303,2023-11-19,,E08000024,MD,,E60000012,northumbria,Sunderland City Council,,http://opendatacommunities.org/id/metropolitan-district-council/sunderland,local-authority:SND,82112,local-authority,SND,north-east,1905-05-27,E08000024,SunderlandUK,https://www.sunderland.gov.uk,Q17022675,Sunderland_City_Council
+2630,E2637,,,304,2023-11-19,,E07000149,NMD,,E60000182,norfolk,South Norfolk District Council,,http://opendatacommunities.org/id/district-council/south-norfolk,local-authority:SNO,69084,local-authority,SNO,east-of-england,,E07000149,,https://www.south-norfolk.gov.uk,Q73072752,
+2830,E2836,,2021-03-31,305,2023-11-19,,E07000155,NMD,,E60000104,northamptonshire,South Northamptonshire Council,,http://opendatacommunities.org/id/district-council/south-northamptonshire,local-authority:SNR,69085,local-authority,SNR,east-midlands,1974-04-01,E07000155,,https://www.southnorthants.gov.uk,Q105544722,
+4625,E4605,WMCA,,306,2023-11-19,,E08000029,MD,,E60000134,west-midlands,Solihull Metropolitan Borough Council,,http://opendatacommunities.org/id/metropolitan-district-council/solihull,local-authority:SOL,68088,local-authority,SOL,west-midlands,1905-05-27,E08000029,SolihullCouncil,https://www.solihull.gov.uk,Q17021590,Solihull_Metropolitan_Borough_Council
+,E3320,,2023-03-31,307,2023-11-19,,E10000027,CTY,,,,Somerset County Council,,http://opendatacommunities.org/id/county-council/somerset,local-authority:SOM,,local-authority,SOM,south-west,,E10000027,SomersetCouncil,https://www.somerset.gov.uk,Q6386270,Somerset_County_Council
+1590,E1501,,,308,2023-11-19,,E06000033,UA,,E60000147,essex,Southend-on-Sea Borough Council,,http://opendatacommunities.org/id/unitary-authority/southend,local-authority:SOS,70563,local-authority,SOS,east-of-england,1905-06-20,E06000033,SouthendBC,https://www.southend.gov.uk,Q7569516,Southend-on-Sea_City_Council
+3115,E3133,,,309,2023-11-19,,E07000179,NMD,,E60000267,thames-valley,South Oxfordshire District Council,,http://opendatacommunities.org/id/district-council/south-oxfordshire,local-authority:SOX,69089,local-authority,SOX,south-east,,E07000179,,https://www.southoxon.gov.uk,Q65089301,South_Oxfordshire_District_Council
+3635,E3637,,,310,2023-11-19,,E07000213,NMD,,E60000276,surrey,Spelthorne Borough Council,,http://opendatacommunities.org/id/district-council/spelthorne,local-authority:SPE,68783,local-authority,SPE,south-east,,E07000213,,https://www.spelthorne.gov.uk,Q73072774,Spelthorne_Borough_Council
+2360,E2342,,,311,2023-11-19,,E07000126,NMD,,E60000044,lancashire,South Ribble Borough Council,,http://opendatacommunities.org/id/district-council/south-ribble,local-authority:SRI,69096,local-authority,SRI,north-west,,E07000126,,https://www.southribble.gov.uk,Q73072755,
+,E3620,,,312,2023-11-19,,E10000030,CTY,,,,Surrey County Council,,http://opendatacommunities.org/id/county-council/surrey,local-authority:SRY,,local-authority,SRY,south-east,,E10000030,,https://www.surreycc.gov.uk,Q6386325,Surrey_County_Council
+3325,E3334,,2023-03-31,313,2023-11-19,,E07000189,NMD,,E60000317,avon-&-somerset,South Somerset District Council,,http://opendatacommunities.org/id/district-council/south-somerset,local-authority:SSO,69105,local-authority,SSO,south-west,,E07000189,,https://www.southsomerset.gov.uk,Q73072757,
+3430,E3435,,,314,2023-11-19,,E07000196,NMD,,E60000121,staffordshire,South Staffordshire Council,,http://opendatacommunities.org/id/district-council/south-staffordshire,local-authority:SST,69110,local-authority,SST,west-midlands,,E07000196,,https://www.sstaffs.gov.uk,Q73072759,
+3425,E3436,,,315,2023-11-19,,E07000197,NMD,,E60000122,staffordshire,Stafford Borough Council,,http://opendatacommunities.org/id/district-council/stafford,local-authority:STA,68980,local-authority,STA,west-midlands,,E07000197,,https://www.staffordbc.gov.uk,Q73072778,
+3455,E3401,,,316,2023-11-19,,E06000021,UA,,E60000115,staffordshire,Stoke-on-Trent City Council,,http://opendatacommunities.org/id/unitary-authority/stoke-on-trent,local-authority:STE,69336,local-authority,STE,west-midlands,1905-06-20,E06000021,,https://www.stoke.gov.uk,Q17022507,Stoke-on-Trent_City_Council
+3435,E3437,,,317,2023-11-19,,E07000198,NMD,,E60000123,staffordshire,Staffordshire Moorlands District Council,,http://opendatacommunities.org/id/district-council/staffordshire-moorlands,local-authority:STF,69001,local-authority,STF,west-midlands,,E07000198,,https://www.staffsmoorlands.gov.uk,Q73072779,
+1780,E1702,,,318,2023-11-19,,E06000045,UA,,E60000229,hampshire-&-isle-of-wight,Southampton City Council,,http://opendatacommunities.org/id/unitary-authority/southampton,local-authority:STH,70539,local-authority,STH,south-east,1905-06-19,E06000045,SouthamptonCC,https://www.southampton.gov.uk/,Q17021809,Southampton_City_Council
+5870,E5048,,,319,2023-11-19,,E09000029,LBO,,E60000219,london,London Borough of Sutton,,http://opendatacommunities.org/id/london-borough-council/sutton,local-authority:STN,82284,local-authority,STN,london,,E09000029,SuttonCouncil,https://www.sutton.gov.uk,Q7650288,Sutton_London_Borough_Council
+1625,E1635,,,320,2023-11-19,,E07000082,NMD,,E60000312,gloucestershire,Stroud District Council,,http://opendatacommunities.org/id/district-council/stroud,local-authority:STO,81990,local-authority,STO,south-west,,E07000082,StroudDC,https://www.stroud.gov.uk,Q28401169,Stroud_District_Council
+3720,E3734,,,321,2023-11-19,,E07000221,NMD,,E60000128,warwickshire,Stratford-on-Avon District Council,,http://opendatacommunities.org/id/district-council/stratford,local-authority:STR,81948,local-authority,STR,west-midlands,,E07000221,,https://www.stratford.gov.uk,Q73072781,
+,E3421,,,322,2023-11-19,,E10000028,CTY,,E60000122,,Staffordshire County Council,,http://opendatacommunities.org/id/county-council/staffordshire,local-authority:STS,,local-authority,STS,west-midlands,,E10000028,staffordshirecc,https://www.staffordshire.gov.uk,Q6386295,Staffordshire_County_Council
+738,E0704,TVCA,,323,2023-11-19,,E06000004,UA,,E60000007,cleveland,Stockton-on-Tees Borough Council,,http://opendatacommunities.org/id/unitary-authority/stockton-on-tees,local-authority:STT,69329,local-authority,STT,north-east,1905-06-18,E06000004,,https://www.stockton.gov.uk,Q17022493,Stockton-on-Tees_Borough_Council
+1935,E1937,,,324,2023-11-19,,E07000243,NMD,,E60000172,hertfordshire,Stevenage Borough Council,,http://opendatacommunities.org/id/district-council/stevenage,local-authority:STV,69286,local-authority,STV,east-of-england,,E07000243,,https://www.stevenage.gov.uk,Q7615422,Stevenage_Borough_Council
+4520,E4504,NECA,,325,2023-11-19,,E08000023,MD,,E60000011,northumbria,South Tyneside Council,,http://opendatacommunities.org/id/metropolitan-district-council/south-tyneside,local-authority:STY,69133,local-authority,STY,north-east,1974-04-01,E08000023,,https://www.southtyneside.info,Q23463529,South_Tyneside_Council
+,,,,10003,2023-11-19,,E06000066,UA,,E60000337,,Somerset Council,,,local-authority:SUA,,local-authority,SUA,,2023-04-01,E06000066,,https://www.somerset.gov.uk/,Q110682463,
+3530,E3536,,2019-03-31,326,2023-11-19,,E07000205,NMD,,,,Suffolk Coastal District Council,,http://opendatacommunities.org/id/district-council/suffolk-coastal,local-authority:SUF,82061,local-authority,SUF,,,E07000205,,https://www.suffolkcoastal.gov.uk,Q73072783,
+3640,E3638,,,327,2023-11-19,,E07000214,NMD,,E60000277,surrey,Surrey Heath Borough Council,,http://opendatacommunities.org/id/district-council/surrey-heath,local-authority:SUR,82191,local-authority,SUR,south-east,,E07000214,,https://www.surreyheath.gov.uk,Q73072785,
+3935,E3901,,,328,2023-11-19,,E06000030,UA,,E60000297,wiltshire-&-swindon,Swindon Borough Council,,http://opendatacommunities.org/id/unitary-authority/swindon,local-authority:SWD,82385,local-authority,SWD,south-west,1905-06-20,E06000030,swindoncouncil,https://www.swindon.gov.uk,Q17040033,Swindon_Borough_Council
+5840,E5019,,,329,2023-11-19,,E09000028,LBO,,E60000198,london,London Borough of Southwark,,http://opendatacommunities.org/id/london-borough-council/southwark,local-authority:SWK,70632,local-authority,SWK,london,,E09000028,lb_southwark,https://www.southwark.gov.uk,Q7571153,Southwark_London_Borough_Council
+2255,E2241,,,330,2023-11-19,,E07000113,NMD,,E60000261,kent,Swale Borough Council,,http://opendatacommunities.org/id/district-council/swale,local-authority:SWL,82294,local-authority,SWL,south-east,,E07000113,,https://www.swale.gov.uk,Q55098937,Swale_Borough_Council
+,,,2023-03-31,331,2023-11-19,,E07000246,NMD,,E60000316,avon-&-somerset,Somerset West and Taunton Council,,http://opendatacommunities.org/id/district-council/somerset-west-and-taunton,local-authority:SWT,444772,local-authority,SWT,south-west,2019-04-01,E07000246,SWTCouncil,https://www.somersetwestandtaunton.gov.uk,Q60790331,Somerset_West_and_Taunton_Council
+4240,E4208,GMCA,,332,2023-11-19,,E08000008,MD,,E60000032,greater-manchester,Tameside Metropolitan Borough Council,,http://opendatacommunities.org/id/metropolitan-district-council/tameside,local-authority:TAM,82504,local-authority,TAM,north-west,1974-04-01,E08000008,TamesideCouncil,https://www.tameside.gov.uk,Q17041259,Tameside_Metropolitan_Borough_Council
+3645,E3639,,,333,2023-11-19,,E07000215,NMD,,E60000278,surrey,Tandridge District Council,,http://opendatacommunities.org/id/district-council/tandridge,local-authority:TAN,82515,local-authority,TAN,south-east,,E07000215,,https://www.tandridge.gov.uk,Q73072790,
+3315,E3333,,2019-03-31,334,2023-11-19,,E07000190,NMD,,,,Taunton Deane Borough Council,,http://opendatacommunities.org/id/district-council/taunton-deane,local-authority:TAU,82564,local-authority,TAU,,,E07000190,,https://www.tauntondeane.gov.uk,Q73072791,
+3445,E3439,,,335,2023-11-19,,E07000199,NMD,,E60000124,staffordshire,Tamworth Borough Council,,http://opendatacommunities.org/id/district-council/tamworth,local-authority:TAW,82511,local-authority,TAW,west-midlands,,E07000199,,https://www.tamworth.gov.uk,Q73072788,Tamworth_Borough_Council
+1130,E1137,,,336,2023-11-19,,E07000045,NMD,,E60000305,devon-cornwall-&-isle-of-scilly,Teignbridge District Council,,http://opendatacommunities.org/id/district-council/teignbridge,local-authority:TEI,83135,local-authority,TEI,south-west,,E07000045,,https://www.teignbridge.gov.uk,Q73072792,
+1560,E1542,,,337,2023-11-19,,E07000076,NMD,,E60000164,essex,Tendring District Council,,http://opendatacommunities.org/id/district-council/tendring,local-authority:TEN,83228,local-authority,TEN,east-of-england,,E07000076,,https://www.tendringdc.gov.uk,Q73072799,
+1760,E1742,,,338,2023-11-19,,E07000093,NMD,,E60000251,hampshire-&-isle-of-wight,Test Valley Borough Council,,http://opendatacommunities.org/id/district-council/test-valley,local-authority:TES,83261,local-authority,TES,south-east,,E07000093,,https://www.testvalley.gov.uk,Q73072801,
+1630,E1636,,,339,2023-11-19,,E07000083,NMD,,E60000313,gloucestershire,Tewkesbury Borough Council,,http://opendatacommunities.org/id/district-council/tewkesbury,local-authority:TEW,83265,local-authority,TEW,south-west,,E07000083,,https://tewkesbury.gov.uk,Q27183368,Tewkesbury_Borough_Council
+3240,E3201,,,340,2023-11-19,,E06000020,UA,,E60000116,west-mercia,Telford & Wrekin Council,,http://opendatacommunities.org/id/unitary-authority/telford-and-wrekin,local-authority:TFW,83204,local-authority,TFW,west-midlands,1905-06-20,E06000020,,https://www.telford.gov.uk,Q17059334,Telford_and_Wrekin_Council
+2260,E2242,,,341,2023-11-19,,E07000114,NMD,,E60000262,kent,Thanet District Council,,http://opendatacommunities.org/id/district-council/thanet,local-authority:THA,83534,local-authority,THA,south-east,,E07000114,,https://thanet.gov.uk,Q7710261,Thanet_District_Council
+1940,E1938,,,342,2023-11-19,,E07000102,NMD,,E60000173,hertfordshire,Three Rivers District Council,,http://opendatacommunities.org/id/district-council/three-rivers,local-authority:THE,83632,local-authority,THE,east-of-england,1974-04-01,E07000102,,https://www.threerivers.gov.uk,Q7797746,Three_Rivers_District_Council
+1595,E1502,,,343,2023-11-19,,E06000034,UA,,E60000148,essex,Thurrock Council,,http://opendatacommunities.org/id/unitary-authority/thurrock,local-authority:THR,83638,local-authority,THR,east-of-england,1905-06-20,E06000034,,https://www.thurrock.gov.uk,Q1646552,Thurrock_Council
+1165,E1102,,,344,2023-11-19,,E06000027,UA,,E60000298,devon-cornwall-&-isle-of-scilly,Torbay Council,,http://opendatacommunities.org/id/unitary-authority/torbay,local-authority:TOB,83775,local-authority,TOB,south-west,1905-06-20,E06000027,Torbay_Council,https://www.torbay.gov.uk,Q17034697,Torbay_Council
+2265,E2243,,,345,2023-11-19,,E07000115,NMD,,E60000263,kent,Tonbridge and Malling Borough Council,,http://opendatacommunities.org/id/district-council/tonbridge-and-malling,local-authority:TON,83760,local-authority,TON,south-east,,E07000115,,https://www.tmbc.gov.uk,Q16901812,Tonbridge_and_Malling_Borough_Council
+1145,E1139,,,346,2023-11-19,,E07000046,NMD,,E60000306,devon-cornwall-&-isle-of-scilly,Torridge District Council,,http://opendatacommunities.org/id/district-council/torridge,local-authority:TOR,83788,local-authority,TOR,south-west,,E07000046,,https://www.torridge.gov.uk,Q73072804,
+4245,E4209,GMCA,,347,2023-11-19,,E08000009,MD,,E60000033,greater-manchester,Trafford Metropolitan Borough Council,,http://opendatacommunities.org/id/metropolitan-district-council/trafford,local-authority:TRF,83935,local-authority,TRF,north-west,1974-04-01,E08000009,,https://www.trafford.gov.uk,Q17034839,Trafford_Council
+2270,E2244,,,348,2023-11-19,,E07000116,NMD,,E60000264,kent,Tunbridge Wells Borough Council,,http://opendatacommunities.org/id/district-council/tunbridge-wells,local-authority:TUN,84256,local-authority,TUN,south-east,,E07000116,,https://www.tunbridgewells.gov.uk,Q55098930,Tunbridge_Wells_Borough_Council
+,,,,349,2023-11-19,,E47000006,COMB,,,,Tees Valley Combined Authority,,,local-authority:TVCA,428826,local-authority,TVCA,,2014-04-01,E47000006,,https://teesvalley-ca.gov.uk,Q21061639,Tees_Valley_Combined_Authority
+5900,E5020,,,350,2023-11-19,,E09000030,LBO,,E60000199,london,London Borough of Tower Hamlets,,http://opendatacommunities.org/id/london-borough-council/tower-hamlets,local-authority:TWH,83840,local-authority,TWH,london,,E09000030,,https://www.towerhamlets.gov.uk,Q7829677,Tower_Hamlets_London_Borough_Council
+1570,E1544,,,351,2023-11-19,,E07000077,NMD,,E60000165,essex,Uttlesford District Council,,http://opendatacommunities.org/id/district-council/uttlesford,local-authority:UTT,85475,local-authority,UTT,east-of-england,,E07000077,,https://www.uttlesford.gov.uk,Q73072805,
+3120,E3134,,,352,2023-11-19,,E07000180,NMD,,E60000268,thames-valley,Vale of White Horse District Council,,http://opendatacommunities.org/id/district-council/vale-of-white-horse,local-authority:VAL,85495,local-authority,VAL,south-east,,E07000180,,https://www.whitehorsedc.gov.uk,Q65090041,Vale_of_White_Horse_District_Council
+3650,E3640,,,353,2023-11-19,,E07000216,NMD,,E60000279,surrey,Waverley Borough Council,,http://opendatacommunities.org/id/district-council/waverley,local-authority:WAE,87043,local-authority,WAE,south-east,,E07000216,,https://www.waverley.gov.uk/,Q73072816,Waverley_Borough_Council
+,E3720,,,354,2023-11-19,,E10000031,CTY,,E60000129,,Warwickshire County Council,,http://opendatacommunities.org/id/county-council/warwickshire,local-authority:WAR,,local-authority,WAR,west-midlands,,E10000031,,https://www.warwickshire.gov.uk,Q17066348,Warwickshire_County_Council
+1945,E1939,,,355,2023-11-19,,E07000103,NMD,,E60000174,hertfordshire,Watford Borough Council,,http://opendatacommunities.org/id/district-council/watford,local-authority:WAT,87027,local-authority,WAT,east-of-england,,E07000103,,https://www.watford.gov.uk,Q7974596,Watford_Borough_Council
+3535,E3537,,2019-03-31,356,2023-11-19,,E07000206,NMD,,E60000279,,Waveney District Council,,http://opendatacommunities.org/id/district-council/waveney,local-authority:WAV,87040,local-authority,WAV,,,E07000206,,https://www.waveney.gov.uk,Q73072811,
+3725,E3735,,,357,2023-11-19,,E07000222,NMD,,E60000129,warwickshire,Warwick District Council,,http://opendatacommunities.org/id/district-council/warwick,local-authority:WAW,86093,local-authority,WAW,west-midlands,,E07000222,,https://www.warwickdc.gov.uk,Q73072810,
+340,E0302,,,358,2023-11-19,,E06000037,UA,,E60000230,thames-valley,West Berkshire Council,,http://opendatacommunities.org/id/unitary-authority/west-berkshire,local-authority:WBK,94368,local-authority,WBK,south-east,1905-06-20,E06000037,WestBerkshire,https://www.westberks.gov.uk,Q17041496,West_Berkshire_Council
+1150,E1140,,,359,2023-11-19,,E07000047,NMD,,E60000307,devon-cornwall-&-isle-of-scilly,West Devon Borough Council,,http://opendatacommunities.org/id/district-council/west-devon,local-authority:WDE,94385,local-authority,WDE,south-west,,E07000047,,https://www.westdevon.gov.uk,Q73072823,
+1230,E1237,,2019-03-31,360,2023-11-19,,E07000052,NMD,,,,West Dorset District Council,,http://opendatacommunities.org/id/district-council/west-dorset,local-authority:WDO,94388,local-authority,WDO,,,E07000052,,https://www.dorsetforyou.com,Q73072826,
+1435,E1437,,,361,2023-11-19,,E07000065,NMD,,E60000241,sussex,Wealden District Council,,http://opendatacommunities.org/id/district-council/wealden,local-authority:WEA,87054,local-authority,WEA,south-east,,E07000065,,https://www.wealden.gov.uk,Q73072817,
+,,,,362,2023-11-19,,E47000009,COMB,,,,West of England Combined Authority,,,local-authority:WECA,433447,local-authority,WECA,,2017-02-09,E47000009,,https://www.westofengland-ca.gov.uk,Q24993670,West_of_England_Combined_Authority
+2835,E2837,,2021-03-31,363,2023-11-19,,E07000156,NMD,,,northamptonshire,Wellingborough Borough Council,,http://opendatacommunities.org/id/district-council/wellingborough,local-authority:WEL,87107,local-authority,WEL,east-midlands,1974-04-01,E07000156,,https://www.wellingborough.gov.uk,Q73072820,
+1950,E1940,,,364,2023-11-19,,E07000241,NMD,,E60000175,hertfordshire,Welwyn Hatfield Borough Council,,http://opendatacommunities.org/id/district-council/welwyn-hatfield,local-authority:WEW,94325,local-authority,WEW,east-of-england,,E07000241,,https://www.welhat.gov.uk,Q7982137,Welwyn_Hatfield_Borough_Council
+1235,E1238,,2019-03-31,365,2023-11-19,,E07000053,NMD,,,,Weymouth and Portland Borough Council,,http://opendatacommunities.org/id/district-council/weymouth-and-portland,local-authority:WEY,94732,local-authority,WEY,,,E07000053,,https://www.dorsetforyou.com,Q73072840,
+5930,E5049,,,366,2023-11-19,,E09000031,LBO,,E60000220,london,London Borough of Waltham Forest,,http://opendatacommunities.org/id/london-borough-council/waltham-forest,local-authority:WFT,86024,local-authority,WFT,london,,E09000031,,https://www.walthamforest.gov.uk/,Q7966606,Waltham_Forest_London_Borough_Council
+,,,,10001,2023-11-19,,E06000064,UA,,E60000335,,Westmorland and Furness Council,,,local-authority:WFUA,,local-authority,WFUA,,2023-04-01,E06000064,,https://www.westmorlandandfurness.gov.uk/,Q111962803,Westmorland_and_Furness_Council
+4250,E4210,GMCA,,367,2023-11-19,,E08000010,MD,,E60000034,greater-manchester,Wigan Metropolitan Borough Council,,http://opendatacommunities.org/id/metropolitan-district-council/wigan,local-authority:WGN,94803,local-authority,WGN,north-west,1974-04-01,E08000010,WiganCouncil,https://www.wigan.gov.uk,Q7999507,Wigan_Metropolitan_Borough_Council
+3940,E3902,,,368,2023-11-19,,E06000054,UA,,E60000299,wiltshire-&-swindon,Wiltshire Council,,http://opendatacommunities.org/id/unitary-authority/wiltshire,local-authority:WIL,86185,local-authority,WIL,south-west,2009-04-01,E06000054,wiltscouncil,https://wiltshire.gov.uk,Q1990879,Wiltshire_Council
+1765,E1743,,,369,2023-11-19,,E07000094,NMD,,E60000252,hampshire-&-isle-of-wight,Winchester City Council,,http://opendatacommunities.org/id/district-council/winchester,local-authority:WIN,86201,local-authority,WIN,south-east,,E07000094,,https://www.winchester.gov.uk,Q73072843,
+4725,E4705,WYCA,,370,2023-11-19,,E08000036,MD,,E60000072,west-yorkshire,Wakefield Metropolitan District Council,,http://opendatacommunities.org/id/metropolitan-district-council/wakefield,local-authority:WKF,85898,local-authority,WKF,yorkshire-and-the-humber,1974-04-01,E08000036,,https://www.wakefield.gov.uk,Q7961061,Wakefield_Council
+2365,E2343,,,371,2023-11-19,,E07000127,NMD,,E60000045,lancashire,West Lancashire Borough Council,,http://opendatacommunities.org/id/district-council/west-lancashire,local-authority:WLA,94446,local-authority,WLA,north-west,,E07000127,,https://www.westlancs.gov.uk,Q73072828,
+2535,E2537,,,372,2023-11-19,,E07000142,NMD,,E60000098,lincolnshire,West Lindsey District Council,,http://opendatacommunities.org/id/district-council/west-lindsey,local-authority:WLI,94451,local-authority,WLI,east-midlands,,E07000142,,https://www.west-lindsey.gov.uk,Q73072831,
+4630,E4606,WMCA,,373,2023-11-19,,E08000030,MD,,E60000135,west-midlands,Walsall Metropolitan Borough Council,,http://opendatacommunities.org/id/metropolitan-district-council/walsall,local-authority:WLL,86014,local-authority,WLL,west-midlands,1974-04-01,E08000030,WalsallCouncil,https://www.walsall.gov.uk,Q7963789,Walsall_Council
+4635,E4607,WMCA,,374,2023-11-19,,E08000031,MD,,E60000136,west-midlands,City of Wolverhampton Council,,http://opendatacommunities.org/id/metropolitan-district-council/wolverhampton,local-authority:WLV,86288,local-authority,WLV,west-midlands,1974-04-01,E08000031,WolvesCouncil,https://www.wolverhampton.gov.uk,Q8030462,City_of_Wolverhampton_Council
+,,,,375,2023-11-19,,E47000007,COMB,,,,West Midlands Combined Authority,,,local-authority:WMCA,420895,local-authority,WMCA,,2016-06-17,E47000007,,https://www.wmca.org.uk,Q21061625,West_Midlands_Combined_Authority
+5960,E5021,,,376,2023-11-19,,E09000032,LBO,,E60000200,london,London Borough of Wandsworth,,http://opendatacommunities.org/id/london-borough-council/wandsworth,local-authority:WND,86038,local-authority,WND,london,,E09000032,WBC_Help,https://www.wandsworth.gov.uk,Q7967311,Wandsworth_London_Borough_Council
+355,E0305,,,377,2023-11-19,,E06000040,UA,,E60000231,thames-valley,Royal Borough of Windsor and Maidenhead,,http://opendatacommunities.org/id/unitary-authority/windsor-and-maidenhead,local-authority:WNM,41858,local-authority,WNM,south-east,1905-06-20,E06000040,,https://www.rbkc.gov.uk/,Q6391507,Kensington_and_Chelsea_London_Borough_Council
+,,,,501909,2023-11-19,,E06000062,UA,,E60000333,,West Northamtonshire Council,,,local-authority:WNUA,493012,local-authority,WNUA,,2020-04-01,E06000062,westnorthants,https://www.westnorthants.gov.uk/,Q111232469,West_Northamptonshire
+1835,E1837,,,378,2023-11-19,,E07000237,NMD,,E60000140,west-mercia,Worcester City Council,,http://opendatacommunities.org/id/district-council/worcester,local-authority:WOC,86420,local-authority,WOC,west-midlands,,E07000237,,https://www.worcester.gov.uk,Q73072848,
+3655,E3641,,,379,2023-11-19,,E07000217,NMD,,E60000280,surrey,Woking Borough Council,,http://opendatacommunities.org/id/district-council/woking,local-authority:WOI,86275,local-authority,WOI,south-east,,E07000217,,https://www.woking.gov.uk,Q73072846,Woking_Borough_Council
+360,E0306,,,380,2023-11-19,,E06000041,UA,,E60000232,thames-valley,Wokingham Borough Council,,http://opendatacommunities.org/id/unitary-authority/wokingham,local-authority:WOK,86278,local-authority,WOK,south-east,1905-06-20,E06000041,wokinghambc,https://www.wokingham.gov.uk,Q17039435,Wokingham_Borough_Council
+,E1821,,,381,2023-11-19,,E10000034,CTY,,E60000140,,Worcestershire County Council,,http://opendatacommunities.org/id/county-council/worcestershire,local-authority:WOR,,local-authority,WOR,west-midlands,,E10000034,,https://www.worcestershire.gov.uk,Q8034245,Worcestershire_County_Council
+3835,E3837,,,382,2023-11-19,,E07000229,NMD,,E60000287,sussex,Worthing Borough Council,,http://opendatacommunities.org/id/district-council/worthing,local-authority:WOT,86609,local-authority,WOT,south-east,1905-06-25,E07000229,,https://www.adur-worthing.gov.uk,Q55098923,Worthing_Borough_Council
+3125,E3135,,,383,2023-11-19,,E07000181,NMD,,E60000269,thames-valley,West Oxfordshire District Council,,http://opendatacommunities.org/id/district-council/west-oxfordshire,local-authority:WOX,94543,local-authority,WOX,south-east,,E07000181,,https://www.westoxon.gov.uk,Q73072833,
+4325,E4305,LCR,,384,2023-11-19,,E08000015,MD,,E60000051,merseyside,Wirral Borough Council,,http://opendatacommunities.org/id/metropolitan-district-council/wirral,local-authority:WRL,86247,local-authority,WRL,north-west,1974-04-01,E08000015,wirralcouncil,https://www.wirral.gov.uk,Q17038877,Wirral_Council
+655,E0602,,,385,2023-11-19,,E06000007,UA,,E60000018,cheshire,Warrington Borough Council,,http://opendatacommunities.org/id/unitary-authority/warrington,local-authority:WRT,86081,local-authority,WRT,north-west,1905-06-20,E06000007,,https://www.warrington.gov.uk,Q17033474,Warrington_Borough_Council
+,,,,386,2023-11-19,,E07000245,NMD,,E60000187,suffolk,West Suffolk Council,,http://opendatacommunities.org/id/district-council/west-suffolk,local-authority:WSK,444761,local-authority,WSK,east-of-england,2019-04-01,E07000245,,https://www.westsuffolk.gov.uk,Q73072837,West_Suffolk_Council
+5990,E5022,,,387,2023-11-19,,E09000033,LBO,,E60000201,london,City of Westminster,,http://opendatacommunities.org/id/london-borough-council/westminster,local-authority:WSM,94689,local-authority,WSM,london,,E09000033,,https://www.westminster.gov.uk,Q7989145,Westminster_City_Council
+3320,E3335,,2019-03-31,388,2023-11-19,,E07000191,NMD,,,,West Somerset District Council,,http://opendatacommunities.org/id/district-council/west-somerset,local-authority:WSO,94548,local-authority,WSO,,,E07000191,,https://www.westsomersetonline.gov.uk,Q73072834,
+,E3820,,,389,2023-11-19,,E10000032,CTY,,,,West Sussex County Council,,http://opendatacommunities.org/id/county-council/west-sussex,local-authority:WSX,,local-authority,WSX,south-east,,E10000032,,https://www.westsussex.gov.uk,Q6386353,West_Sussex_County_Council
+1840,E1838,,,390,2023-11-19,,E07000238,NMD,,E60000141,west-mercia,Wychavon District Council,,http://opendatacommunities.org/id/district-council/wychavon,local-authority:WYC,86662,local-authority,WYC,west-midlands,,E07000238,,https://www.wychavon.gov.uk,Q73072850,
+,,,,391,2023-11-19,,E47000003,COMB,,E60000056,,West Yorkshire Combined Authority,,,local-authority:WYCA,401709,local-authority,WYCA,,2014-04-01,E47000003,,https://www.westyorks-ca.gov.uk/,Q17035952,West_Yorkshire_Combined_Authority
+1845,E1839,,,392,2023-11-19,,E07000239,NMD,,E60000142,west-mercia,Wyre Forest District Council,,http://opendatacommunities.org/id/district-council/wyre-forest,local-authority:WYE,86677,local-authority,WYE,west-midlands,,E07000239,,https://www.wyreforestdc.gov.uk,Q73072859,Wyre_Forest_District_Council
+425,E0435,,2020-03-31,393,2023-11-19,,E07000007,NMD,,E60000236,thames-valley,Wycombe District Council,,http://opendatacommunities.org/id/district-council/wycombe,local-authority:WYO,86663,local-authority,WYO,south-east,,E07000007,,https://www.wycombe.gov.uk,Q65088676,Wycombe_District_Council
+2370,E2344,,,394,2023-11-19,,E07000128,NMD,,E60000046,lancashire,Wyre Borough Council,,http://opendatacommunities.org/id/district-council/wyre,local-authority:WYR,86676,local-authority,WYR,north-west,,E07000128,,https://www.wyre.gov.uk,Q73072856,
+2741,E2701,,,395,2023-11-19,,E06000014,UA,,E60000056,north-yorkshire,City of York Council,,http://opendatacommunities.org/id/unitary-authority/york,local-authority:YOR,20574,local-authority,YOR,yorkshire-and-the-humber,1905-06-18,E06000014,CityofYork,https://www.york.gov.uk,Q17059453,City_of_York_Council

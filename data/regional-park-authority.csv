@@ -1,3 +1,2 @@
-dataset,prefix,reference
-regional-park-authority,wikidata,Q5147779
-regional-park-authority,wikidata,Q6515400
+billing-authority,end-date,entity,entry-date,name,notes,opendatacommunities-uri,parliament-thesaurus,prefix,reference,region,start-date,statistical-geography,twitter,website,wikidata,wikipedia
+E6803,,407,2022-08-11,Lee Valley Regional Park Authority,,http://opendatacommunities.org/id/regional-park-authority/lee-valley,42590,wikidata,Q6515400,,,,,https://www.leevalleypark.org.uk/,Q6515400,Lee_Valley_Regional_Park_Authority

@@ -1,6 +1,6 @@
-dataset,prefix,reference
-waste-authority,wikidata,Q20711950
-waste-authority,wikidata,Q20713477
-waste-authority,wikidata,Q21921612
-waste-authority,wikidata,Q21935501
-waste-authority,wikidata,Q5600652
+billing-authority,company,end-date,entity,entry-date,name,notes,opendatacommunities-uri,parliament-thesaurus,prefix,reference,region,start-date,statistical-geography,twitter,website,wikidata,wikipedia
+E6201,,,416,2022-06-06,East London Waste Authority,,http://opendatacommunities.org/id/waste-authority/east-london,,wikidata,Q20711950,,1986-01-01,,recycleFYC,http://www.recycleforyourcommunity.com,Q20711950,East_London_Waste_Authority
+E6205,,,417,2022-06-06,North London Waste Authority,,http://opendatacommunities.org/id/waste-authority/north-london,59193,wikidata,Q20713477,,1986-01-01,,,http://nlwa.gov.uk/,Q20713477,North_London_Waste_Authority
+E6207,,,418,2022-06-06,West London Waste Authority,,http://opendatacommunities.org/id/waste-authority/west-london,,wikidata,Q21921612,,1986-01-01,,WestLondonWaste,http://westlondonwaste.gov.uk,Q21921612,West_London_Waste_Authority
+E6206,,,419,2022-06-06,Western Riverside Waste Authority,,http://opendatacommunities.org/id/waste-authority/western-riverside,,wikidata,Q21935501,,,,WRWArecycling,http://www.wrwa.gov.uk/,Q21935501,
+E6202,,2018-04-01,420,2022-06-06,Greater Manchester Waste Disposal Authority,,http://opendatacommunities.org/id/waste-authority/greater-manchester,37067,wikidata,Q5600652,,1986-01-01,,zerowasteGM,http://www.gmwda.gov.uk/,Q5600652,Greater_Manchester_Waste_Disposal_Authority
