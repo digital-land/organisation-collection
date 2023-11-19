@@ -14,6 +14,8 @@ specification = Specification()
 lpas = {}
 entities = {}
 wikidatas = {}
+bas = {}
+odcs = {}
 curies = {}
 issues = []
 
@@ -46,12 +48,12 @@ def log_issue(severity, row, issue, field="", value=""):
         "value": value,
     }
     if severity in ["critical", "error"]:
-        print(line, file=sys.stderr)
+        print(f'{line["severity"]} {line["prefix"]}:{line["reference"]} {issue} {field} {value}', file=sys.stderr)
     issues.append(line)
 
 
 def save_issues(path):
-    fieldnames = ["datapackage", "entity", "prefix", "reference", "issue", "field", "value"]
+    fieldnames = ["datapackage", "severity", "entity", "prefix", "reference", "issue", "field", "value"]
     w = csv.DictWriter(open(path, "w"), fieldnames=fieldnames, extrasaction="ignore")
     w.writeheader()
     for row in issues:
@@ -60,28 +62,56 @@ def save_issues(path):
 
 def check():
     for organisation, row in organisations.items():
+
+        # look for duplicate entities
         if row["entity"] in entities:
             log_issue("error", row, "duplicate entity")
         else:
             entities[row["entity"]] = organisation
 
+        # check wikidata
         wikidata = row.get("wikidata", "")
         if wikidata and wikidata in wikidatas:
-            log_issue("warning", row, "duplicate value", field="wikidata", value=row["wikidata"])
+            severity = "warning" if row["entity"] in ["600001"] else "error"
+            log_issue(severity, row, "duplicate value", field="wikidata", value=row["wikidata"])
         else:
             wikidatas[row["wikidata"]] = organisation
 
-        # tick LPA value
+        # check LPA value against dataset
         lpa = row.get("local-planning-authority", "")
         if not lpa:
             if (row["dataset"] in ["local-authority", "national-park-authority"]) and (
-                row.get("local-authority-type", "") not in ["CTY", "COMB"]
+                row.get("local-authority-type", "") not in ["CTY", "COMB", "SRA"]
             ):
-                log_issue("warning", row, "missing", field="local-planning-authority")
+                severity = "warning" if row.get("end-date", "") else "error"
+                log_issue(severity, row, "missing", field="local-planning-authority")
         elif lpa not in lpas:
             log_issue("error", row, "unknown", field="local-planning-authority", value=lpa)
         else:
             lpas[lpa]["organisation"] = organisation
+
+        # check billing-authority
+        ba = row.get("billing-authority", "")
+        if not ba:
+            if row["dataset"] not in ["government-organisation"]:
+                severity = "warning" if row.get("end-date", "") else "error"
+                log_issue(severity, row, "missing", field="billing-authority")
+        elif ba in bas:
+            log_issue("error", row, "duplicate value", field="billing-authority", value=row["billing-authority"])
+        else:
+            bas[row["billing-authority"]] = organisation
+
+        # check opendatacommunities-uri
+        odc = row.get("opendatacommunities-uri", "")
+        if not odc:
+            if row["dataset"] not in ["government-organisation"]:
+                severity = "warning" if row.get("end-date", "") else "error"
+                log_issue(severity, row, "missing", field="opendatacommunities-uri")
+        elif odc in odcs:
+            log_issue("error", row, "duplicate value", field="opendatacommunities-uri", value=row["opendatacommunities-uri"])
+        else:
+            odcs[row["opendatacommunities-uri"]] = organisation
+
 
 
 @click.command()
