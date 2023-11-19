@@ -3,9 +3,10 @@ include makerules/development.mk
 include makerules/collection.mk
 include makerules/pipeline.mk
 
-# build the organisation.csv file from organisation datasets
-# this could be derived from the specification ..
-# this makes sure all of the other files are made first (inc. the flattened files)
+# 
+#  Combine the individual organisation datasets into a single organisation.csv  
+#  TBD: make from a specification datapackage definition
+#
 ORGANISATION_DATASETS=\
 	$(DEVELOPMENT_CORPORATION_DATASET)\
 	$(GOVERNMENT_ORGANISATION_DATASET)\
@@ -17,8 +18,15 @@ ORGANISATION_DATASETS=\
 	$(REGIONAL_PARK_AUTHORITY_DATASET)\
 	$(WASTE_AUTHORITY_DATASET)
 
-# may need to make this specific at a later date
+dataset:: dataset/organisation.csv dataset/organisation-check.csv
+
 dataset/organisation.csv: $(ORGANISATION_DATASETS)
 	python3 bin/create_organisation_csv.py --output-path $@ 
 
-dataset:: dataset/organisation.csv
+# check organisation datapackage
+dataset/organisation-check.csv: dataset/organisation.csv var/cache/local-planning-authority.csv
+	python3 bin/check_organisation_csv.py --output-path $@ 
+
+var/cache/local-planning-authority.csv:
+	@mkdir -p $(CACHE_DIR)
+	curl -qfs "https://files.planning.data.gov.uk/dataset/local-planning-authority.csv" > $(CACHE_DIR)local-planning-authority.csv
