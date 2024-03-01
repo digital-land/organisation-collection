@@ -60,7 +60,7 @@ makerules::
 	curl -qfsL '$(SOURCE_URL)/makerules/main/collection.mk' > makerules/collection.mk
 
 commit-collection::
-	git add collection
+	git add collection/log
 	git diff --quiet && git diff --staged --quiet || (git commit -m "Collection $(shell date +%F)"; git push origin $(BRANCH))
 
 load-resources::
