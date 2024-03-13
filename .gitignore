@@ -34,3 +34,5 @@ collection/resource.csv
 collection/pipeline.mk
 
 metadata.json
+# Logs are in S3
+collection/log
