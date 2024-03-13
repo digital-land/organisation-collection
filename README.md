@@ -10,9 +10,12 @@ The data and pipeline to build the [organisation dataset](https://www.digital-la
 * [collection/source.csv](collection/source.csv) — the list of data sources by organisation, see [specification/source](https://digital-land.github.io/specification/schema/source/)
 * [collection/endpoint.csv](collection/endpoint.csv) — the list of endpoint URLs for the collection, see [specification/endpoint](https://digital-land.github.io/specification/schema/endpoint)
 * [collection/resource/](collection/resource/) — collected resources
-* [collection/log/](collection/log/) — individual log JSON files, created by the collection process
-* [collection/log.csv](collection/log.csv) — a collection log assembled from the individual log files, see [specification/log](https://digital-land.github.io/specification/schema/log)
-* [collection/resource.csv](collection/resource.csv) — a list of collected resources, see [specification/resource](https://digital-land.github.io/specification/schema/resource)
+
+*These files are now stored in AWS S3:*
+
+* [collection/log/](https://files.planning.data.gov.uk/organisation-collection/collection/log/) — individual log JSON files, created by the collection process
+* [collection/log.csv](https://files.planning.data.gov.uk/organisation-collection/collection/log.csv) — a collection log assembled from the individual log files, see [specification/log](https://files.planning.data.gov.uk/organisation-collection/https://digital-land.github.io/specification/schema/log)
+* [collection/resource.csv](https://files.planning.data.gov.uk/organisation-collection/collection/resource.csv) — a list of collected resources, see [specification/resource](https://files.planning.data.gov.uk/organisation-collection/https://digital-land.github.io/specification/schema/resource)
 
 # Updating the collection
 
