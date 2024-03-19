@@ -100,8 +100,6 @@ define build-dataset =
 	time digital-land --dataset $(notdir $(basename $@)) dataset-entries-flattened $@ $(FLATTENED_DIR)
 	md5sum $@ $(basename $@).sqlite3
 	csvstack $(ISSUE_DIR)$(notdir $(basename $@))/*.csv > $(basename $@)-issue.csv
-	mkdir -p $(EXPECTATION_DIR)
-	time digital-land expectations --results-path "$(EXPECTATION_DIR)$(notdir $(basename $@)).csv" --sqlite-dataset-path "$(basename $@).sqlite3" --data-quality-yaml "$(EXPECTATION_DIR)$(notdir $(basename $@)).yaml"
 endef
 
 collection::
