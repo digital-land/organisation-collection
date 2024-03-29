@@ -101,6 +101,8 @@ define build-dataset =
 	time digital-land --dataset $(notdir $(basename $@)) dataset-entries-flattened $@ $(FLATTENED_DIR)
 	md5sum $@ $(basename $@).sqlite3
 	csvstack $(ISSUE_DIR)$(notdir $(basename $@))/*.csv > $(basename $@)-issue.csv
+	# mkdir -p $(EXPECTATION_DIR)
+	# time digital-land expectations-dataset-checkpoint --output-dir="$(EXPECTATION_DIR)" --specification-dir=specification --data-path=dataset/central-activities-zone.sqlite3
 endef
 
 collection::
