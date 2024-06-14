@@ -52,10 +52,10 @@ second-pass:: collection
 
 collect:: $(COLLECTION_CONFIG_FILES)
 	@mkdir -p $(RESOURCE_DIR)
-	digital-land collect $(ENDPOINT_CSV)
+	digital-land ${DIGITAL_LAND_OPTS} collect $(ENDPOINT_CSV)
 
 collection::
-	digital-land collection-save-csv
+	digital-land ${DIGITAL_LAND_OPTS} collection-save-csv
 
 clobber-today::
 	rm -rf $(LOG_FILES_TODAY) $(COLLECTION_INDEX)
