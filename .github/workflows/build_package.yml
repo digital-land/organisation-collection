@@ -1,0 +1,76 @@
+name: Run collection
+on:
+  workflow_call:
+    secrets:
+      DLB_BOT_EMAIL:
+        required: true
+      DLB_BOT_TOKEN:
+        required: true
+      DLB_BOT_USERNAME:
+        required: true
+      AWS_S3_ACCESS_KEY_ID:
+        required: true
+      AWS_S3_SECRET_ACCESS_KEY:
+        required: true
+env:
+  DLB_BOT_EMAIL: ${{ secrets.DLB_BOT_EMAIL }}
+  DLB_BOT_TOKEN: ${{ secrets.DLB_BOT_TOKEN }}
+  DLB_BOT_USERNAME: ${{ secrets.DLB_BOT_USERNAME }}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Free up disk space
+      run: |
+        df -h
+        sudo rm -rf /usr/share/dotnet
+        sudo rm -rf /usr/local/lib/android
+        sudo rm -rf /opt/ghc
+        echo
+        df -h
+
+    - uses: actions/checkout@v3
+      with:
+        lfs: true
+
+    - uses: actions/setup-python@v4
+      with:
+        python-version: 3.8
+
+    - name: Configure git
+      run: |
+        git config user.email "${DLB_BOT_EMAIL}"
+        git config user.name "${DLB_BOT_USERNAME}"
+        git remote set-url origin https://${DLB_BOT_USERNAME}:${DLB_BOT_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+        git checkout ${GITHUB_REF_NAME}
+
+    - name: Update makerules
+      run: make makerules
+
+    - name: Install dependencies
+      run: make init
+
+    - name: Download digital-land-python
+      run: git clone https://github.com/digital-land/digital-land-python.git
+
+    - name: Switch to the branch we need
+      run: git checkout create organisation
+
+    - name: Install the updated package
+      run: pip install -e digital-land-python
+
+    - name: Create the package
+      run: make organisation-create
+
+    - name: See what we got
+      run: cat dataset/organisation.csv
+
+    - name: Get the local-planning-authority file
+       run: curl -qfs "https://files.planning.data.gov.uk/dataset/local-planning-authority.csv" > var/cache/local-planning-authority.csv
+
+    - name: Run the checks
+      run: make organisation-check
+
+    - name: See what we got
+      run: cat dataset/organisation-check.csv
