@@ -9,6 +9,5 @@ jobs:
 #    secrets: inherit
   build-package:
 #    needs: call-workflow
-    runs-on: ubuntu-latest
     uses: ./.github/workflows/build_package.yml
     secrets: inherit
