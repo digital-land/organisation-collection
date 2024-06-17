@@ -5,6 +5,12 @@ on:
   workflow_dispatch: null
 jobs:
   call-workflow:
-    uses: digital-land/collection-template/.github/workflows/callable_run.yml@main
-    secrets: inherit
+    steps:
+     - name: Build collection
+     - uses: digital-land/collection-template/.github/workflows/callable_run.yml@main
+     - secrets: inherit
+
+     - name: Build package
+     - run: build-pagkage.sh
+     - secrets: inherit
 
