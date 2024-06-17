@@ -61,7 +61,7 @@ jobs:
       run: pip install -e digital-land-python
 
     - name: Create the package
-      run: make organisation-create
+      run: digital-land organisation-create
 
     - name: See what we got
       run: cat dataset/organisation.csv
@@ -70,7 +70,7 @@ jobs:
       run: curl -qfs https://files.planning.data.gov.uk/dataset/local-planning-authority.csv > var/cache/local-planning-authority.csv
 
     - name: Run the checks
-      run: make organisation-check
+      run: digital-land organisation-check
 
     - name: See what we got
       run: cat dataset/organisation-check.csv
