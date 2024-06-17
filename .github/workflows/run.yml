@@ -5,9 +5,11 @@ on:
   workflow_dispatch: null
 jobs:
   call-workflow:
+    uses: digital-land/collection-template/.github/workflows/callable_run.yml@main
+    secrets: inherit
+  build-package:
+    needs: call-workflow
+    runs-on: ubuntu-latest
     steps:
-      - uses: digital-land/collection-template/.github/workflows/callable_run.yml@main
-        secrets: inherit
-      - run: build-pagkage.sh
-        secrets: inherit
+    - run: echo Hello world!
 
