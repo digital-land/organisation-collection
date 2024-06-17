@@ -67,7 +67,7 @@ jobs:
       run: cat dataset/organisation.csv
 
     - name: Get the local-planning-authority file
-       run: curl -qfs "https://files.planning.data.gov.uk/dataset/local-planning-authority.csv" > var/cache/local-planning-authority.csv
+      run: curl -qfs https://files.planning.data.gov.uk/dataset/local-planning-authority.csv > var/cache/local-planning-authority.csv
 
     - name: Run the checks
       run: make organisation-check
