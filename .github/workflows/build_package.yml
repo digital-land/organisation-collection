@@ -55,7 +55,7 @@ jobs:
       run: git clone https://github.com/digital-land/digital-land-python.git
 
     - name: Switch to the branch we need
-      run: git checkout create organisation
+      run: cd digital-land-python ; git checkout create-organisation ; cd ..
 
     - name: Install the updated package
       run: pip install -e digital-land-python
