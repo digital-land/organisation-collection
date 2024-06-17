@@ -7,10 +7,10 @@ jobs:
   call-workflow:
     steps:
      - name: Build collection
-     - uses: digital-land/collection-template/.github/workflows/callable_run.yml@main
-     - secrets: inherit
+       uses: digital-land/collection-template/.github/workflows/callable_run.yml@main
+       secrets: inherit
 
      - name: Build package
-     - run: build-pagkage.sh
-     - secrets: inherit
+       run: build-pagkage.sh
+       secrets: inherit
 
