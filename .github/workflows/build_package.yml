@@ -74,3 +74,56 @@ jobs:
 
     - name: See what we got
       run: cat dataset/organisation-check.csv
+      - name: Configure Development AWS Credentials
+      if: always()
+      uses: aws-actions/configure-aws-credentials@v1-node16
+      with:
+        aws-access-key-id: ${{secrets.DEVELOPMENT_AWS_ACCESS_KEY_ID}}
+        aws-secret-access-key: ${{secrets.DEVELOPMENT_AWS_ACCESS_SECRET}}
+        aws-region: eu-west-2
+
+    - name: Save datasets to Development S3
+      env:
+        COLLECTION_DATASET_BUCKET_NAME: ${{secrets.DEVELOPMENT_DATA_S3_BUCKET}}
+        HOISTED_COLLECTION_DATASET_BUCKET_NAME: ${{secrets.DEVELOPMENT_DATA_S3_BUCKET}}
+      run: make save-dataset
+
+    - name: Save expectations to Development S3
+      if: always()
+      env:
+        COLLECTION_DATASET_BUCKET_NAME: ${{secrets.DEVELOPMENT_DATA_S3_BUCKET}}
+      run: make save-expectations
+
+    - name: Configure Staging AWS Credentials
+      if: always()
+      uses: aws-actions/configure-aws-credentials@v1-node16
+      with:
+        aws-access-key-id: ${{secrets.STAGING_AWS_ACCESS_KEY_ID}}
+        aws-secret-access-key: ${{secrets.STAGING_AWS_ACCESS_SECRET}}
+        aws-region: eu-west-2
+
+    - name: Save datasets to Staging S3
+      env:
+        COLLECTION_DATASET_BUCKET_NAME: ${{secrets.STAGING_DATA_S3_BUCKET}}
+        HOISTED_COLLECTION_DATASET_BUCKET_NAME: ${{secrets.STAGING_DATA_S3_BUCKET}}
+      run: make save-dataset
+
+    - name: Save expectations to Staging S3
+      if: always()
+      env:
+        COLLECTION_DATASET_BUCKET_NAME: ${{secrets.STAGING_DATA_S3_BUCKET}}
+      run: make save-expectations
+
+    - name: Configure Production AWS Credentials
+      if: always()
+      uses: aws-actions/configure-aws-credentials@v1-node16
+      with:
+        aws-access-key-id: ${{secrets.PROD_AWS_ACCESS_KEY_ID}}
+        aws-secret-access-key: ${{secrets.PROD_AWS_ACCESS_SECRET}}
+        aws-region: eu-west-2
+
+    - name: Save datasets to Prod S3
+      env:
+        COLLECTION_DATASET_BUCKET_NAME: ${{secrets.PRODUCTION_DATA_S3_BUCKET}}
+        HOISTED_COLLECTION_DATASET_BUCKET_NAME: ${{secrets.PRODUCTION_DATA_S3_BUCKET}}
+      run: make save-dataset
