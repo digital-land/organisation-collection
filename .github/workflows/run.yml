@@ -9,6 +9,7 @@ jobs:
     secrets: inherit
   build-package:
     steps:
+    - name: Test Script
       run: build-pagkage.sh
     secrets: inherit
 
