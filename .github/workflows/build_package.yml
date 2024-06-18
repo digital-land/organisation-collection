@@ -61,7 +61,7 @@ jobs:
       run: pip install -e digital-land-python
 
     - name: Create the package
-      run: digital-land organisation-create
+      run: digital-land organisation-create --download-url=https://files.planning.data.gov.uk/organisation-collection/dataset
 
     - name: See what we got
       run: cat dataset/organisation.csv
