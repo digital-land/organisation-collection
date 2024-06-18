@@ -74,7 +74,8 @@ jobs:
 
     - name: See what we got
       run: cat dataset/organisation-check.csv
-      - name: Configure Development AWS Credentials
+
+    - name: Configure Development AWS Credentials
       if: always()
       uses: aws-actions/configure-aws-credentials@v1-node16
       with:
