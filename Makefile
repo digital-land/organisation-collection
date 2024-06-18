@@ -10,7 +10,7 @@ dataset/organisation.csv:
 
 # check organisation datapackage
 dataset/organisation-check.csv: dataset/organisation.csv var/cache/local-planning-authority.csv
-	digital-land organisation-check
+	digital-land organisation-check --output-path $@
 
 var/cache/local-planning-authority.csv:
 	@mkdir -p $(CACHE_DIR)
