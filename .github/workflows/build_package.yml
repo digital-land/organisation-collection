@@ -1,0 +1,109 @@
+name: Run collection
+on:
+  workflow_call:
+    secrets:
+      DLB_BOT_EMAIL:
+        required: true
+      DLB_BOT_TOKEN:
+        required: true
+      DLB_BOT_USERNAME:
+        required: true
+      AWS_S3_ACCESS_KEY_ID:
+        required: true
+      AWS_S3_SECRET_ACCESS_KEY:
+        required: true
+env:
+  DLB_BOT_EMAIL: ${{ secrets.DLB_BOT_EMAIL }}
+  DLB_BOT_TOKEN: ${{ secrets.DLB_BOT_TOKEN }}
+  DLB_BOT_USERNAME: ${{ secrets.DLB_BOT_USERNAME }}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Free up disk space
+      run: |
+        df -h
+        sudo rm -rf /usr/share/dotnet
+        sudo rm -rf /usr/local/lib/android
+        sudo rm -rf /opt/ghc
+        echo
+        df -h
+
+    - uses: actions/checkout@v3
+      with:
+        lfs: true
+
+    - uses: actions/setup-python@v4
+      with:
+        python-version: 3.8
+
+    - name: Configure git
+      run: |
+        git config user.email "${DLB_BOT_EMAIL}"
+        git config user.name "${DLB_BOT_USERNAME}"
+        git remote set-url origin https://${DLB_BOT_USERNAME}:${DLB_BOT_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+        git checkout ${GITHUB_REF_NAME}
+
+    - name: Update makerules
+      run: make makerules
+
+    - name: Install dependencies
+      run: make init
+
+    - name: Create the package
+      run: make package
+
+    - name: Configure Development AWS Credentials
+      if: always()
+      uses: aws-actions/configure-aws-credentials@v1-node16
+      with:
+        aws-access-key-id: ${{secrets.DEVELOPMENT_AWS_ACCESS_KEY_ID}}
+        aws-secret-access-key: ${{secrets.DEVELOPMENT_AWS_ACCESS_SECRET}}
+        aws-region: eu-west-2
+
+    - name: Save datasets to Development S3
+      env:
+        COLLECTION_DATASET_BUCKET_NAME: ${{secrets.DEVELOPMENT_DATA_S3_BUCKET}}
+        HOISTED_COLLECTION_DATASET_BUCKET_NAME: ${{secrets.DEVELOPMENT_DATA_S3_BUCKET}}
+      run: make save-dataset
+
+    - name: Save expectations to Development S3
+      if: always()
+      env:
+        COLLECTION_DATASET_BUCKET_NAME: ${{secrets.DEVELOPMENT_DATA_S3_BUCKET}}
+      run: make save-expectations
+
+    - name: Configure Staging AWS Credentials
+      if: always()
+      uses: aws-actions/configure-aws-credentials@v1-node16
+      with:
+        aws-access-key-id: ${{secrets.STAGING_AWS_ACCESS_KEY_ID}}
+        aws-secret-access-key: ${{secrets.STAGING_AWS_ACCESS_SECRET}}
+        aws-region: eu-west-2
+
+    - name: Save datasets to Staging S3
+      env:
+        COLLECTION_DATASET_BUCKET_NAME: ${{secrets.STAGING_DATA_S3_BUCKET}}
+        HOISTED_COLLECTION_DATASET_BUCKET_NAME: ${{secrets.STAGING_DATA_S3_BUCKET}}
+      run: make save-dataset
+
+    - name: Save expectations to Staging S3
+      if: always()
+      env:
+        COLLECTION_DATASET_BUCKET_NAME: ${{secrets.STAGING_DATA_S3_BUCKET}}
+      run: make save-expectations
+
+    - name: Configure Production AWS Credentials
+      if: always()
+      uses: aws-actions/configure-aws-credentials@v1-node16
+      with:
+        aws-access-key-id: ${{secrets.PROD_AWS_ACCESS_KEY_ID}}
+        aws-secret-access-key: ${{secrets.PROD_AWS_ACCESS_SECRET}}
+        aws-region: eu-west-2
+
+    - name: Save datasets to Prod S3
+      env:
+        COLLECTION_DATASET_BUCKET_NAME: ${{secrets.PRODUCTION_DATA_S3_BUCKET}}
+        HOISTED_COLLECTION_DATASET_BUCKET_NAME: ${{secrets.PRODUCTION_DATA_S3_BUCKET}}
+      run: make save-dataset
