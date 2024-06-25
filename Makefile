@@ -3,6 +3,8 @@ include makerules/development.mk
 include makerules/collection.mk
 include makerules/pipeline.mk
 
+all:: package
+
 package:: dataset/organisation.csv dataset/organisation-check.csv
 
 dataset/organisation.csv:
