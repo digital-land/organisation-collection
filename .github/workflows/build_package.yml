@@ -58,7 +58,7 @@ jobs:
         aws-access-key-id: ${{secrets.DEVELOPMENT_AWS_ACCESS_KEY_ID}}
         aws-secret-access-key: ${{secrets.DEVELOPMENT_AWS_ACCESS_SECRET}}
         aws-region: eu-west-2
-
+      
     - name: Create the package
       run: make package
 
