@@ -3,12 +3,15 @@ include makerules/development.mk
 include makerules/collection.mk
 include makerules/pipeline.mk
 
-all:: package
-
 package:: dataset/organisation.csv dataset/organisation-check.csv
 
 dataset/organisation.csv:
-	digital-land organisation-create --download-url="https://files.planning.data.gov.uk/organisation-collection/dataset" --output-path $@
+ifeq ($(HOISTED_COLLECTION_DATASET_BUCKET_NAME),digital-land-$(ENVIRONMENT)-collection-dataset-hoisted)
+	aws s3 sync $(FLATTENED_DIR) s3://$(HOISTED_COLLECTION_DATASET_BUCKET_NAME)/data/ --no-progress
+else
+	aws s3 sync $(FLATTENED_DIR) s3://$(HOISTED_COLLECTION_DATASET_BUCKET_NAME)/dataset/ --no-progress
+endif
+	digital-land organisation-create --flattened-dir=$(FLATTENED_DIR) --output-path $@
 
 # check organisation datapackage
 dataset/organisation-check.csv: dataset/organisation.csv var/cache/local-planning-authority.csv
