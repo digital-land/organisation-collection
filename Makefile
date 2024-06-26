@@ -6,6 +6,7 @@ include makerules/pipeline.mk
 package:: dataset/organisation.csv dataset/organisation-check.csv
 
 dataset/organisation.csv:
+	echo Running in $(ENVIRONMENT)
 	aws s3 sync s3://$(ENVIRONMENT)-collection-data/$(REPOSITORY)/$(DATASET_DIR) $(DATASET_DIR) --no-progress
 #ifeq ($(HOISTED_COLLECTION_DATASET_BUCKET_NAME),digital-land-$(ENVIRONMENT)-collection-dataset-hoisted)
 #	aws s3 sync s3://$(HOISTED_COLLECTION_DATASET_BUCKET_NAME)/data/ $(FLATTENED_DIR) --no-progress
