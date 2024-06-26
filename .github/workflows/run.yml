@@ -4,10 +4,10 @@ on:
     - cron: 0 0 * * *
   workflow_dispatch: null
 jobs:
-  #call-workflow:
-  #  uses: digital-land/collection-template/.github/workflows/callable_run.yml@main
-  #  secrets: inherit
+  call-workflow:
+    uses: digital-land/collection-template/.github/workflows/callable_run.yml@main
+    secrets: inherit
   build-package:
-    # needs: call-workflow
+    needs: call-workflow
     uses: ./.github/workflows/build_package.yml
     secrets: inherit
