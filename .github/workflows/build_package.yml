@@ -88,7 +88,7 @@ jobs:
       env:
         COLLECTION_DATASET_BUCKET_NAME: ${{secrets.STAGING_DATA_S3_BUCKET}}
         HOISTED_COLLECTION_DATASET_BUCKET_NAME: ${{secrets.STAGING_DATA_S3_BUCKET}}
-      run: make save-dataset
+      run: echo REMOVED CALL TO make save-dataset
 
     - name: Configure Production AWS Credentials
       if: always()
@@ -102,4 +102,4 @@ jobs:
       env:
         COLLECTION_DATASET_BUCKET_NAME: ${{secrets.PRODUCTION_DATA_S3_BUCKET}}
         HOISTED_COLLECTION_DATASET_BUCKET_NAME: ${{secrets.PRODUCTION_DATA_S3_BUCKET}}
-      run: make save-dataset
+      run: echo REMOVED CALL TO make save-dataset
