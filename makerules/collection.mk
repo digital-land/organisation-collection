@@ -43,14 +43,15 @@ COLLECTION_INDEX=\
 	$(COLLECTION_DIR)/resource.csv
 
 init::
-	@curl -o /dev/null -s -w "%{http_code}" '$(DATASTORE_URL)$(REPOSITORY)/$(COLLECTION_DIR)log.csv' > /tmp/log_status_code
-	@curl -o /dev/null -s -w "%{http_code}" '$(DATASTORE_URL)$(REPOSITORY)/$(COLLECTION_DIR)resource.csv' > /tmp/resource_status_code
-	@if [ $$(cat /tmp/log_status_code) -ne 403 ] && [ $$(cat /tmp/resource_status_code) -ne 403 ]; then \
+	$(eval LOG_STATUS_CODE := $(shell curl -I -o /dev/null -s -w "%{http_code}" '$(DATASTORE_URL)$(REPOSITORY)/$(COLLECTION_DIR)log.csv'))
+	$(eval RESOURCE_STATUS_CODE = $(shell curl -I -o /dev/null -s -w "%{http_code}" '$(DATASTORE_URL)$(REPOSITORY)/$(COLLECTION_DIR)resource.csv'))
+	@if [ $(LOG_STATUS_CODE) -ne 403 ] && [ $(RESOURCE_STATUS_CODE) -ne 403 ]; then \
+		echo 'Downloading log.csv and resource.csv'; \
 		curl -qfsL '$(DATASTORE_URL)$(REPOSITORY)/$(COLLECTION_DIR)log.csv' > $(COLLECTION_DIR)log.csv; \
 		curl -qfsL '$(DATASTORE_URL)$(REPOSITORY)/$(COLLECTION_DIR)resource.csv' > $(COLLECTION_DIR)resource.csv; \
+	else \
+		echo 'Unable to locate log.csv and resource.csv' ;\
 	fi
-	@rm -f /tmp/log_status_code /tmp/resource_status_code
-
 
 first-pass:: collect
 
