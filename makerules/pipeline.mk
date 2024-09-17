@@ -41,6 +41,14 @@ ifeq ($(ISSUE_DIR),)
 ISSUE_DIR=issue/
 endif
 
+ifeq ($(PERFORMANCE_DIR),)
+PERFORMANCE_DIR=performance/
+endif
+
+ifeq ($(OPERATIONAL_ISSUE_DIR),)
+OPERATIONAL_ISSUE_DIR=$(PERFORMANCE_DIR)operational_issue/
+endif
+
 ifeq ($(COLUMN_FIELD_DIR),)
 COLUMN_FIELD_DIR=var/column-field/
 endif
@@ -63,6 +71,7 @@ DATASET_DIRS=\
 	$(COLUMN_FIELD_DIR)\
 	$(DATASET_RESOURCE_DIR)\
 	$(ISSUE_DIR)\
+	$(PERFORMANCE_DIR)\
 	$(DATASET_DIR)\
 	$(FLATTENED_DIR)
 endif
@@ -88,7 +97,7 @@ PIPELINE_CONFIG_FILES=\
 endif
 
 define run-pipeline
-	mkdir -p $(@D) $(ISSUE_DIR)$(notdir $(@D)) $(COLUMN_FIELD_DIR)$(notdir $(@D)) $(DATASET_RESOURCE_DIR)$(notdir $(@D))
+	mkdir -p $(@D) $(ISSUE_DIR)$(notdir $(@D)) $(OPERATIONAL_ISSUE_DIR) $(COLUMN_FIELD_DIR)$(notdir $(@D)) $(DATASET_RESOURCE_DIR)$(notdir $(@D))
 	digital-land ${DIGITAL_LAND_OPTS} --dataset $(notdir $(@D)) --pipeline-dir $(PIPELINE_DIR) $(DIGITAL_LAND_FLAGS) pipeline $(1) --organisation-path $(CACHE_DIR)organisation.csv --issue-dir $(ISSUE_DIR)$(notdir $(@D)) --column-field-dir $(COLUMN_FIELD_DIR)$(notdir $(@D)) --dataset-resource-dir $(DATASET_RESOURCE_DIR)$(notdir $(@D)) $(PIPELINE_FLAGS) $< $@
 endef
 
@@ -149,6 +158,7 @@ makerules::
 save-transformed::
 	aws s3 sync $(TRANSFORMED_DIR) s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(REPOSITORY)/$(TRANSFORMED_DIR) --no-progress
 	aws s3 sync $(ISSUE_DIR) s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(REPOSITORY)/$(ISSUE_DIR) --no-progress
+	aws s3 sync $(PERFORMANCE_DIR) s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(PERFORMANCE_DIR) --no-progress
 	aws s3 sync $(COLUMN_FIELD_DIR) s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(REPOSITORY)/$(COLUMN_FIELD_DIR) --no-progress
 	aws s3 sync $(DATASET_RESOURCE_DIR) s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(REPOSITORY)/$(DATASET_RESOURCE_DIR) --no-progress
 
