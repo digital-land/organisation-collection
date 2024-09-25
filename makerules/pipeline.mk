@@ -93,12 +93,13 @@ PIPELINE_CONFIG_FILES=\
 	$(PIPELINE_DIR)old-entity.csv\
 	$(PIPELINE_DIR)patch.csv\
 	$(PIPELINE_DIR)skip.csv\
-	$(PIPELINE_DIR)transform.csv
+	$(PIPELINE_DIR)transform.csv\
+	$(PIPELINE_DIR)entity-organisation.csv
 endif
 
 define run-pipeline
 	mkdir -p $(@D) $(ISSUE_DIR)$(notdir $(@D)) $(OPERATIONAL_ISSUE_DIR) $(COLUMN_FIELD_DIR)$(notdir $(@D)) $(DATASET_RESOURCE_DIR)$(notdir $(@D))
-	digital-land ${DIGITAL_LAND_OPTS} --dataset $(notdir $(@D)) --pipeline-dir $(PIPELINE_DIR) $(DIGITAL_LAND_FLAGS) pipeline $(1) --organisation-path $(CACHE_DIR)organisation.csv --issue-dir $(ISSUE_DIR)$(notdir $(@D)) --column-field-dir $(COLUMN_FIELD_DIR)$(notdir $(@D)) --dataset-resource-dir $(DATASET_RESOURCE_DIR)$(notdir $(@D)) $(PIPELINE_FLAGS) $< $@
+	digital-land ${DIGITAL_LAND_OPTS} --dataset $(notdir $(@D)) $(DIGITAL_LAND_FLAGS) pipeline $(1) --issue-dir $(ISSUE_DIR)$(notdir $(@D)) --column-field-dir $(COLUMN_FIELD_DIR)$(notdir $(@D)) --dataset-resource-dir $(DATASET_RESOURCE_DIR)$(notdir $(@D)) --config-path $(CACHE_DIR)config.sqlite3 $(PIPELINE_FLAGS) $< $@
 endef
 
 define build-dataset =
@@ -204,6 +205,9 @@ $(PIPELINE_DIR)%.csv:
 	fi
 
 config:: $(PIPELINE_CONFIG_FILES)
+	mkdir -p $(CACHE_DIR)
+	digital-land --pipeline-dir $(PIPELINE_DIR) config-create --config-path $(CACHE_DIR)config.sqlite3
+	digital-land --pipeline-dir $(PIPELINE_DIR) config-load --config-path $(CACHE_DIR)config.sqlite3
 
 clean::
 	rm -f $(PIPELINE_CONFIG_FILES)
