@@ -115,6 +115,7 @@ define build-dataset =
 	time digital-land ${DIGITAL_LAND_OPTS} expectations-dataset-checkpoint --output-dir=$(EXPECTATION_DIR) --specification-dir=specification --data-path=$(basename $@).sqlite3
 	csvstack $(EXPECTATION_DIR)/**/$(notdir $(basename $@))-results.csv > $(basename $@)-expectation-result.csv
 	csvstack $(EXPECTATION_DIR)/**/$(notdir $(basename $@))-issues.csv > $(basename $@)-expectation-issue.csv
+	digital-land ${DIGITAL_LAND_OPTS} --dataset $(notdir $(basename $@)) operational-issue-save-csv --operational-issue-dir $(OPERATIONAL_ISSUE_DIR)
 endef
 
 collection::
@@ -151,7 +152,21 @@ clean::
 	rm -rf ./var
 
 # local copy of the organisation dataset
+# Download historic operational issue log data for relevant datasets
 init::	$(CACHE_DIR)organisation.csv
+	@datasets=$$(awk -F , '$$2 == "$(COLLECTION_NAME)" {print $$4}' specification/dataset.csv); \
+	for dataset in $$datasets; do \
+		url="$(DATASTORE_URL)$(OPERATIONAL_ISSUE_DIR)$$dataset/operational-issue.csv"; \
+		echo "Downloading operational issue log for $$dataset at url $$url";\
+		status_code=$$(curl --write-out "%{http_code}" --silent --output /dev/null "$$url"); \
+		if [ "$$status_code" -eq 200 ]; then \
+			echo "Downloading file..."; \
+			curl --silent --output "$(OPERATIONAL_ISSUE_DIR)/$$dataset/operational-issue.csv" "$$url"; \
+			echo "Log downloaded to $(OPERATIONAL_ISSUE_DIR)/$$dataset/operational-issue.csv"; \
+		else \
+			echo "File not found at $$url"; \
+		fi; \
+	done
 
 makerules::
 	curl -qfsL '$(SOURCE_URL)/makerules/main/pipeline.mk' > makerules/pipeline.mk
@@ -205,9 +220,13 @@ $(PIPELINE_DIR)%.csv:
 	fi
 
 config:: $(PIPELINE_CONFIG_FILES)
+ifeq ($(PIPELINE_CONFIG_FILES), .dummy)
+	echo "pipeline_config_files are dummy not making config.sqlite" 
+else
 	mkdir -p $(CACHE_DIR)
 	digital-land --pipeline-dir $(PIPELINE_DIR) config-create --config-path $(CACHE_DIR)config.sqlite3
 	digital-land --pipeline-dir $(PIPELINE_DIR) config-load --config-path $(CACHE_DIR)config.sqlite3
+endif
 
 clean::
 	rm -f $(PIPELINE_CONFIG_FILES)
