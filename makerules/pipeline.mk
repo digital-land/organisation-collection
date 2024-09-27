@@ -57,6 +57,10 @@ ifeq ($(DATASET_RESOURCE_DIR),)
 DATASET_RESOURCE_DIR=var/dataset-resource/
 endif
 
+ifeq ($(CONVERTED_RESOURCE_DIR),)
+CONVERTED_RESOURCE_DIR=var/converted-resource/
+endif
+
 ifeq ($(DATASET_DIR),)
 DATASET_DIR=dataset/
 endif
@@ -70,6 +74,7 @@ DATASET_DIRS=\
 	$(TRANSFORMED_DIR)\
 	$(COLUMN_FIELD_DIR)\
 	$(DATASET_RESOURCE_DIR)\
+	$(CONVERTED_RESOURCE_DIR)\
 	$(ISSUE_DIR)\
 	$(PERFORMANCE_DIR)\
 	$(DATASET_DIR)\
@@ -98,8 +103,8 @@ PIPELINE_CONFIG_FILES=\
 endif
 
 define run-pipeline
-	mkdir -p $(@D) $(ISSUE_DIR)$(notdir $(@D)) $(OPERATIONAL_ISSUE_DIR) $(COLUMN_FIELD_DIR)$(notdir $(@D)) $(DATASET_RESOURCE_DIR)$(notdir $(@D))
-	digital-land ${DIGITAL_LAND_OPTS} --dataset $(notdir $(@D)) $(DIGITAL_LAND_FLAGS) pipeline $(1) --issue-dir $(ISSUE_DIR)$(notdir $(@D)) --column-field-dir $(COLUMN_FIELD_DIR)$(notdir $(@D)) --dataset-resource-dir $(DATASET_RESOURCE_DIR)$(notdir $(@D)) --config-path $(CACHE_DIR)config.sqlite3 $(PIPELINE_FLAGS) $< $@
+	mkdir -p $(@D) $(ISSUE_DIR)$(notdir $(@D)) $(OPERATIONAL_ISSUE_DIR) $(COLUMN_FIELD_DIR)$(notdir $(@D)) $(DATASET_RESOURCE_DIR)$(notdir $(@D)) $(CONVERTED_RESOURCE_DIR)$(notdir $(@D))
+	digital-land ${DIGITAL_LAND_OPTS} --dataset $(notdir $(@D)) $(DIGITAL_LAND_FLAGS) pipeline $(1) --issue-dir $(ISSUE_DIR)$(notdir $(@D)) --column-field-dir $(COLUMN_FIELD_DIR)$(notdir $(@D)) --dataset-resource-dir $(DATASET_RESOURCE_DIR)$(notdir $(@D)) --converted-resource-dir $(CONVERTED_RESOURCE_DIR)$(notdir $(@D)) --config-path $(CACHE_DIR)config.sqlite3 $(PIPELINE_FLAGS) $< $@
 endef
 
 define build-dataset =
@@ -115,7 +120,7 @@ define build-dataset =
 	time digital-land ${DIGITAL_LAND_OPTS} expectations-dataset-checkpoint --output-dir=$(EXPECTATION_DIR) --specification-dir=specification --data-path=$(basename $@).sqlite3
 	csvstack $(EXPECTATION_DIR)/**/$(notdir $(basename $@))-results.csv > $(basename $@)-expectation-result.csv
 	csvstack $(EXPECTATION_DIR)/**/$(notdir $(basename $@))-issues.csv > $(basename $@)-expectation-issue.csv
-	digital-land ${DIGITAL_LAND_OPTS} --dataset $(notdir $(basename $@)) operational-issue-save-csv --operational-issue-dir $(OPERATIONAL_ISSUE_DIR)
+	time digital-land ${DIGITAL_LAND_OPTS} --dataset $(notdir $(basename $@)) operational-issue-save-csv --operational-issue-dir $(OPERATIONAL_ISSUE_DIR)
 endef
 
 collection::
@@ -154,15 +159,17 @@ clean::
 # local copy of the organisation dataset
 # Download historic operational issue log data for relevant datasets
 init::	$(CACHE_DIR)organisation.csv
+	@mkdir -p $(OPERATIONAL_ISSUE_DIR)
 	@datasets=$$(awk -F , '$$2 == "$(COLLECTION_NAME)" {print $$4}' specification/dataset.csv); \
 	for dataset in $$datasets; do \
+		mkdir -p $(OPERATIONAL_ISSUE_DIR)$$dataset; \
 		url="$(DATASTORE_URL)$(OPERATIONAL_ISSUE_DIR)$$dataset/operational-issue.csv"; \
 		echo "Downloading operational issue log for $$dataset at url $$url";\
 		status_code=$$(curl --write-out "%{http_code}" --silent --output /dev/null "$$url"); \
 		if [ "$$status_code" -eq 200 ]; then \
 			echo "Downloading file..."; \
-			curl --silent --output "$(OPERATIONAL_ISSUE_DIR)/$$dataset/operational-issue.csv" "$$url"; \
-			echo "Log downloaded to $(OPERATIONAL_ISSUE_DIR)/$$dataset/operational-issue.csv"; \
+			curl --silent --output "$(OPERATIONAL_ISSUE_DIR)$$dataset/operational-issue.csv" "$$url"; \
+			echo "Log downloaded to $(OPERATIONAL_ISSUE_DIR)$$dataset/operational-issue.csv"; \
 		else \
 			echo "File not found at $$url"; \
 		fi; \
@@ -174,9 +181,9 @@ makerules::
 save-transformed::
 	aws s3 sync $(TRANSFORMED_DIR) s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(REPOSITORY)/$(TRANSFORMED_DIR) --no-progress
 	aws s3 sync $(ISSUE_DIR) s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(REPOSITORY)/$(ISSUE_DIR) --no-progress
-	aws s3 sync $(PERFORMANCE_DIR) s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(PERFORMANCE_DIR) --no-progress
 	aws s3 sync $(COLUMN_FIELD_DIR) s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(REPOSITORY)/$(COLUMN_FIELD_DIR) --no-progress
 	aws s3 sync $(DATASET_RESOURCE_DIR) s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(REPOSITORY)/$(DATASET_RESOURCE_DIR) --no-progress
+	aws s3 sync $(CONVERTED_RESOURCE_DIR) s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(REPOSITORY)/$(CONVERTED_RESOURCE_DIR) --no-progress
 
 save-dataset::
 	aws s3 sync $(DATASET_DIR) s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(REPOSITORY)/$(DATASET_DIR) --no-progress
@@ -190,6 +197,9 @@ endif
 save-expectations::
 	@mkdir -p $(EXPECTATION_DIR)
 	aws s3 sync $(EXPECTATION_DIR) s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(EXPECTATION_DIR) --exclude "*" --include "*.csv" --no-progress
+
+save-performance::
+	aws s3 sync $(PERFORMANCE_DIR) s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(PERFORMANCE_DIR) --no-progress
 
 # convert an individual resource
 # .. this assumes conversion is the same for every dataset, but it may not be soon
