@@ -29,8 +29,12 @@ ifeq ($(FIXED_DIR),)
 FIXED_DIR=fixed/
 endif
 
+ifeq ($(VAR_DIR),)
+VAR_DIR=var/
+endif
+
 ifeq ($(CACHE_DIR),)
-CACHE_DIR=var/cache/
+CACHE_DIR=$(VAR_DIR)cache/
 endif
 
 ifeq ($(TRANSFORMED_DIR),)
@@ -50,15 +54,15 @@ OPERATIONAL_ISSUE_DIR=$(PERFORMANCE_DIR)operational_issue/
 endif
 
 ifeq ($(COLUMN_FIELD_DIR),)
-COLUMN_FIELD_DIR=var/column-field/
+COLUMN_FIELD_DIR=$(VAR_DIR)column-field/
 endif
 
 ifeq ($(DATASET_RESOURCE_DIR),)
-DATASET_RESOURCE_DIR=var/dataset-resource/
+DATASET_RESOURCE_DIR=$(VAR_DIR)dataset-resource/
 endif
 
 ifeq ($(CONVERTED_RESOURCE_DIR),)
-CONVERTED_RESOURCE_DIR=var/converted-resource/
+CONVERTED_RESOURCE_DIR=$(VAR_DIR)converted-resource/
 endif
 
 ifeq ($(DATASET_DIR),)
@@ -104,16 +108,16 @@ endif
 
 define run-pipeline
 	mkdir -p $(@D) $(ISSUE_DIR)$(notdir $(@D)) $(OPERATIONAL_ISSUE_DIR) $(COLUMN_FIELD_DIR)$(notdir $(@D)) $(DATASET_RESOURCE_DIR)$(notdir $(@D)) $(CONVERTED_RESOURCE_DIR)$(notdir $(@D))
-	digital-land ${DIGITAL_LAND_OPTS} --dataset $(notdir $(@D)) $(DIGITAL_LAND_FLAGS) pipeline $(1) --issue-dir $(ISSUE_DIR)$(notdir $(@D)) --column-field-dir $(COLUMN_FIELD_DIR)$(notdir $(@D)) --dataset-resource-dir $(DATASET_RESOURCE_DIR)$(notdir $(@D)) --converted-resource-dir $(CONVERTED_RESOURCE_DIR)$(notdir $(@D)) --config-path $(CACHE_DIR)config.sqlite3 $(PIPELINE_FLAGS) $< $@
+	digital-land ${DIGITAL_LAND_OPTS} --dataset $(notdir $(@D)) --pipeline-dir $(PIPELINE_DIR) $(DIGITAL_LAND_FLAGS) pipeline $(1) --issue-dir $(ISSUE_DIR)$(notdir $(@D)) --column-field-dir $(COLUMN_FIELD_DIR)$(notdir $(@D)) --dataset-resource-dir $(DATASET_RESOURCE_DIR)$(notdir $(@D)) --converted-resource-dir $(CONVERTED_RESOURCE_DIR)$(notdir $(@D)) --config-path $(CACHE_DIR)config.sqlite3 --organisation-path $(CACHE_DIR)organisation.csv $(PIPELINE_FLAGS) $< $@
 endef
 
 define build-dataset =
 	mkdir -p $(@D)
-	time digital-land ${DIGITAL_LAND_OPTS} --dataset $(notdir $(basename $@)) dataset-create --output-path $(basename $@).sqlite3 --organisation-path $(CACHE_DIR)organisation.csv --issue-dir $(ISSUE_DIR) --column-field-dir=$(COLUMN_FIELD_DIR) --dataset-resource-dir $(DATASET_RESOURCE_DIR) $(^)
+	time digital-land ${DIGITAL_LAND_OPTS} --dataset $(notdir $(basename $@)) --pipeline-dir $(PIPELINE_DIR)  dataset-create --output-path $(basename $@).sqlite3 --organisation-path $(CACHE_DIR)organisation.csv --issue-dir $(ISSUE_DIR) --column-field-dir=$(COLUMN_FIELD_DIR) --dataset-resource-dir $(DATASET_RESOURCE_DIR) $(^)
 	time datasette inspect $(basename $@).sqlite3 --inspect-file=$(basename $@).sqlite3.json
-	time digital-land ${DIGITAL_LAND_OPTS} --dataset $(notdir $(basename $@)) dataset-entries $(basename $@).sqlite3 $@
+	time digital-land ${DIGITAL_LAND_OPTS} --dataset $(notdir $(basename $@)) --pipeline-dir $(PIPELINE_DIR) dataset-entries $(basename $@).sqlite3 $@
 	mkdir -p $(FLATTENED_DIR)
-	time digital-land ${DIGITAL_LAND_OPTS} --dataset $(notdir $(basename $@)) dataset-entries-flattened $@ $(FLATTENED_DIR)
+	time digital-land ${DIGITAL_LAND_OPTS} --dataset $(notdir $(basename $@)) --pipeline-dir $(PIPELINE_DIR) dataset-entries-flattened $@ $(FLATTENED_DIR)
 	md5sum $@ $(basename $@).sqlite3
 	csvstack $(ISSUE_DIR)$(notdir $(basename $@))/*.csv > $(basename $@)-issue.csv
 	mkdir -p $(EXPECTATION_DIR)
@@ -154,7 +158,7 @@ clobber::
 	rm -rf $(DATASET_DIRS)
 
 clean::
-	rm -rf ./var
+	rm -rf ./$(VAR_DIR)
 
 # local copy of the organisation dataset
 # Download historic operational issue log data for relevant datasets
@@ -176,7 +180,7 @@ init::	$(CACHE_DIR)organisation.csv
 	done
 
 makerules::
-	curl -qfsL '$(SOURCE_URL)/makerules/main/pipeline.mk' > makerules/pipeline.mk
+	curl -qfsL '$(MAKERULES_URL)pipeline.mk' > makerules/pipeline.mk
 
 save-transformed::
 	aws s3 sync $(TRANSFORMED_DIR) s3://$(COLLECTION_DATASET_BUCKET_NAME)/$(REPOSITORY)/$(TRANSFORMED_DIR) --no-progress
@@ -204,7 +208,7 @@ save-performance::
 # convert an individual resource
 # .. this assumes conversion is the same for every dataset, but it may not be soon
 var/converted/%.csv: collection/resource/%
-	mkdir -p var/converted/
+	mkdir -p $(VAR_DIR)converted/
 	digital-land ${DIGITAL_LAND_OPTS} convert $<
 
 transformed::
