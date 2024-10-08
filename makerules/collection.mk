@@ -43,14 +43,19 @@ COLLECTION_INDEX=\
 	$(COLLECTION_DIR)/resource.csv
 
 # collection URL
+ifneq ($(COLLECTION),)
 COLLECTION_URL=\
 	$(DATASTORE_URL)$(COLLECTION)-collection/collection
+else
+COLLECTION_URL=\
+	$(DATASTORE_URL)$(REPOSITORY)/collection
+endif
 
 init::
 	$(eval LOG_STATUS_CODE := $(shell curl -I -o /dev/null -s -w "%{http_code}" '$(COLLECTION_URL)/log.csv'))
 	$(eval RESOURCE_STATUS_CODE = $(shell curl -I -o /dev/null -s -w "%{http_code}" '$(COLLECTION_URL)/resource.csv'))
 	@if [ $(LOG_STATUS_CODE) -ne 403 ] && [ $(RESOURCE_STATUS_CODE) -ne 403 ]; then \
-		echo 'Downloading log.csv and resource.csv'; \; \
+		echo 'Downloading log.csv and resource.csv'; \
 		curl -qfsL '$(COLLECTION_URL)/log.csv' > $(COLLECTION_DIR)log.csv; \
 		curl -qfsL '$(COLLECTION_URL)/resource.csv' > $(COLLECTION_DIR)resource.csv; \
 	else \
